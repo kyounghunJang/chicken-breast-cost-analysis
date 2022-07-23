@@ -1,0 +1,34 @@
+[2022-07-22 05:40:39,702] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: workflow.create_table scheduled__2021-04-12T00:00:00+00:00 [queued]>
+[2022-07-22 05:40:39,744] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: workflow.create_table scheduled__2021-04-12T00:00:00+00:00 [queued]>
+[2022-07-22 05:40:39,746] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 05:40:39,749] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-22 05:40:39,749] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 05:40:39,785] {taskinstance.py:1397} INFO - Executing <Task(MySqlOperator): create_table> on 2021-04-12 00:00:00+00:00
+[2022-07-22 05:40:39,795] {standard_task_runner.py:52} INFO - Started process 1703 to run task
+[2022-07-22 05:40:39,818] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'workflow', 'create_table', 'scheduled__2021-04-12T00:00:00+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmp3lg4ay9f', '--error-file', '/tmp/tmph1pqp8zy']
+[2022-07-22 05:40:39,820] {standard_task_runner.py:80} INFO - Job 41: Subtask create_table
+[2022-07-22 05:40:39,995] {task_command.py:371} INFO - Running <TaskInstance: workflow.create_table scheduled__2021-04-12T00:00:00+00:00 [running]> on host cdbfdeb58988
+[2022-07-22 05:40:40,137] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=workflow
+AIRFLOW_CTX_TASK_ID=create_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-12T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-04-12T00:00:00+00:00
+[2022-07-22 05:40:40,139] {mysql.py:82} INFO - Executing: CREATE DATABASE FUCK
+[2022-07-22 05:40:40,152] {base.py:68} INFO - Using connection ID 'mysql_db' for task execution.
+[2022-07-22 05:40:40,155] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/mysql/operators/mysql.py", line 84, in execute
+    hook.run(self.sql, autocommit=self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/dbapi.py", line 204, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/mysql/hooks/mysql.py", line 163, in get_conn
+    import MySQLdb
+ModuleNotFoundError: No module named 'MySQLdb'
+[2022-07-22 05:40:40,167] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=workflow, task_id=create_table, execution_date=20210412T000000, start_date=20220722T054039, end_date=20220722T054040
+[2022-07-22 05:40:40,186] {standard_task_runner.py:97} ERROR - Failed to execute job 41 for task create_table (No module named 'MySQLdb'; 1703)
+[2022-07-22 05:40:40,226] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-22 05:40:40,290] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
