@@ -11299,6 +11299,7 @@ File Path                                                                       
 /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.11s           2022-07-22T07:38:11
 /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.11s           2022-07-22T07:38:12
 ================================================================================
+<<<<<<< HEAD
 [2022-07-25 03:01:30,761] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
 [2022-07-25 03:01:30,762] {manager.py:481} INFO - Process each file at most once every 30 seconds
 [2022-07-25 03:01:30,763] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
@@ -17686,3 +17687,5 @@ File Path                                                                       
 ================================================================================
 [2022-07-25 05:02:16,475] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
 [2022-07-25 05:02:16,494] {manager.py:693} INFO - There are 35 files in /opt/airflow/dags
+=======
+>>>>>>> JANG
