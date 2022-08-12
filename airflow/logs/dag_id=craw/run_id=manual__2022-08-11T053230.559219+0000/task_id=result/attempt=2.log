@@ -1,0 +1,58 @@
+[2022-08-11 05:34:39,028] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.result manual__2022-08-11T05:32:30.559219+00:00 [queued]>
+[2022-08-11 05:34:39,055] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.result manual__2022-08-11T05:32:30.559219+00:00 [queued]>
+[2022-08-11 05:34:39,056] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 05:34:39,057] {taskinstance.py:1377} INFO - Starting attempt 2 of 3
+[2022-08-11 05:34:39,058] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 05:34:39,096] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): result> on 2022-08-11 05:32:30.559219+00:00
+[2022-08-11 05:34:39,108] {standard_task_runner.py:52} INFO - Started process 15203 to run task
+[2022-08-11 05:34:39,114] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'result', 'manual__2022-08-11T05:32:30.559219+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmph5ospcon', '--error-file', '/tmp/tmpy1nphbb3']
+[2022-08-11 05:34:39,125] {standard_task_runner.py:80} INFO - Job 84: Subtask result
+[2022-08-11 05:34:39,327] {task_command.py:371} INFO - Running <TaskInstance: craw.result manual__2022-08-11T05:32:30.559219+00:00 [queued]> on host d59619969b18
+[2022-08-11 05:34:39,828] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=result
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-11T05:32:30.559219+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-11T05:32:30.559219+00:00
+[2022-08-11 05:34:40,227] {logging_mixin.py:115} INFO - [[], []]
+[2022-08-11 05:34:40,228] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-11 05:34:40,257] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=craw, task_id=result, execution_date=20220811T053230, start_date=20220811T053322, end_date=20220811T053440
+[2022-08-11 05:34:40,299] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-11 05:34:40,378] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-08-11 05:34:40,912] {taskinstance.py:1173} INFO - Dependencies not met for <TaskInstance: craw.result manual__2022-08-11T05:32:30.559219+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state.
+[2022-08-11 05:34:40,914] {local_task_job.py:101} INFO - Task is not able to be run
+[2022-08-11 05:38:59,258] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.result manual__2022-08-11T05:32:30.559219+00:00 [queued]>
+[2022-08-11 05:38:59,288] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.result manual__2022-08-11T05:32:30.559219+00:00 [queued]>
+[2022-08-11 05:38:59,289] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 05:38:59,293] {taskinstance.py:1377} INFO - Starting attempt 2 of 3
+[2022-08-11 05:38:59,295] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 05:38:59,344] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): result> on 2022-08-11 05:32:30.559219+00:00
+[2022-08-11 05:38:59,362] {standard_task_runner.py:52} INFO - Started process 15495 to run task
+[2022-08-11 05:38:59,370] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'result', 'manual__2022-08-11T05:32:30.559219+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmp4djoo9hu', '--error-file', '/tmp/tmpacorwxcw']
+[2022-08-11 05:38:59,377] {standard_task_runner.py:80} INFO - Job 86: Subtask result
+[2022-08-11 05:38:59,530] {task_command.py:371} INFO - Running <TaskInstance: craw.result manual__2022-08-11T05:32:30.559219+00:00 [running]> on host d59619969b18
+[2022-08-11 05:38:59,741] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=result
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-11T05:32:30.559219+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-11T05:32:30.559219+00:00
+[2022-08-11 05:38:59,743] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/newtest.py", line 107, in re
+    result.append(ti.xcom_pull(task_ids='cr2'))
+AttributeError: 'dict' object has no attribute 'xcom_pull'
+[2022-08-11 05:39:00,244] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=craw, task_id=result, execution_date=20220811T053230, start_date=20220811T053859, end_date=20220811T053900
+[2022-08-11 05:39:00,280] {standard_task_runner.py:97} ERROR - Failed to execute job 86 for task result ('dict' object has no attribute 'xcom_pull'; 15495)
+[2022-08-11 05:39:00,347] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-11 05:39:00,439] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

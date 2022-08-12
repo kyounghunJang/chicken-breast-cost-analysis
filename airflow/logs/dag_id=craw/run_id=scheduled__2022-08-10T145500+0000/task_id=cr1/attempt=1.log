@@ -1,0 +1,97 @@
+[2022-08-11 23:33:24,965] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr1 scheduled__2022-08-10T14:55:00+00:00 [queued]>
+[2022-08-11 23:33:25,011] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr1 scheduled__2022-08-10T14:55:00+00:00 [queued]>
+[2022-08-11 23:33:25,012] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 23:33:25,012] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-11 23:33:25,013] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 23:33:25,100] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr1> on 2022-08-10 14:55:00+00:00
+[2022-08-11 23:33:25,114] {standard_task_runner.py:52} INFO - Started process 29350 to run task
+[2022-08-11 23:33:25,138] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr1', 'scheduled__2022-08-10T14:55:00+00:00', '--job-id', '88', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmpjm3y6gnf', '--error-file', '/tmp/tmpzukitz7c']
+[2022-08-11 23:33:25,144] {standard_task_runner.py:80} INFO - Job 88: Subtask cr1
+[2022-08-11 23:33:26,628] {task_command.py:371} INFO - Running <TaskInstance: craw.cr1 scheduled__2022-08-10T14:55:00+00:00 [running]> on host d59619969b18
+[2022-08-11 23:33:39,919] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr1
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-10T14:55:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-10T14:55:00+00:00
+[2022-08-11 23:33:39,921] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-11 23:33:40,133] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-11 23:33:40,432] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver] found in cache
+[2022-08-11 23:33:42,734] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/newtest.py", line 41, in crawling
+    driver.get('https://search.shopping.naver.com/search/all?query=%ED%82%A4%EB%B3%B4%EB%93%9C&frm=NVSHATC&prevQuery=%ED%82%A4%EB%B3%B4%EB%93%9C')
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 447, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 435, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: headless chrome=104.0.5112.79)
+Stacktrace:
+#0 0x559b52fb6403 <unknown>
+#1 0x559b52dbc778 <unknown>
+#2 0x559b52db6565 <unknown>
+#3 0x559b52daa296 <unknown>
+#4 0x559b52dab232 <unknown>
+#5 0x559b52daa562 <unknown>
+#6 0x559b52da9995 <unknown>
+#7 0x559b52da865b <unknown>
+#8 0x559b52da8ac2 <unknown>
+#9 0x559b52dbe1e2 <unknown>
+#10 0x559b52e253cf <unknown>
+#11 0x559b52e11a02 <unknown>
+#12 0x559b52e24c74 <unknown>
+#13 0x559b52e118f3 <unknown>
+#14 0x559b52de70d8 <unknown>
+#15 0x559b52de8205 <unknown>
+#16 0x559b52ffde3d <unknown>
+#17 0x559b53000db6 <unknown>
+#18 0x559b52fe713e <unknown>
+#19 0x559b530019b5 <unknown>
+#20 0x559b52fdb970 <unknown>
+#21 0x559b5301e228 <unknown>
+#22 0x559b5301e3bf <unknown>
+#23 0x559b53038abe <unknown>
+#24 0x7f6d63abdea7 <unknown>
+
+[2022-08-11 23:33:42,757] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=craw, task_id=cr1, execution_date=20220810T145500, start_date=20220811T233324, end_date=20220811T233342
+[2022-08-11 23:33:42,774] {standard_task_runner.py:97} ERROR - Failed to execute job 88 for task cr1 (Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: headless chrome=104.0.5112.79)
+Stacktrace:
+#0 0x559b52fb6403 <unknown>
+#1 0x559b52dbc778 <unknown>
+#2 0x559b52db6565 <unknown>
+#3 0x559b52daa296 <unknown>
+#4 0x559b52dab232 <unknown>
+#5 0x559b52daa562 <unknown>
+#6 0x559b52da9995 <unknown>
+#7 0x559b52da865b <unknown>
+#8 0x559b52da8ac2 <unknown>
+#9 0x559b52dbe1e2 <unknown>
+#10 0x559b52e253cf <unknown>
+#11 0x559b52e11a02 <unknown>
+#12 0x559b52e24c74 <unknown>
+#13 0x559b52e118f3 <unknown>
+#14 0x559b52de70d8 <unknown>
+#15 0x559b52de8205 <unknown>
+#16 0x559b52ffde3d <unknown>
+#17 0x559b53000db6 <unknown>
+#18 0x559b52fe713e <unknown>
+#19 0x559b530019b5 <unknown>
+#20 0x559b52fdb970 <unknown>
+#21 0x559b5301e228 <unknown>
+#22 0x559b5301e3bf <unknown>
+#23 0x559b53038abe <unknown>
+#24 0x7f6d63abdea7 <unknown>
+; 29350)
+[2022-08-11 23:33:42,797] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-11 23:33:42,831] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,35 @@
+[2022-08-11 04:48:32,095] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr2 manual__2022-08-11T04:48:21.621599+00:00 [queued]>
+[2022-08-11 04:48:32,135] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr2 manual__2022-08-11T04:48:21.621599+00:00 [queued]>
+[2022-08-11 04:48:32,136] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 04:48:32,136] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-11 04:48:32,137] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 04:48:32,197] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr2> on 2022-08-11 04:48:21.621599+00:00
+[2022-08-11 04:48:32,205] {standard_task_runner.py:52} INFO - Started process 10853 to run task
+[2022-08-11 04:48:32,215] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr2', 'manual__2022-08-11T04:48:21.621599+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmphyo46bxl', '--error-file', '/tmp/tmp82mcm9t3']
+[2022-08-11 04:48:32,220] {standard_task_runner.py:80} INFO - Job 69: Subtask cr2
+[2022-08-11 04:48:32,486] {task_command.py:371} INFO - Running <TaskInstance: craw.cr2 manual__2022-08-11T04:48:21.621599+00:00 [running]> on host d59619969b18
+[2022-08-11 04:48:33,070] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr2
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-11T04:48:21.621599+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-11T04:48:21.621599+00:00
+[2022-08-11 04:48:33,085] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-11 04:48:33,389] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-11 04:48:44,972] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver] found in cache
+[2022-08-11 04:50:02,196] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/newtest.py", line 93, in crawling
+    lists.append((image, name, price, review))
+NameError: name 'lists' is not defined
+[2022-08-11 04:50:02,216] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=craw, task_id=cr2, execution_date=20220811T044821, start_date=20220811T044832, end_date=20220811T045002
+[2022-08-11 04:50:02,239] {standard_task_runner.py:97} ERROR - Failed to execute job 69 for task cr2 (name 'lists' is not defined; 10853)
+[2022-08-11 04:50:02,272] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-11 04:50:02,327] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

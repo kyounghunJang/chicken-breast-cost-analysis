@@ -1,4 +1,3 @@
-from threading import Thread
 from airflow.operators.mysql_operator import MySqlOperator
 from airflow.operators.python_operator import PythonOperator
 from airflow import DAG
@@ -11,24 +10,41 @@ from selenium.webdriver.common.by import By
 from time import sleep                                         
 import pandas as pd                                        
 import pyspark                                                 
-from pyspark.sql import SparkSession                           
-chrome_options = Options()                         
+from pyspark.sql import SparkSession                          
+chrome_options = Options()        
+chrome_options.add_argument("--no-sandbox")                 
 chrome_options.add_argument("--headless")
-chrome_options.add_argument("--no-sandbox")             
-chrome_options.add_argument("--disable-dev-shm-usage")                                                               
+chrome_options.add_argument('--disable-dev-shm-usage')           
+                                                             
 from selenium.webdriver import ActionChains                    
 from selenium.webdriver.common.keys import Keys                
 from selenium.common.exceptions import NoSuchElementException  
-from multiprocessing.dummy import Pool as ThreadPool
+from multiprocessing.pool import ThreadPool
 import multiprocessing                                  
 from pyspark.sql.functions import regexp_replace, col          
 from datetime import datetime     
-                                                           
-pymysql.install_as_MySQLdb()
-
-default_args={"owner":"airflow", "start_date":datetime(2021,3,7)}
-
-def crawling(s,e):
+                                                      
+default_args={
+    "owner":"airflow", 
+    'depends_on_past' : False,
+    "start_date":datetime(2022,8,10),
+    'retries': 1,
+    'retry_delay' : timedelta(minutes=5),
+    }
+def connectMysql():
+    mysql_db = pymysql.connect(
+    user='root', 
+    passwd='root', 
+    host='127.0.0.1', 
+    db='pymysql_db', 
+    charset='utf8')
+    cursor=mysql_db.cursor
+    return cursor
+    
+def crawling(*op_args):
+    cursor=connectMysql()
+    sql="INSERT INTO data (image,name,price,review) VALUES (%s, %s,%s %s)"
+    s,e=op_args
     driver=webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
     driver.implicitly_wait(3)
     action=ActionChains(driver)
@@ -83,33 +99,33 @@ def crawling(s,e):
                     review+=rv.text
                 if chk==1 or cnt>29:
                     break
-            lists.append((image, name, price, review))
+            cursor.execute(sql,(image,name,price,review))
             driver.close()
             sleep(5)
             driver.switch_to.window(driver.window_handles[0])
         driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[2]/div[2]/div[3]/div[1]/div[3]/a').click()
         num+=1
         print(num)
-        if num==25:
+        if num==3:
             break
         sleep(5)
+    cursor.commit()
+    cursor.close()
     driver.quit()
-
-def multi():
-    divide=[(1,2),(2,3)]
-    process=[]
-    listss=[]
-    p=ThreadPool(2)
-    for start,end in divide:
-        result=p.starmap(crawling,[(start,end)])
-    p.close()
-    p.join()
-
-with DAG(dag_id="new_test", default_args=default_args, schedule_interval='@daily') as dag:
-    multi = PythonOperator(
-        task_id="multiprocessing",
+    
+    
+with DAG(dag_id="craw", default_args=default_args, schedule_interval='55 14 * * *') as dag:
+    crawli1 = PythonOperator(
+        task_id="cr1",
         provide_context=True,
-        python_callable=multi,
+        python_callable=crawling,
+        op_args=(1,2),
     )
-
-    multi#>>create_table
+    crawli2 = PythonOperator(
+        task_id="cr2",
+        provide_context=True,
+        python_callable=crawling,
+        op_args=(2,3),
+    )
+    
+(crawli1,crawli2)
