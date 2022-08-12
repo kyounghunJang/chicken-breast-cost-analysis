@@ -15,7 +15,7 @@ chrome_options = Options()
 chrome_options.add_argument("--no-sandbox")                 
 chrome_options.add_argument("--headless")
 chrome_options.add_argument('--disable-dev-shm-usage')           
-                                                             
+                                                        
 from selenium.webdriver import ActionChains                    
 from selenium.webdriver.common.keys import Keys                
 from selenium.common.exceptions import NoSuchElementException  
@@ -23,7 +23,7 @@ from multiprocessing.pool import ThreadPool
 import multiprocessing                                  
 from pyspark.sql.functions import regexp_replace, col          
 from datetime import datetime     
-                                                      
+pymysql.install_as_MySQLdb()                              
 default_args={
     "owner":"airflow", 
     'depends_on_past' : False,
@@ -31,18 +31,28 @@ default_args={
     'retries': 1,
     'retry_delay' : timedelta(minutes=5),
     }
-def connectMysql():
-    mysql_db = pymysql.connect(
-    user='root', 
-    passwd='root', 
-    host='127.0.0.1', 
-    db='pymysql_db', 
-    charset='utf8')
-    cursor=mysql_db.cursor
-    return cursor
     
+def connect():
+    import pymysql
+
+
+    db = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='root', charset='utf8')
+
+    if db.open:
+        cursor = db.cursor()
+        print('connect success')
+
+# DB 연결 닫기
+    db.close()
 def crawling(*op_args):
-    cursor=connectMysql()
+    db = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='root', charset='utf8')
+    if db.open:
+        cursor = db.cursor()
+        print('connect success')
+
+# DB 연결 닫기
+    db.close()
+    
     sql="INSERT INTO data (image,name,price,review) VALUES (%s, %s,%s %s)"
     s,e=op_args
     driver=webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
@@ -127,5 +137,10 @@ with DAG(dag_id="craw", default_args=default_args, schedule_interval='55 14 * * 
         python_callable=crawling,
         op_args=(2,3),
     )
-    
-(crawli1,crawli2)
+    con=PythonOperator(
+        task_id='con',
+        provide_context=True,
+        python_callable=connect,
+    )   
+#(crawli1,crawli2)
+con

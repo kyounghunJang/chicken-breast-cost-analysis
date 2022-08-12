@@ -4,7 +4,7 @@ from datetime import datetime,timedelta
 import pymysql
 pymysql.install_as_MySQLdb()
 
-default_args={"owner":"airflow", "start_date":datetime(2021,3,7)}
+default_args={"owner":"airflow", "start_date":datetime(2022,8,11)}
 with DAG(dag_id="workflow", default_args=default_args, schedule_interval='@daily') as dag:
     
     create_table =MySqlOperator(

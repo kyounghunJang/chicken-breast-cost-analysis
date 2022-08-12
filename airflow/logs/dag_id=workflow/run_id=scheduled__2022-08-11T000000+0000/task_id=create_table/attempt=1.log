@@ -1,0 +1,26 @@
+[2022-08-12 07:53:06,080] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: workflow.create_table scheduled__2022-08-11T00:00:00+00:00 [queued]>
+[2022-08-12 07:53:06,096] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: workflow.create_table scheduled__2022-08-11T00:00:00+00:00 [queued]>
+[2022-08-12 07:53:06,096] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-12 07:53:06,097] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-08-12 07:53:06,097] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-12 07:53:06,130] {taskinstance.py:1397} INFO - Executing <Task(MySqlOperator): create_table> on 2022-08-11 00:00:00+00:00
+[2022-08-12 07:53:06,139] {standard_task_runner.py:52} INFO - Started process 1326 to run task
+[2022-08-12 07:53:06,145] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'workflow', 'create_table', 'scheduled__2022-08-11T00:00:00+00:00', '--job-id', '116', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmpiauxzpvb', '--error-file', '/tmp/tmp2eulbwa0']
+[2022-08-12 07:53:06,146] {standard_task_runner.py:80} INFO - Job 116: Subtask create_table
+[2022-08-12 07:53:06,305] {task_command.py:371} INFO - Running <TaskInstance: workflow.create_table scheduled__2022-08-11T00:00:00+00:00 [running]> on host d59619969b18
+[2022-08-12 07:53:06,425] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=workflow
+AIRFLOW_CTX_TASK_ID=create_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-11T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-11T00:00:00+00:00
+[2022-08-12 07:53:06,426] {mysql.py:82} INFO - Executing: CREATE DATABASE qweql
+[2022-08-12 07:53:06,453] {base.py:68} INFO - Using connection ID 'mysql_db' for task execution.
+[2022-08-12 07:53:06,515] {dbapi.py:231} INFO - Running statement: CREATE DATABASE qweql, parameters: None
+[2022-08-12 07:53:06,631] {dbapi.py:239} INFO - Rows affected: 1
+[2022-08-12 07:53:06,656] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=workflow, task_id=create_table, execution_date=20220811T000000, start_date=20220812T075306, end_date=20220812T075306
+[2022-08-12 07:53:06,717] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-12 07:53:06,782] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
