@@ -1,0 +1,30 @@
+[2022-08-13 10:04:27,020] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr2 manual__2022-08-13T10:04:25.297392+00:00 [queued]>
+[2022-08-13 10:04:27,034] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr2 manual__2022-08-13T10:04:25.297392+00:00 [queued]>
+[2022-08-13 10:04:27,034] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-13 10:04:27,035] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-13 10:04:27,035] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-13 10:04:27,058] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr2> on 2022-08-13 10:04:25.297392+00:00
+[2022-08-13 10:04:27,064] {standard_task_runner.py:52} INFO - Started process 751 to run task
+[2022-08-13 10:04:27,069] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr2', 'manual__2022-08-13T10:04:25.297392+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmpe0ig6lta', '--error-file', '/tmp/tmpxv6hwx44']
+[2022-08-13 10:04:27,071] {standard_task_runner.py:80} INFO - Job 68: Subtask cr2
+[2022-08-13 10:04:27,164] {task_command.py:371} INFO - Running <TaskInstance: craw.cr2 manual__2022-08-13T10:04:25.297392+00:00 [running]> on host cdb6935da655
+[2022-08-13 10:04:27,331] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr2
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-13T10:04:25.297392+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-13T10:04:25.297392+00:00
+[2022-08-13 10:04:27,354] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-13 10:04:27,358] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-13 10:04:27,502] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-13 10:04:28,220] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver] found in cache
+[2022-08-13 10:05:14,113] {logging_mixin.py:115} INFO - 1
+[2022-08-13 10:06:47,729] {logging_mixin.py:115} INFO - 2
+[2022-08-13 10:07:13,932] {logging_mixin.py:115} INFO - 3
+[2022-08-13 10:07:14,006] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-13 10:07:14,023] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=craw, task_id=cr2, execution_date=20220813T100425, start_date=20220813T100427, end_date=20220813T100714
+[2022-08-13 10:07:14,045] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-13 10:07:14,073] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

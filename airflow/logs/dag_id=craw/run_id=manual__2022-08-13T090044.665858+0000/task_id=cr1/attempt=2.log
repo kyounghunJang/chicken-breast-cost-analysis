@@ -1,0 +1,37 @@
+[2022-08-13 09:08:25,381] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr1 manual__2022-08-13T09:00:44.665858+00:00 [queued]>
+[2022-08-13 09:08:25,391] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr1 manual__2022-08-13T09:00:44.665858+00:00 [queued]>
+[2022-08-13 09:08:25,392] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-13 09:08:25,392] {taskinstance.py:1377} INFO - Starting attempt 2 of 3
+[2022-08-13 09:08:25,393] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-13 09:08:25,410] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr1> on 2022-08-13 09:00:44.665858+00:00
+[2022-08-13 09:08:25,415] {standard_task_runner.py:52} INFO - Started process 4778 to run task
+[2022-08-13 09:08:25,418] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr1', 'manual__2022-08-13T09:00:44.665858+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmpda6ti7c0', '--error-file', '/tmp/tmpgkb27omz']
+[2022-08-13 09:08:25,420] {standard_task_runner.py:80} INFO - Job 55: Subtask cr1
+[2022-08-13 09:08:25,503] {task_command.py:371} INFO - Running <TaskInstance: craw.cr1 manual__2022-08-13T09:00:44.665858+00:00 [running]> on host cdb6935da655
+[2022-08-13 09:08:25,593] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr1
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-13T09:00:44.665858+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-13T09:00:44.665858+00:00
+[2022-08-13 09:08:25,595] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-13 09:08:25,689] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-13 09:08:26,185] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver] found in cache
+[2022-08-13 09:08:57,964] {local_task_job.py:221} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-08-13 09:08:57,979] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 4778. PIDs of all processes in the group: [4803, 4809, 4813, 4814, 4820, 4821, 4836, 4877, 5302, 4834, 4778]
+[2022-08-13 09:08:57,981] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 4778
+[2022-08-13 09:08:57,996] {taskinstance.py:1561} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-08-13 09:08:58,005] {process_utils.py:75} INFO - Process psutil.Process(pid=4836, status='terminated', started='09:08:26') (4836) terminated with exit code None
+[2022-08-13 09:08:58,105] {process_utils.py:75} INFO - Process psutil.Process(pid=4814, status='terminated', started='09:08:26') (4814) terminated with exit code None
+[2022-08-13 09:08:58,107] {process_utils.py:75} INFO - Process psutil.Process(pid=5302, status='terminated', started='09:08:53') (5302) terminated with exit code None
+[2022-08-13 09:08:58,108] {process_utils.py:75} INFO - Process psutil.Process(pid=4834, status='terminated', started='09:08:26') (4834) terminated with exit code None
+[2022-08-13 09:08:58,109] {process_utils.py:75} INFO - Process psutil.Process(pid=4809, status='terminated', started='09:08:26') (4809) terminated with exit code None
+[2022-08-13 09:08:58,110] {process_utils.py:75} INFO - Process psutil.Process(pid=4820, status='terminated', started='09:08:26') (4820) terminated with exit code None
+[2022-08-13 09:08:58,111] {process_utils.py:75} INFO - Process psutil.Process(pid=4803, status='terminated', started='09:08:25') (4803) terminated with exit code None
+[2022-08-13 09:08:58,111] {process_utils.py:75} INFO - Process psutil.Process(pid=4821, status='terminated', started='09:08:26') (4821) terminated with exit code None
+[2022-08-13 09:08:58,112] {process_utils.py:75} INFO - Process psutil.Process(pid=4877, status='terminated', started='09:08:26') (4877) terminated with exit code None
+[2022-08-13 09:08:58,113] {process_utils.py:75} INFO - Process psutil.Process(pid=4813, status='terminated', started='09:08:26') (4813) terminated with exit code None
+[2022-08-13 09:08:58,145] {process_utils.py:75} INFO - Process psutil.Process(pid=4778, status='terminated', exitcode=0, started='09:08:24') (4778) terminated with exit code 0

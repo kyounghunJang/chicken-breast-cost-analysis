@@ -9,7 +9,7 @@ with DAG(dag_id="workflow", default_args=default_args, schedule_interval='@daily
     
     create_table =MySqlOperator(
         task_id ="create_table",
-        mysql_conn_id="mysql_db" ,
+        mysql_conn_id="mysql" ,
         sql="CREATE DATABASE qweql",
     )
 
