@@ -1,0 +1,93 @@
+[2022-08-16 08:23:15,686] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr1 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-16 08:23:15,702] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr1 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-16 08:23:15,702] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:23:15,703] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-16 08:23:15,704] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:23:15,745] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr1> on 2022-08-14 14:55:00+00:00
+[2022-08-16 08:23:15,752] {standard_task_runner.py:52} INFO - Started process 85 to run task
+[2022-08-16 08:23:15,759] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr1', 'scheduled__2022-08-14T14:55:00+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmp9bbxku8v', '--error-file', '/tmp/tmpk99sra4l']
+[2022-08-16 08:23:15,762] {standard_task_runner.py:80} INFO - Job 68: Subtask cr1
+[2022-08-16 08:23:15,923] {task_command.py:371} INFO - Running <TaskInstance: craw.cr1 scheduled__2022-08-14T14:55:00+00:00 [running]> on host 74c2759f33bd
+[2022-08-16 08:23:16,375] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr1
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-14T14:55:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-14T14:55:00+00:00
+[2022-08-16 08:23:16,389] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-16 08:23:16,392] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-16 08:23:16,517] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-16 08:23:16,749] {logger.py:11} INFO - There is no [linux64] chromedriver for browser 104.0.5112 in cache
+[2022-08-16 08:23:16,749] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip
+[2022-08-16 08:23:20,423] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112]
+[2022-08-16 08:24:03,127] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2091432/20914327278.20210303111810.jpg?type=f140 웨이코스 씽크웨이 토체티 텐키리스 D&T 콜라보 체리 키보드 134,000원 
+[2022-08-16 08:24:26,878] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2685653/26856531523.20210422141628.jpg?type=f140 웨이코스 씽크웨이 토체티BW 블루투스 유무선 텐키리스 체리키보드 170,000원 
+[2022-08-16 08:24:50,470] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2135929/21359292930.20191122092034.jpg?type=f140 웨이코스 씽크웨이 CROAD K20 매크로 숫자 키패드 24,900원 
+[2022-08-16 08:25:14,067] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1476185/14761858336.20220714135728.jpg?type=f140 COX CK420 교체축 레인보우 LED 게이밍 기계식 키보드 35,400원 
+[2022-08-16 08:25:19,375] {logging_mixin.py:115} INFO - 1
+[2022-08-16 08:25:42,880] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1013013/10130132704.20201113142036.jpg?type=f140 비프렌드 G-MASTER 레인보우 이중사출 청축 39,500원 
+[2022-08-16 08:26:06,462] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2196898/21968983050.20220603104329.jpg?type=f140 스틸시리즈 Apex 3 89,000원 
+[2022-08-16 08:26:30,069] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2960575/29605751618.20220324110136.jpg?type=f140 로이체 RK-3700 32,900원 
+[2022-08-16 08:26:53,901] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1960150/19601508032.20190603154336.jpg?type=f140 COX CK108 레드/다크그레이 게이트론 LED 게이밍 기계식 키보드 49,900원 
+[2022-08-16 08:26:59,393] {logging_mixin.py:115} INFO - 2
+[2022-08-16 08:27:22,922] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2091432/20914327278.20210303111810.jpg?type=f140 웨이코스 씽크웨이 토체티 텐키리스 D&T 콜라보 체리 키보드 134,000원 
+[2022-08-16 08:27:43,821] {local_task_job.py:221} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-08-16 08:27:43,827] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 85. PIDs of all processes in the group: [355, 510, 515, 516, 524, 525, 542, 600, 6048, 541, 85]
+[2022-08-16 08:27:43,827] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 85
+[2022-08-16 08:27:43,828] {taskinstance.py:1561} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-08-16 08:27:43,856] {process_utils.py:75} INFO - Process psutil.Process(pid=355, status='terminated', started='08:23:20') (355) terminated with exit code None
+[2022-08-16 08:27:43,857] {process_utils.py:75} INFO - Process psutil.Process(pid=515, status='terminated', started='08:23:20') (515) terminated with exit code None
+[2022-08-16 08:27:43,857] {process_utils.py:75} INFO - Process psutil.Process(pid=525, status='terminated', started='08:23:20') (525) terminated with exit code None
+[2022-08-16 08:27:43,858] {process_utils.py:75} INFO - Process psutil.Process(pid=542, status='terminated', started='08:23:20') (542) terminated with exit code None
+[2022-08-16 08:27:43,858] {process_utils.py:75} INFO - Process psutil.Process(pid=6048, status='terminated', started='08:27:30') (6048) terminated with exit code None
+[2022-08-16 08:27:43,858] {process_utils.py:75} INFO - Process psutil.Process(pid=524, status='terminated', started='08:23:20') (524) terminated with exit code None
+[2022-08-16 08:27:43,858] {process_utils.py:75} INFO - Process psutil.Process(pid=600, status='terminated', started='08:23:21') (600) terminated with exit code None
+[2022-08-16 08:27:43,859] {process_utils.py:75} INFO - Process psutil.Process(pid=541, status='terminated', started='08:23:20') (541) terminated with exit code None
+[2022-08-16 08:27:43,859] {process_utils.py:75} INFO - Process psutil.Process(pid=516, status='terminated', started='08:23:20') (516) terminated with exit code None
+[2022-08-16 08:27:43,859] {process_utils.py:75} INFO - Process psutil.Process(pid=510, status='terminated', started='08:23:20') (510) terminated with exit code None
+[2022-08-16 08:27:43,911] {process_utils.py:75} INFO - Process psutil.Process(pid=85, status='terminated', exitcode=0, started='08:23:15') (85) terminated with exit code 0
+[2022-08-16 08:29:16,037] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr1 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-16 08:29:16,049] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr1 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-16 08:29:16,050] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:29:16,050] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-16 08:29:16,050] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:29:16,066] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr1> on 2022-08-14 14:55:00+00:00
+[2022-08-16 08:29:16,072] {standard_task_runner.py:52} INFO - Started process 6773 to run task
+[2022-08-16 08:29:16,075] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr1', 'scheduled__2022-08-14T14:55:00+00:00', '--job-id', '88', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmpwthxggy2', '--error-file', '/tmp/tmpa0e9okab']
+[2022-08-16 08:29:16,076] {standard_task_runner.py:80} INFO - Job 88: Subtask cr1
+[2022-08-16 08:29:16,156] {task_command.py:371} INFO - Running <TaskInstance: craw.cr1 scheduled__2022-08-14T14:55:00+00:00 [running]> on host 74c2759f33bd
+[2022-08-16 08:29:16,288] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr1
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-14T14:55:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-14T14:55:00+00:00
+[2022-08-16 08:29:16,311] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-16 08:29:16,320] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-16 08:29:16,462] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-16 08:29:16,850] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver] found in cache
+[2022-08-16 08:29:59,163] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2091432/20914327278.20210303111810.jpg?type=f140 웨이코스 씽크웨이 토체티 텐키리스 D&T 콜라보 체리 키보드 134,000원 
+[2022-08-16 08:30:22,702] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2685653/26856531523.20210422141628.jpg?type=f140 웨이코스 씽크웨이 토체티BW 블루투스 유무선 텐키리스 체리키보드 170,000원 
+[2022-08-16 08:30:46,242] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2135929/21359292930.20191122092034.jpg?type=f140 웨이코스 씽크웨이 CROAD K20 매크로 숫자 키패드 24,900원 
+[2022-08-16 08:31:09,776] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1476185/14761858336.20220714135728.jpg?type=f140 COX CK420 교체축 레인보우 LED 게이밍 기계식 키보드 35,400원 
+[2022-08-16 08:31:15,011] {logging_mixin.py:115} INFO - 1
+[2022-08-16 08:31:38,512] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1013013/10130132704.20201113142036.jpg?type=f140 비프렌드 G-MASTER 레인보우 이중사출 청축 39,500원 
+[2022-08-16 08:32:02,038] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2196898/21968983050.20220603104329.jpg?type=f140 스틸시리즈 Apex 3 89,000원 
+[2022-08-16 08:32:25,593] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2960575/29605751618.20220324110136.jpg?type=f140 로이체 RK-3700 32,900원 
+[2022-08-16 08:32:49,109] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1960150/19601508032.20190603154336.jpg?type=f140 COX CK108 레드/다크그레이 게이트론 LED 게이밍 기계식 키보드 49,900원 
+[2022-08-16 08:32:54,345] {logging_mixin.py:115} INFO - 2
+[2022-08-16 08:33:17,916] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2091432/20914327278.20210303111810.jpg?type=f140 웨이코스 씽크웨이 토체티 텐키리스 D&T 콜라보 체리 키보드 134,000원 
+[2022-08-16 08:33:41,476] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2685653/26856531523.20210422141628.jpg?type=f140 웨이코스 씽크웨이 토체티BW 블루투스 유무선 텐키리스 체리키보드 170,000원 
+[2022-08-16 08:34:05,028] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2135929/21359292930.20191122092034.jpg?type=f140 웨이코스 씽크웨이 CROAD K20 매크로 숫자 키패드 24,900원 
+[2022-08-16 08:34:28,622] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1476185/14761858336.20220714135728.jpg?type=f140 COX CK420 교체축 레인보우 LED 게이밍 기계식 키보드 35,400원 
+[2022-08-16 08:34:33,851] {logging_mixin.py:115} INFO - 3
+[2022-08-16 08:34:33,916] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-16 08:34:33,930] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=craw, task_id=cr1, execution_date=20220814T145500, start_date=20220816T082916, end_date=20220816T083433
+[2022-08-16 08:34:33,981] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-16 08:34:34,004] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

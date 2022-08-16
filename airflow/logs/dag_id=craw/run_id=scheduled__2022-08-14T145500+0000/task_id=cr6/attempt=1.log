@@ -1,0 +1,95 @@
+[2022-08-16 08:23:15,539] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr6 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-16 08:23:15,552] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr6 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-16 08:23:15,552] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:23:15,553] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-16 08:23:15,553] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:23:15,567] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr6> on 2022-08-14 14:55:00+00:00
+[2022-08-16 08:23:15,573] {standard_task_runner.py:52} INFO - Started process 82 to run task
+[2022-08-16 08:23:15,578] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr6', 'scheduled__2022-08-14T14:55:00+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmpbazyrdp2', '--error-file', '/tmp/tmpk1qm8tg8']
+[2022-08-16 08:23:15,580] {standard_task_runner.py:80} INFO - Job 65: Subtask cr6
+[2022-08-16 08:23:15,675] {task_command.py:371} INFO - Running <TaskInstance: craw.cr6 scheduled__2022-08-14T14:55:00+00:00 [running]> on host 74c2759f33bd
+[2022-08-16 08:23:16,151] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr6
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-14T14:55:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-14T14:55:00+00:00
+[2022-08-16 08:23:16,169] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-16 08:23:16,174] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-16 08:23:16,437] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-16 08:23:16,674] {logger.py:11} INFO - There is no [linux64] chromedriver for browser 104.0.5112 in cache
+[2022-08-16 08:23:16,675] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip
+[2022-08-16 08:23:20,587] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112]
+[2022-08-16 08:24:03,422] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1531030/15310309538.20200403164240.jpg?type=f140 비프렌드 G키보드2 프리미엄 레인보우 21,900원 
+[2022-08-16 08:24:27,231] {logging_mixin.py:115} INFO - https://searchad-phinf.pstatic.net/MjAyMTA3MDhfMTI5/MDAxNjI1NzAzNzE0MjUw.-Ifz0R9WPPYV60WN93ZMCvsonrDeRIxz2Kbhv8Lqqukg.EXOFH9NT2Vp6FiWJ8QkfCfpPA3gMGyQzsuMwrQhWLEEg.PNG/1871830-ebb23725-6adb-44ea-9ce7-8903a302c74f.png?type=f200 티앤에스인터내셔널 VALKAN CK 69,800원 
+[2022-08-16 08:24:50,842] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1182593/11825933324.20210720140537.jpg?type=f140 한성컴퓨터 Gtune MKF30S Rainbow 36,900원 
+[2022-08-16 08:25:14,407] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2750214/27502145524.20210610145407.jpg?type=f140 한성컴퓨터 BK330 멀티페어링 블루투스 키보드 24,651원 
+[2022-08-16 08:25:37,990] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2556649/25566498522.20210112102336.jpg?type=f140 archon K77 유/무선 기계식키보드 98,010원 
+[2022-08-16 08:25:43,339] {logging_mixin.py:115} INFO - 1
+[2022-08-16 08:26:06,932] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2556897/25568974522.20220525173047.jpg?type=f140 레드빈 트리플 멀티페어링 블루투스 저소음 무선키보드 A19K 36,900원 
+[2022-08-16 08:26:30,742] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3143904/31439043618.20220707160107.jpg?type=f140 키크론 Q1 노브 RGB 알루미늄 커스텀 기계식 키보드 209,000원 
+[2022-08-16 08:26:54,532] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1724700/17247003034.20210224135330.jpg?type=f140 퓨전에프앤씨 아이노트 X-KEY 38BT 19,900원 
+[2022-08-16 08:27:18,192] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3350944/33509446618.20220715103647.jpg?type=f140 COX CK87 SLIM LP PBT 게이밍 기계식 키보드 89,000원 
+[2022-08-16 08:27:41,803] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1316708/13167088166.20211227162415.jpg?type=f140 삼성전자 삼성 SPA-JKA1BUB 14,355원 
+[2022-08-16 08:27:43,536] {local_task_job.py:221} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-08-16 08:27:43,541] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 82. PIDs of all processes in the group: [383, 594, 598, 599, 618, 619, 655, 687, 634, 82]
+[2022-08-16 08:27:43,542] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 82
+[2022-08-16 08:27:43,545] {taskinstance.py:1561} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-08-16 08:27:43,556] {process_utils.py:75} INFO - Process psutil.Process(pid=598, status='terminated', started='08:23:21') (598) terminated with exit code None
+[2022-08-16 08:27:43,557] {process_utils.py:75} INFO - Process psutil.Process(pid=594, status='terminated', started='08:23:21') (594) terminated with exit code None
+[2022-08-16 08:27:43,557] {process_utils.py:75} INFO - Process psutil.Process(pid=655, status='terminated', started='08:23:21') (655) terminated with exit code None
+[2022-08-16 08:27:43,571] {process_utils.py:75} INFO - Process psutil.Process(pid=687, status='terminated', started='08:23:21') (687) terminated with exit code None
+[2022-08-16 08:27:43,572] {process_utils.py:75} INFO - Process psutil.Process(pid=618, status='terminated', started='08:23:21') (618) terminated with exit code None
+[2022-08-16 08:27:43,572] {process_utils.py:75} INFO - Process psutil.Process(pid=383, status='terminated', started='08:23:20') (383) terminated with exit code None
+[2022-08-16 08:27:43,586] {process_utils.py:75} INFO - Process psutil.Process(pid=82, status='terminated', exitcode=0, started='08:23:15') (82) terminated with exit code 0
+[2022-08-16 08:27:43,587] {process_utils.py:75} INFO - Process psutil.Process(pid=619, status='terminated', started='08:23:21') (619) terminated with exit code None
+[2022-08-16 08:27:43,587] {process_utils.py:75} INFO - Process psutil.Process(pid=634, status='terminated', started='08:23:21') (634) terminated with exit code None
+[2022-08-16 08:27:43,587] {process_utils.py:75} INFO - Process psutil.Process(pid=599, status='terminated', started='08:23:21') (599) terminated with exit code None
+[2022-08-16 08:29:16,076] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr6 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-16 08:29:16,088] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr6 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-16 08:29:16,088] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:29:16,089] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-16 08:29:16,089] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:29:16,105] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr6> on 2022-08-14 14:55:00+00:00
+[2022-08-16 08:29:16,112] {standard_task_runner.py:52} INFO - Started process 6774 to run task
+[2022-08-16 08:29:16,116] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr6', 'scheduled__2022-08-14T14:55:00+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmp0cbghvn5', '--error-file', '/tmp/tmp2tc2xfme']
+[2022-08-16 08:29:16,117] {standard_task_runner.py:80} INFO - Job 86: Subtask cr6
+[2022-08-16 08:29:16,207] {task_command.py:371} INFO - Running <TaskInstance: craw.cr6 scheduled__2022-08-14T14:55:00+00:00 [running]> on host 74c2759f33bd
+[2022-08-16 08:29:16,344] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr6
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-14T14:55:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-14T14:55:00+00:00
+[2022-08-16 08:29:16,371] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-16 08:29:16,376] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-16 08:29:16,502] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-16 08:29:16,875] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver] found in cache
+[2022-08-16 08:30:00,203] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1531030/15310309538.20200403164240.jpg?type=f140 비프렌드 G키보드2 프리미엄 레인보우 21,900원 
+[2022-08-16 08:30:23,892] {logging_mixin.py:115} INFO - https://searchad-phinf.pstatic.net/MjAyMTA3MDhfMTI5/MDAxNjI1NzAzNzE0MjUw.-Ifz0R9WPPYV60WN93ZMCvsonrDeRIxz2Kbhv8Lqqukg.EXOFH9NT2Vp6FiWJ8QkfCfpPA3gMGyQzsuMwrQhWLEEg.PNG/1871830-ebb23725-6adb-44ea-9ce7-8903a302c74f.png?type=f200 티앤에스인터내셔널 VALKAN CK 69,800원 
+[2022-08-16 08:30:47,542] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1182593/11825933324.20210720140537.jpg?type=f140 한성컴퓨터 Gtune MKF30S Rainbow 36,900원 
+[2022-08-16 08:31:11,178] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2750214/27502145524.20210610145407.jpg?type=f140 한성컴퓨터 BK330 멀티페어링 블루투스 키보드 24,651원 
+[2022-08-16 08:31:34,828] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2556649/25566498522.20210112102336.jpg?type=f140 archon K77 유/무선 기계식키보드 98,010원 
+[2022-08-16 08:31:40,155] {logging_mixin.py:115} INFO - 1
+[2022-08-16 08:32:03,785] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2556897/25568974522.20220525173047.jpg?type=f140 레드빈 트리플 멀티페어링 블루투스 저소음 무선키보드 A19K 36,900원 
+[2022-08-16 08:32:27,406] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3143904/31439043618.20220707160107.jpg?type=f140 키크론 Q1 노브 RGB 알루미늄 커스텀 기계식 키보드 209,000원 
+[2022-08-16 08:32:50,961] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1724700/17247003034.20210224135330.jpg?type=f140 퓨전에프앤씨 아이노트 X-KEY 38BT 19,900원 
+[2022-08-16 08:33:14,652] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3350944/33509446618.20220715103647.jpg?type=f140 COX CK87 SLIM LP PBT 게이밍 기계식 키보드 89,000원 
+[2022-08-16 08:33:38,239] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1316708/13167088166.20211227162415.jpg?type=f140 삼성전자 삼성 SPA-JKA1BUB 14,355원 
+[2022-08-16 08:33:43,519] {logging_mixin.py:115} INFO - 2
+[2022-08-16 08:34:07,077] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1531030/15310309538.20200403164240.jpg?type=f140 비프렌드 G키보드2 프리미엄 레인보우 21,900원 
+[2022-08-16 08:34:30,663] {logging_mixin.py:115} INFO - https://searchad-phinf.pstatic.net/MjAyMTA3MDhfMTI5/MDAxNjI1NzAzNzE0MjUw.-Ifz0R9WPPYV60WN93ZMCvsonrDeRIxz2Kbhv8Lqqukg.EXOFH9NT2Vp6FiWJ8QkfCfpPA3gMGyQzsuMwrQhWLEEg.PNG/1871830-ebb23725-6adb-44ea-9ce7-8903a302c74f.png?type=f200 티앤에스인터내셔널 VALKAN CK 69,800원 
+[2022-08-16 08:34:54,314] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1182593/11825933324.20210720140537.jpg?type=f140 한성컴퓨터 Gtune MKF30S Rainbow 36,900원 
+[2022-08-16 08:35:17,899] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2750214/27502145524.20210610145407.jpg?type=f140 한성컴퓨터 BK330 멀티페어링 블루투스 키보드 24,651원 
+[2022-08-16 08:35:41,495] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2556649/25566498522.20210112102336.jpg?type=f140 archon K77 유/무선 기계식키보드 98,010원 
+[2022-08-16 08:35:46,761] {logging_mixin.py:115} INFO - 3
+[2022-08-16 08:35:46,830] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-16 08:35:46,847] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=craw, task_id=cr6, execution_date=20220814T145500, start_date=20220816T082916, end_date=20220816T083546
+[2022-08-16 08:35:46,900] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-16 08:35:46,930] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,95 @@
+[2022-08-16 08:23:15,622] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr4 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-16 08:23:15,636] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr4 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-16 08:23:15,636] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:23:15,636] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-16 08:23:15,637] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:23:15,667] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr4> on 2022-08-14 14:55:00+00:00
+[2022-08-16 08:23:15,674] {standard_task_runner.py:52} INFO - Started process 84 to run task
+[2022-08-16 08:23:15,682] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr4', 'scheduled__2022-08-14T14:55:00+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmph7oqf4go', '--error-file', '/tmp/tmpddp__kyv']
+[2022-08-16 08:23:15,685] {standard_task_runner.py:80} INFO - Job 66: Subtask cr4
+[2022-08-16 08:23:15,838] {task_command.py:371} INFO - Running <TaskInstance: craw.cr4 scheduled__2022-08-14T14:55:00+00:00 [running]> on host 74c2759f33bd
+[2022-08-16 08:23:16,273] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr4
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-14T14:55:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-14T14:55:00+00:00
+[2022-08-16 08:23:16,289] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-16 08:23:16,292] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-16 08:23:16,471] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-16 08:23:16,709] {logger.py:11} INFO - There is no [linux64] chromedriver for browser 104.0.5112 in cache
+[2022-08-16 08:23:16,709] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip
+[2022-08-16 08:23:18,340] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112]
+[2022-08-16 08:24:00,401] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2552390/25523900522.20210914113040.jpg?type=f140 한성컴퓨터 BK500 듀얼 무선 멀티페어링 키보드 29,601원 
+[2022-08-16 08:24:24,017] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2045576/20455763954.20210430175002.jpg?type=f140 CHERRY MX BOARD 3.0S 게이밍 기계식 키보드 99,000원 
+[2022-08-16 08:24:47,792] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2061262/20612627710.20191022173313.jpg?type=f140 마이크로닉스 MANIC X30 마닉축 기계식 키보드 33,900원 
+[2022-08-16 08:25:11,458] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2882835/28828351586.20210913173723.jpg?type=f140 앱코 KN10C PBT 무접점 키보드 199,000원 
+[2022-08-16 08:25:35,040] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1097696/10976963331.20170605151939.jpg?type=f140 아이리버 IR-K2000 14,890원 
+[2022-08-16 08:25:40,279] {logging_mixin.py:115} INFO - 1
+[2022-08-16 08:26:03,960] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3048826/30488263622.20220110170830.jpg?type=f140 로지텍 MX KEYS MINI 113,800원 
+[2022-08-16 08:26:27,583] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1182045/11820457775.20211206152108.jpg?type=f140 삼성전자 삼성 SKG-3000UB 14,751원 
+[2022-08-16 08:26:51,250] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3049942/30499423619.20220207181226.jpg?type=f140 몬스타기어 닌자87PRO RGB DIY 퀵스왑 조립 커스텀 기계식 키보드 65,000원 
+[2022-08-16 08:27:14,912] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1490512/14905121847.20180727112553.jpg?type=f140 맥스틸 TRON G610K V2 39,900원 
+[2022-08-16 08:27:38,523] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2278290/22782906567.20200507231953.jpg?type=f140 COX CK01 29,900원 
+[2022-08-16 08:27:43,675] {local_task_job.py:221} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-08-16 08:27:43,679] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 84. PIDs of all processes in the group: [243, 249, 253, 254, 260, 261, 277, 322, 273, 84]
+[2022-08-16 08:27:43,681] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 84
+[2022-08-16 08:27:43,684] {taskinstance.py:1561} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-08-16 08:27:43,690] {process_utils.py:75} INFO - Process psutil.Process(pid=277, status='terminated', started='08:23:18') (277) terminated with exit code None
+[2022-08-16 08:27:43,691] {process_utils.py:75} INFO - Process psutil.Process(pid=254, status='terminated', started='08:23:18') (254) terminated with exit code None
+[2022-08-16 08:27:43,692] {process_utils.py:75} INFO - Process psutil.Process(pid=253, status='terminated', started='08:23:18') (253) terminated with exit code None
+[2022-08-16 08:27:43,719] {process_utils.py:75} INFO - Process psutil.Process(pid=322, status='terminated', started='08:23:19') (322) terminated with exit code None
+[2022-08-16 08:27:43,719] {process_utils.py:75} INFO - Process psutil.Process(pid=273, status='terminated', started='08:23:18') (273) terminated with exit code None
+[2022-08-16 08:27:43,720] {process_utils.py:75} INFO - Process psutil.Process(pid=260, status='terminated', started='08:23:18') (260) terminated with exit code None
+[2022-08-16 08:27:43,720] {process_utils.py:75} INFO - Process psutil.Process(pid=243, status='terminated', started='08:23:18') (243) terminated with exit code None
+[2022-08-16 08:27:43,734] {process_utils.py:75} INFO - Process psutil.Process(pid=84, status='terminated', exitcode=0, started='08:23:15') (84) terminated with exit code 0
+[2022-08-16 08:27:43,735] {process_utils.py:75} INFO - Process psutil.Process(pid=261, status='terminated', started='08:23:18') (261) terminated with exit code None
+[2022-08-16 08:27:43,736] {process_utils.py:75} INFO - Process psutil.Process(pid=249, status='terminated', started='08:23:18') (249) terminated with exit code None
+[2022-08-16 08:29:16,117] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr4 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-16 08:29:16,130] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr4 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-16 08:29:16,131] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:29:16,131] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-16 08:29:16,131] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:29:16,151] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr4> on 2022-08-14 14:55:00+00:00
+[2022-08-16 08:29:16,157] {standard_task_runner.py:52} INFO - Started process 6777 to run task
+[2022-08-16 08:29:16,161] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr4', 'scheduled__2022-08-14T14:55:00+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmp95n3jtbb', '--error-file', '/tmp/tmpuwimnunp']
+[2022-08-16 08:29:16,163] {standard_task_runner.py:80} INFO - Job 89: Subtask cr4
+[2022-08-16 08:29:16,285] {task_command.py:371} INFO - Running <TaskInstance: craw.cr4 scheduled__2022-08-14T14:55:00+00:00 [running]> on host 74c2759f33bd
+[2022-08-16 08:29:16,627] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr4
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-14T14:55:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-14T14:55:00+00:00
+[2022-08-16 08:29:16,639] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-16 08:29:16,642] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-16 08:29:16,743] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-16 08:29:16,923] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver] found in cache
+[2022-08-16 08:29:59,478] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2552390/25523900522.20210914113040.jpg?type=f140 한성컴퓨터 BK500 듀얼 무선 멀티페어링 키보드 29,601원 
+[2022-08-16 08:30:23,093] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2045576/20455763954.20210430175002.jpg?type=f140 CHERRY MX BOARD 3.0S 게이밍 기계식 키보드 99,000원 
+[2022-08-16 08:30:46,662] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2061262/20612627710.20191022173313.jpg?type=f140 마이크로닉스 MANIC X30 마닉축 기계식 키보드 33,900원 
+[2022-08-16 08:31:10,272] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2882835/28828351586.20210913173723.jpg?type=f140 앱코 KN10C PBT 무접점 키보드 199,000원 
+[2022-08-16 08:31:33,888] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1097696/10976963331.20170605151939.jpg?type=f140 아이리버 IR-K2000 14,890원 
+[2022-08-16 08:31:39,125] {logging_mixin.py:115} INFO - 1
+[2022-08-16 08:32:02,704] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3048826/30488263622.20220110170830.jpg?type=f140 로지텍 MX KEYS MINI 113,800원 
+[2022-08-16 08:32:26,296] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1182045/11820457775.20211206152108.jpg?type=f140 삼성전자 삼성 SKG-3000UB 14,751원 
+[2022-08-16 08:32:49,819] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3049942/30499423619.20220207181226.jpg?type=f140 몬스타기어 닌자87PRO RGB DIY 퀵스왑 조립 커스텀 기계식 키보드 65,000원 
+[2022-08-16 08:33:13,443] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1490512/14905121847.20180727112553.jpg?type=f140 맥스틸 TRON G610K V2 39,900원 
+[2022-08-16 08:33:37,030] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2278290/22782906567.20200507231953.jpg?type=f140 COX CK01 29,900원 
+[2022-08-16 08:33:42,252] {logging_mixin.py:115} INFO - 2
+[2022-08-16 08:34:05,834] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2552390/25523900522.20210914113040.jpg?type=f140 한성컴퓨터 BK500 듀얼 무선 멀티페어링 키보드 29,601원 
+[2022-08-16 08:34:29,413] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2045576/20455763954.20210430175002.jpg?type=f140 CHERRY MX BOARD 3.0S 게이밍 기계식 키보드 99,000원 
+[2022-08-16 08:34:53,016] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2061262/20612627710.20191022173313.jpg?type=f140 마이크로닉스 MANIC X30 마닉축 기계식 키보드 33,900원 
+[2022-08-16 08:35:16,585] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2882835/28828351586.20210913173723.jpg?type=f140 앱코 KN10C PBT 무접점 키보드 199,000원 
+[2022-08-16 08:35:40,168] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1097696/10976963331.20170605151939.jpg?type=f140 아이리버 IR-K2000 14,890원 
+[2022-08-16 08:35:45,380] {logging_mixin.py:115} INFO - 3
+[2022-08-16 08:35:45,450] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-16 08:35:45,464] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=craw, task_id=cr4, execution_date=20220814T145500, start_date=20220816T082916, end_date=20220816T083545
+[2022-08-16 08:35:45,505] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-16 08:35:45,529] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

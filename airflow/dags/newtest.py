@@ -24,11 +24,13 @@ from multiprocessing.pool import ThreadPool
 import multiprocessing                                  
 from pyspark.sql.functions import regexp_replace, col          
 from datetime import datetime     
+def rmEmoji(inputData):
+    return inputData.encode('utf-8', 'ignore').decode('utf-8')
 pymysql.install_as_MySQLdb()                              
 default_args={
     "owner":"airflow", 
     'depends_on_past' : False,
-    "start_date":datetime(2022,8,10),
+    "start_date":datetime(2022,8,14),
     'retries': 1,
     'retry_delay' : timedelta(minutes=5),
     }
@@ -94,6 +96,7 @@ def crawling(*op_args):
                 if chk==1 or cnt>29:
                     break
             print(image,name,price,review)
+            review = rmEmoji(review)
             cursor.execute("INSERT INTO info VALUES (%s, %s, %s, %s);",(image,name,price,review))
             driver.close()
             sleep(5)

@@ -1,0 +1,23 @@
+[2022-08-15 12:51:20,286] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr6 manual__2022-08-15T12:51:18.680057+00:00 [queued]>
+[2022-08-15 12:51:20,301] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr6 manual__2022-08-15T12:51:18.680057+00:00 [queued]>
+[2022-08-15 12:51:20,301] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-15 12:51:20,302] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-15 12:51:20,302] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-15 12:51:20,324] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr6> on 2022-08-15 12:51:18.680057+00:00
+[2022-08-15 12:51:20,330] {standard_task_runner.py:52} INFO - Started process 12990 to run task
+[2022-08-15 12:51:20,334] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr6', 'manual__2022-08-15T12:51:18.680057+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmp6n965tof', '--error-file', '/tmp/tmpquygtscq']
+[2022-08-15 12:51:20,336] {standard_task_runner.py:80} INFO - Job 28: Subtask cr6
+[2022-08-15 12:51:20,436] {task_command.py:371} INFO - Running <TaskInstance: craw.cr6 manual__2022-08-15T12:51:18.680057+00:00 [running]> on host 340b8712908c
+[2022-08-15 12:51:20,545] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr6
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-15T12:51:18.680057+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-15T12:51:18.680057+00:00
+[2022-08-15 12:51:20,562] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-15 12:51:20,565] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-15 12:51:20,706] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-15 12:51:21,179] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver] found in cache

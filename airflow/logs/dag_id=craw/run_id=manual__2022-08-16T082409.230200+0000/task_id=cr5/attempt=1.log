@@ -1,0 +1,95 @@
+[2022-08-16 08:24:11,674] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr5 manual__2022-08-16T08:24:09.230200+00:00 [queued]>
+[2022-08-16 08:24:11,696] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr5 manual__2022-08-16T08:24:09.230200+00:00 [queued]>
+[2022-08-16 08:24:11,696] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:24:11,697] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-16 08:24:11,697] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:24:11,722] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr5> on 2022-08-16 08:24:09.230200+00:00
+[2022-08-16 08:24:11,732] {standard_task_runner.py:52} INFO - Started process 1221 to run task
+[2022-08-16 08:24:11,737] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr5', 'manual__2022-08-16T08:24:09.230200+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmphsmzs5kf', '--error-file', '/tmp/tmp36ud4pef']
+[2022-08-16 08:24:11,738] {standard_task_runner.py:80} INFO - Job 72: Subtask cr5
+[2022-08-16 08:24:11,850] {task_command.py:371} INFO - Running <TaskInstance: craw.cr5 manual__2022-08-16T08:24:09.230200+00:00 [running]> on host 74c2759f33bd
+[2022-08-16 08:24:12,088] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr5
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-16T08:24:09.230200+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-16T08:24:09.230200+00:00
+[2022-08-16 08:24:12,140] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-16 08:24:12,146] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-16 08:24:12,387] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-16 08:24:13,363] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver] found in cache
+[2022-08-16 08:24:56,032] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3086062/30860624618.20220209092012.jpg?type=f140 한성컴퓨터 GK200 RAINBOW 게이밍 기계식 키보드 36,900원 
+[2022-08-16 08:25:19,612] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2897450/28974501586.20220803145130.jpg?type=f140 아이리버 MEDIC-BK1 항균 블루투스 키보드 39,402원 
+[2022-08-16 08:25:43,175] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2336494/23364942490.20200706104104.jpg?type=f140 한성컴퓨터 GK787S OfficeMaster 체리 기계식키보드 79,101원 
+[2022-08-16 08:26:06,748] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2013869/20138695528.20220610100245.jpg?type=f140 한성컴퓨터 GK898B OfficeMaster 한글 157,410원 
+[2022-08-16 08:26:30,572] {logging_mixin.py:115} INFO - https://searchad-phinf.pstatic.net/MjAyMTEyMjFfMjgx/MDAxNjQwMDU2Njc2NjUy.Ob1_cxGTyqNiAIztA-Go5XzACCOEMTzg8KsXQBHAy9Ug.WLbtKsrkcXNkN2TdF96V2tP5GJs-W36zVQAB5pYADkEg.PNG/1871830-d9c5ef97-322f-4073-874e-584610ec51b1.png?type=f200 티앤에스인터내셔널 VALKAN 게이밍 키보드 64,400원 
+[2022-08-16 08:26:35,921] {logging_mixin.py:115} INFO - 1
+[2022-08-16 08:26:59,520] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2183882/21838827773.20200129100927.jpg?type=f140 앱코 K611 텐키리스 카일광축 완전방수 축교환 게이밍 키보드 39,900원 
+[2022-08-16 08:27:23,100] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1727840/17278403481.20190130110759.jpg?type=f140 COX 엠프리스 RGB PBT 완전방수 무접점 키보드 180,000원 
+[2022-08-16 08:27:46,696] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1727812/17278124782.20190130110141.jpg?type=f140 COX 엔데버 텐키리스 RGB PBT 완전방수 무접점 키보드 150,000원 
+[2022-08-16 08:27:57,132] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/newtest.py", line 63, in crawling
+    price=driver.find_element(By.XPATH,'//*[@id="__next"]/div/div[2]/div[2]/div[3]/div[1]/ul/div/div[{}]/li/div/div[2]/div[2]/strong/span/span[2]'.format(i)).text
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 859, in find_element
+    'value': value})['value']
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 435, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="__next"]/div/div[2]/div[2]/div[3]/div[1]/ul/div/div[23]/li/div/div[2]/div[2]/strong/span/span[2]"}
+  (Session info: headless chrome=104.0.5112.79)
+Stacktrace:
+#0 0x558d2e0d8403 <unknown>
+#1 0x558d2dede778 <unknown>
+#2 0x558d2df15c87 <unknown>
+#3 0x558d2df15e51 <unknown>
+#4 0x558d2df48f24 <unknown>
+#5 0x558d2df33a2d <unknown>
+#6 0x558d2df46c74 <unknown>
+#7 0x558d2df338f3 <unknown>
+#8 0x558d2df090d8 <unknown>
+#9 0x558d2df0a205 <unknown>
+#10 0x558d2e11fe3d <unknown>
+#11 0x558d2e122db6 <unknown>
+#12 0x558d2e10913e <unknown>
+#13 0x558d2e1239b5 <unknown>
+#14 0x558d2e0fd970 <unknown>
+#15 0x558d2e140228 <unknown>
+#16 0x558d2e1403bf <unknown>
+#17 0x558d2e15aabe <unknown>
+#18 0x7ff00951dea7 <unknown>
+
+[2022-08-16 08:27:57,150] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=craw, task_id=cr5, execution_date=20220816T082409, start_date=20220816T082411, end_date=20220816T082757
+[2022-08-16 08:27:57,173] {standard_task_runner.py:97} ERROR - Failed to execute job 72 for task cr5 (Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="__next"]/div/div[2]/div[2]/div[3]/div[1]/ul/div/div[23]/li/div/div[2]/div[2]/strong/span/span[2]"}
+  (Session info: headless chrome=104.0.5112.79)
+Stacktrace:
+#0 0x558d2e0d8403 <unknown>
+#1 0x558d2dede778 <unknown>
+#2 0x558d2df15c87 <unknown>
+#3 0x558d2df15e51 <unknown>
+#4 0x558d2df48f24 <unknown>
+#5 0x558d2df33a2d <unknown>
+#6 0x558d2df46c74 <unknown>
+#7 0x558d2df338f3 <unknown>
+#8 0x558d2df090d8 <unknown>
+#9 0x558d2df0a205 <unknown>
+#10 0x558d2e11fe3d <unknown>
+#11 0x558d2e122db6 <unknown>
+#12 0x558d2e10913e <unknown>
+#13 0x558d2e1239b5 <unknown>
+#14 0x558d2e0fd970 <unknown>
+#15 0x558d2e140228 <unknown>
+#16 0x558d2e1403bf <unknown>
+#17 0x558d2e15aabe <unknown>
+#18 0x7ff00951dea7 <unknown>
+; 1221)
+[2022-08-16 08:27:57,208] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-16 08:27:57,239] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

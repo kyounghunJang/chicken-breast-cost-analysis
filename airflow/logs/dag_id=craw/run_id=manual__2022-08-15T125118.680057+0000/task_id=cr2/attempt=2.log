@@ -1,0 +1,44 @@
+[2022-08-16 08:24:26,336] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr2 manual__2022-08-15T12:51:18.680057+00:00 [queued]>
+[2022-08-16 08:24:26,348] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr2 manual__2022-08-15T12:51:18.680057+00:00 [queued]>
+[2022-08-16 08:24:26,348] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:24:26,348] {taskinstance.py:1377} INFO - Starting attempt 2 of 3
+[2022-08-16 08:24:26,349] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-16 08:24:26,363] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr2> on 2022-08-15 12:51:18.680057+00:00
+[2022-08-16 08:24:26,368] {standard_task_runner.py:52} INFO - Started process 2104 to run task
+[2022-08-16 08:24:26,371] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr2', 'manual__2022-08-15T12:51:18.680057+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmp4x2zlnzi', '--error-file', '/tmp/tmpb10alwcf']
+[2022-08-16 08:24:26,373] {standard_task_runner.py:80} INFO - Job 76: Subtask cr2
+[2022-08-16 08:24:26,454] {task_command.py:371} INFO - Running <TaskInstance: craw.cr2 manual__2022-08-15T12:51:18.680057+00:00 [running]> on host 74c2759f33bd
+[2022-08-16 08:24:26,547] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr2
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-15T12:51:18.680057+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-15T12:51:18.680057+00:00
+[2022-08-16 08:24:26,563] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-16 08:24:26,567] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-16 08:24:26,676] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-16 08:24:27,093] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver] found in cache
+[2022-08-16 08:25:10,152] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2127856/21278561324.20200306144241.jpg?type=f140 마이크로닉스 MANIC X50 4세대 광축 완전방수 PBT 게이밍 키보드 63,890원 
+[2022-08-16 08:25:33,729] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2753224/27532247522.20210611095711.jpg?type=f140 COX CK01 TKL 기계식 텐키리스 게이밍 키보드 31,000원 
+[2022-08-16 08:25:57,375] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2922743/29227436619.20211014105845.jpg?type=f140 마이크로닉스 MANIC EX580 광축 크리스탈 게이밍 키보드 67,000원 
+[2022-08-16 08:26:20,962] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1941158/19411580916.20190522163521.jpg?type=f140 COX CK87 게이트론 LED 게이밍 기계식 39,900원 
+[2022-08-16 08:26:44,519] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_8974763/8974763652.20210528111410.jpg?type=f140 로지텍 멀티 디바이스 블루투스 키보드 K380 26,900원 
+[2022-08-16 08:26:49,911] {logging_mixin.py:115} INFO - 1
+[2022-08-16 08:27:13,269] {local_task_job.py:221} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-08-16 08:27:13,279] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 2104. PIDs of all processes in the group: [2183, 2225, 2229, 2230, 2239, 2240, 2267, 2391, 4949, 2264, 2104]
+[2022-08-16 08:27:13,280] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 2104
+[2022-08-16 08:27:13,282] {taskinstance.py:1561} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-08-16 08:27:13,289] {process_utils.py:75} INFO - Process psutil.Process(pid=2240, status='terminated', started='08:24:27') (2240) terminated with exit code None
+[2022-08-16 08:27:13,290] {process_utils.py:75} INFO - Process psutil.Process(pid=2267, status='terminated', started='08:24:27') (2267) terminated with exit code None
+[2022-08-16 08:27:13,291] {process_utils.py:75} INFO - Process psutil.Process(pid=2229, status='terminated', started='08:24:27') (2229) terminated with exit code None
+[2022-08-16 08:27:13,292] {process_utils.py:75} INFO - Process psutil.Process(pid=2230, status='terminated', started='08:24:27') (2230) terminated with exit code None
+[2022-08-16 08:27:13,322] {process_utils.py:75} INFO - Process psutil.Process(pid=2183, status='terminated', started='08:24:27') (2183) terminated with exit code None
+[2022-08-16 08:27:13,323] {process_utils.py:75} INFO - Process psutil.Process(pid=2264, status='terminated', started='08:24:27') (2264) terminated with exit code None
+[2022-08-16 08:27:13,340] {process_utils.py:75} INFO - Process psutil.Process(pid=2104, status='terminated', exitcode=0, started='08:24:26') (2104) terminated with exit code 0
+[2022-08-16 08:27:13,340] {process_utils.py:75} INFO - Process psutil.Process(pid=2239, status='terminated', started='08:24:27') (2239) terminated with exit code None
+[2022-08-16 08:27:13,341] {process_utils.py:75} INFO - Process psutil.Process(pid=4949, status='terminated', started='08:26:57') (4949) terminated with exit code None
+[2022-08-16 08:27:13,341] {process_utils.py:75} INFO - Process psutil.Process(pid=2391, status='terminated', started='08:24:27') (2391) terminated with exit code None
+[2022-08-16 08:27:13,341] {process_utils.py:75} INFO - Process psutil.Process(pid=2225, status='terminated', started='08:24:27') (2225) terminated with exit code None
