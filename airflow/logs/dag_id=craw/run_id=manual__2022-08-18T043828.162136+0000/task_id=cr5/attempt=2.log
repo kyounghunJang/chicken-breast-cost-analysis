@@ -1,0 +1,47 @@
+[2022-08-18 05:40:02,907] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr5 manual__2022-08-18T04:38:28.162136+00:00 [queued]>
+[2022-08-18 05:40:03,242] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr5 manual__2022-08-18T04:38:28.162136+00:00 [queued]>
+[2022-08-18 05:40:03,263] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 05:40:03,277] {taskinstance.py:1377} INFO - Starting attempt 2 of 2
+[2022-08-18 05:40:03,431] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 05:40:03,706] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr5> on 2022-08-18 04:38:28.162136+00:00
+[2022-08-18 05:40:04,126] {standard_task_runner.py:52} INFO - Started process 110 to run task
+[2022-08-18 05:40:05,141] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr5', 'manual__2022-08-18T04:38:28.162136+00:00', '--job-id', '213', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmpy2o1umi1', '--error-file', '/tmp/tmpe2va95r8']
+[2022-08-18 05:40:05,326] {standard_task_runner.py:80} INFO - Job 213: Subtask cr5
+[2022-08-18 05:40:09,532] {task_command.py:371} INFO - Running <TaskInstance: craw.cr5 manual__2022-08-18T04:38:28.162136+00:00 [running]> on host 94a850521595
+[2022-08-18 05:40:12,047] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr5
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T04:38:28.162136+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-18T04:38:28.162136+00:00
+[2022-08-18 05:40:22,579] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-18 05:40:22,628] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-18 05:40:25,091] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-18 05:40:27,367] {logger.py:11} INFO - There is no [linux64] chromedriver for browser 104.0.5112 in cache
+[2022-08-18 05:40:27,369] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip
+[2022-08-18 05:40:55,660] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112]
+[2022-08-18 05:42:15,854] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2992245/29922458618.20220303175959.jpg?type=f140 앱코 K840 스퀘어 레트로 축교환 기계식 키보드 47,900원 
+[2022-08-18 05:42:39,667] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2013869/20138695528.20220610100245.jpg?type=f140 한성컴퓨터 GK898B OfficeMaster 한글 159,000원 
+[2022-08-18 05:43:04,321] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1182593/11825933324.20210720140537.jpg?type=f140 한성컴퓨터 Gtune MKF30S Rainbow 37,900원 
+[2022-08-18 05:43:30,514] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2750214/27502145524.20210610145407.jpg?type=f140 한성컴퓨터 BK330 멀티페어링 블루투스 키보드 24,651원 
+[2022-08-18 05:43:55,911] {logging_mixin.py:115} INFO - https://searchad-phinf.pstatic.net/MjAyMTA3MDhfMTI5/MDAxNjI1NzAzNzE0MjUw.-Ifz0R9WPPYV60WN93ZMCvsonrDeRIxz2Kbhv8Lqqukg.EXOFH9NT2Vp6FiWJ8QkfCfpPA3gMGyQzsuMwrQhWLEEg.PNG/1871830-ebb23725-6adb-44ea-9ce7-8903a302c74f.png?type=f200 티앤에스인터내셔널 VALKAN CK 69,800원 
+[2022-08-18 05:44:02,127] {logging_mixin.py:115} INFO - 1
+[2022-08-18 05:44:29,843] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2183882/21838827773.20200129100927.jpg?type=f140 앱코 K611 텐키리스 카일광축 완전방수 축교환 게이밍 키보드 39,900원 
+[2022-08-18 05:44:55,953] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2623425/26234257523.20210304112105.jpg?type=f140 COX CK87 레드/그레이 게이트론 LED 게이밍 기계식 39,900원 
+[2022-08-18 05:45:21,439] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1727840/17278403481.20190130110759.jpg?type=f140 COX 엠프리스 RGB PBT 완전방수 무접점 키보드 180,000원 
+[2022-08-18 05:45:46,584] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2882837/28828377586.20210913174140.jpg?type=f140 앱코 KN01C 텐키리스 PBT 무접점 키보드 150,000원 
+[2022-08-18 05:46:17,135] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3306257/33062571618.20220621154022.jpg?type=f140 로지텍 SIGNATURE K855 99,000원 
+[2022-08-18 05:46:23,262] {logging_mixin.py:115} INFO - 2
+[2022-08-18 05:47:02,183] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2992245/29922458618.20220303175959.jpg?type=f140 앱코 K840 스퀘어 레트로 축교환 기계식 키보드 47,900원 
+[2022-08-18 05:47:33,747] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2013869/20138695528.20220610100245.jpg?type=f140 한성컴퓨터 GK898B OfficeMaster 한글 159,000원 
+[2022-08-18 05:47:58,724] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1182593/11825933324.20210720140537.jpg?type=f140 한성컴퓨터 Gtune MKF30S Rainbow 37,900원 
+[2022-08-18 05:48:22,644] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2750214/27502145524.20210610145407.jpg?type=f140 한성컴퓨터 BK330 멀티페어링 블루투스 키보드 24,651원 
+[2022-08-18 05:48:48,749] {logging_mixin.py:115} INFO - https://searchad-phinf.pstatic.net/MjAyMTA3MDhfMTI5/MDAxNjI1NzAzNzE0MjUw.-Ifz0R9WPPYV60WN93ZMCvsonrDeRIxz2Kbhv8Lqqukg.EXOFH9NT2Vp6FiWJ8QkfCfpPA3gMGyQzsuMwrQhWLEEg.PNG/1871830-ebb23725-6adb-44ea-9ce7-8903a302c74f.png?type=f200 티앤에스인터내셔널 VALKAN CK 69,800원 
+[2022-08-18 05:48:57,628] {logging_mixin.py:115} INFO - 3
+[2022-08-18 05:48:58,028] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-18 05:48:58,670] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=craw, task_id=cr5, execution_date=20220818T043828, start_date=20220818T054002, end_date=20220818T054858
+[2022-08-18 05:49:00,427] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-18 05:49:01,653] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

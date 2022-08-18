@@ -1,0 +1,38 @@
+[2022-08-18 04:31:03,772] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr4 manual__2022-08-18T04:30:44.966863+00:00 [queued]>
+[2022-08-18 04:31:03,886] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr4 manual__2022-08-18T04:30:44.966863+00:00 [queued]>
+[2022-08-18 04:31:03,928] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 04:31:03,987] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-18 04:31:03,989] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 04:31:04,649] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr4> on 2022-08-18 04:30:44.966863+00:00
+[2022-08-18 04:31:04,940] {standard_task_runner.py:52} INFO - Started process 438 to run task
+[2022-08-18 04:31:05,016] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr4', 'manual__2022-08-18T04:30:44.966863+00:00', '--job-id', '164', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmpimpfxf1_', '--error-file', '/tmp/tmphmwxit9s']
+[2022-08-18 04:31:05,065] {standard_task_runner.py:80} INFO - Job 164: Subtask cr4
+[2022-08-18 04:31:05,747] {task_command.py:371} INFO - Running <TaskInstance: craw.cr4 manual__2022-08-18T04:30:44.966863+00:00 [running]> on host d59619969b18
+[2022-08-18 04:31:06,777] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr4
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T04:30:44.966863+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-18T04:30:44.966863+00:00
+[2022-08-18 04:31:20,479] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/newtest.py", line 40, in crawling
+    conn= mysql_hook.get_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/mysql/hooks/mysql.py", line 158, in get_conn
+    conn = self.connection or self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `mysql` isn't defined
+[2022-08-18 04:31:20,549] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=craw, task_id=cr4, execution_date=20220818T043044, start_date=20220818T043103, end_date=20220818T043120
+[2022-08-18 04:31:20,638] {standard_task_runner.py:97} ERROR - Failed to execute job 164 for task cr4 (The conn_id `mysql` isn't defined; 438)
+[2022-08-18 04:31:20,753] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-18 04:31:21,229] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

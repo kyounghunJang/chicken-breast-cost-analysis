@@ -1,0 +1,122 @@
+[2022-08-18 05:55:23,508] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.db manual__2022-08-18T04:38:28.162136+00:00 [queued]>
+[2022-08-18 05:55:23,576] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.db manual__2022-08-18T04:38:28.162136+00:00 [queued]>
+[2022-08-18 05:55:23,596] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 05:55:23,601] {taskinstance.py:1377} INFO - Starting attempt 6 of 7
+[2022-08-18 05:55:23,604] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 05:55:23,656] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): db> on 2022-08-18 04:38:28.162136+00:00
+[2022-08-18 05:55:23,669] {standard_task_runner.py:52} INFO - Started process 3563 to run task
+[2022-08-18 05:55:23,678] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'db', 'manual__2022-08-18T04:38:28.162136+00:00', '--job-id', '221', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmpst6vlwxm', '--error-file', '/tmp/tmp7tili8bd']
+[2022-08-18 05:55:23,684] {standard_task_runner.py:80} INFO - Job 221: Subtask db
+[2022-08-18 05:55:24,057] {task_command.py:371} INFO - Running <TaskInstance: craw.db manual__2022-08-18T04:38:28.162136+00:00 [running]> on host 94a850521595
+[2022-08-18 05:55:24,412] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=db
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T04:38:28.162136+00:00
+AIRFLOW_CTX_TRY_NUMBER=6
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-18T04:38:28.162136+00:00
+[2022-08-18 05:55:24,434] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-18 05:55:24,453] {logging_mixin.py:115} INFO - ((b'https://searchad-phinf.pstatic.net/MjAyMTEyMjFfMjgx/MDAxNjQwMDU2Njc2NjUy.Ob1_cxGTyqNiAIztA-Go5XzACCOEMTzg8KsXQBHAy9Ug.WLbtKsrkcXNkN2TdF96V2tP5GJs-W36zVQAB5pYADkEg.PNG/1871830-d9c5ef97-322f-4073-874e-584610ec51b1.png?type=f200', '티앤에스인터내셔널 VALKAN 게이밍 키보드', '64,400원', ''), (b'https://shopping-phinf.pstatic.net/main_2089989/20899895174.20190918142705.jpg?type=f140', '로지텍 MX KEYS', '104,100원', ''), (b'https://shopping-phinf.pstatic.net/main_2992245/29922458618.20220303175959.jpg?type=f140', '앱코 K840 스퀘어 레트로 축교환 기계식 키보드', '47,900원', ''), (b'https://searchad-phinf.pstatic.net/MjAyMTA3MDhfMTI5/MDAxNjI1NzAzNzE0MjUw.-Ifz0R9WPPYV60WN93ZMCvsonrDeRIxz2Kbhv8Lqqukg.EXOFH9NT2Vp6FiWJ8QkfCfpPA3gMGyQzsuMwrQhWLEEg.PNG/1871830-ebb23725-6adb-44ea-9ce7-8903a302c74f.png?type=f200', '티앤에스인터내셔널 VALKAN CK', '69,800원', ''), (b'https://shopping-phinf.pstatic.net/main_3306257/33062571618.20220621154022.jpg?type=f140', '로지텍 SIGNATURE K855', '99,000원', ''), (b'https://shopping-phinf.pstatic.net/main_2013869/20138695528.20220610100245.jpg?type=f140', '한성컴퓨터 GK898B OfficeMaster 한글', '159,000원', ''), (b'https://shopping-phinf.pstatic.net/main_2542619/25426193523.20210810113354.jpg?type=f140', '제닉스 스톰체이서LT 게이밍 기계식키보드', '38,990원', ''), (b'https://shopping-phinf.pstatic.net/main_2196898/21968983050.20220603104329.jpg?type=f140', '스틸시리즈 Apex 3', '89,000원', ''), (b'https://shopping-phinf.pstatic.net/main_1182593/11825933324.20210720140537.jpg?type=f140', '한성컴퓨터 Gtune MKF30S Rainbow', '37,900원', ''), (b'https://shopping-phinf.pstatic.net/main_8974763/8974763652.20210528111410.jpg?type=f140', '로지텍 멀티 디바이스 블루투스 키보드 K380', '26,890원', ''), (b'https://shopping-phinf.pstatic.net/main_2076858/20768586850.20220801104235.jpg?type=f140', '한성컴퓨터 GK893B SPORTS 한글', '149,000원', ''), (b'https://shopping-phinf.pstatic.net/main_2750214/27502145524.20210610145407.jpg?type=f140', '한성컴퓨터 BK330 멀티페어링 블루투스 키보드', '24,651원', ''), (b'https://shopping-phinf.pstatic.net/main_6215720/6215720682.20210618152141.jpg?type=f140', '로지텍 K120 NEW Keyboard (정품)', '9,050원', ''), (b'https://shopping-phinf.pstatic.net/main_2542569/25425695528.20210810113500.jpg?type=f140', '제닉스 스톰체이서LT 텐키리스 게이밍 기계식키보드', '39,000원', ''), (b'https://shopping-phinf.pstatic.net/main_2674213/26742135522.20210413104258.jpg?type=f140', '브리츠 BA-BK10 Plus', '66,231원', ''), (b'https://shopping-phinf.pstatic.net/main_1885937/18859377233.20200310173217.jpg?type=f140', '커세어 K70 RGB MK.2 게이밍 기계식 키보드', '176,500원', ''), (b'https://shopping-phinf.pstatic.net/main_2960575/29605751618.20220324110136.jpg?type=f140', '로이체 RK-3700', '32,900원', ''), (b'https://shopping-phinf.pstatic.net/main_2183882/21838827773.20200129100927.jpg?type=f140', '앱코 K611 텐키리스 카일광축 완전방수 축교환 게이밍 키보드', '39,900원', ''), (b'https://shopping-phinf.pstatic.net/main_3184009/31840094624.20220415152040.jpg?type=f140', '상도아이앤티 애니존 ABT50', '16,890원', ''), (b'https://shopping-phinf.pstatic.net/main_1013013/10130132704.20201113142036.jpg?type=f140', '비프렌드 G-MASTER 레인보우 이중사출 청축', '39,500원', ''), (b'https://shopping-phinf.pstatic.net/main_1476185/14761858336.20220714135728.jpg?type=f140', 'COX CK420 교체축 레인보우 LED 게이밍 기계식 키보드', '35,400원', ''), (b'https://shopping-phinf.pstatic.net/main_2992245/29922458618.20220303175959.jpg?type=f140', '앱코 K840 스퀘어 레트로 축교환 기계식 키보드', '47,900원', ''), (b'https://shopping-phinf.pstatic.net/main_1214685/12146852973.20220714135921.jpg?type=f140', '앱코 K660 축교환 완전방수 게이밍 카일광축 레인보우LED', '53,500원', ''), (b'https://searchad-phinf.pstatic.net/MjAyMTEyMjFfMjgx/MDAxNjQwMDU2Njc2NjUy.Ob1_cxGTyqNiAIztA-Go5XzACCOEMTzg8KsXQBHAy9Ug.WLbtKsrkcXNkN2TdF96V2tP5GJs-W36zVQAB5pYADkEg.PNG/1871830-d9c5ef97-322f-4073-874e-584610ec51b1.png?type=f200', '티앤에스인터내셔널 VALKAN 게이밍 키보드', '64,400원', ''), (b'https://shopping-phinf.pstatic.net/main_2674213/26742135522.20210413104258.jpg?type=f140', '브리츠 BA-BK10 Plus', '66,231원', ''), (b'https://shopping-phinf.pstatic.net/main_2753224/27532247522.20210611095711.jpg?type=f140', 'COX CK01 TKL 기계식 텐키리스 게이밍 키보드', '30,380원', ''), (b'https://shopping-phinf.pstatic.net/main_2013869/20138695528.20220610100245.jpg?type=f140', '한성컴퓨터 GK898B OfficeMaster 한글', '159,000원', ''), (b'https://shopping-phinf.pstatic.net/main_2332149/23321490490.20200701181358.jpg?type=f140', 'COX CK01 PBT', '43,900원', ''), (b'https://shopping-phinf.pstatic.net/main_1531030/15310309538.20200403164240.jpg?type=f140', '비프렌드 G키보드2 프리미엄 레인보우', '21,900원', ''), (b'https://shopping-phinf.pstatic.net/main_2127856/21278561324.20200306144241.jpg?type=f140', '마이크로닉스 MANIC X50 4세대 광축 완전방수 PBT 게이밍 키보드', '59,630원', ''), (b'https://shopping-phinf.pstatic.net/main_2076858/20768586850.20220801104235.jpg?type=f140', '한성컴퓨터 GK893B SPORTS 한글', '149,000원', ''), (b'https://shopping-phinf.pstatic.net/main_1182593/11825933324.20210720140537.jpg?type=f140', '한성컴퓨터 Gtune MKF30S Rainbow', '37,900원', ''), (b'https://shopping-phinf.pstatic.net/main_3086062/30860624618.20220209092012.jpg?type=f140', '한성컴퓨터 GK200 RAINBOW 게이밍 기계식 키보드', '36,900원', ''), (b'https://shopping-phinf.pstatic.net/main_8974763/8974763652.20210528111410.jpg?type=f140', '로지텍 멀티 디바이스 블루투스 키보드 K380', '26,800원', ''), (b'https://shopping-phinf.pstatic.net/main_2922743/29227436619.20211014105845.jpg?type=f140', '마이크로닉스 MANIC EX580 광축 크리스탈 게이밍 키보드', '66,900원', ''), (b'https://shopping-phinf.pstatic.net/main_6215720/6215720682.20210618152141.jpg?type=f140', '로지텍 K120 NEW Keyboard (정품)', '9,050원', ''), (b'https://shopping-phinf.pstatic.net/main_2750214/27502145524.20210610145407.jpg?type=f140', '한성컴퓨터 BK330 멀티페어링 블루투스 키보드', '24,651원', ''), (b'https://shopping-phinf.pstatic.net/main_2061262/20612627710.20191022173313.jpg?type=f140', '마이크로닉스 MANIC X30 마닉축 기계식 키보드', '33,900원', ''), (b'https://shopping-phinf.pstatic.net/main_2674213/26742135522.20210413104258.jpg?type=f140', '브리츠 BA-BK10 Plus', '66,231원', ''), (b'https://shopping-phinf.pstatic.net/main_1941158/19411580916.20190522163521.jpg?type=f140', 'COX CK87 게이트론 LED 게이밍 기계식', '39,900원', ''), (b'https://shopping-phinf.pstatic.net/main_1885937/18859377233.20200310173217.jpg?type=f140', '커세어 K70 RGB MK.2 게이밍 기계식 키보드', '176,500원', ''), (b'https://searchad-phinf.pstatic.net/MjAyMTA3MDhfMTI5/MDAxNjI1NzAzNzE0MjUw.-Ifz0R9WPPYV60WN93ZMCvsonrDeRIxz2Kbhv8Lqqukg.EXOFH9NT2Vp6FiWJ8QkfCfpPA3gMGyQzsuMwrQhWLEEg.PNG/1871830-ebb23725-6adb-44ea-9ce7-8903a302c74f.png?type=f200', '티앤에스인터내셔널 VALKAN CK', '69,800원', ''), (b'https://shopping-phinf.pstatic.net/main_2158566/21585664463.20191225114207.jpg?type=f140', 'HP GK400F LED 게이밍 기계식 키보드', '25,900원', ''), (b'https://shopping-phinf.pstatic.net/main_3261327/32613276618.20220701094114.jpg?type=f140', '몬스타기어 Melgeek Mojo68 Plastic', '280,000원', ''), (b'https://shopping-phinf.pstatic.net/main_1960150/19601508032.20190603154336.jpg?type=f140', 'COX CK108 레드/다크그레이 게이트론 LED 게이밍 기계식 키보드', '49,900원', ''), (b'https://shopping-phinf.pstatic.net/main_2604016/26040163522.20210218152623.jpg?type=f140', '로이체 KT5 PRO', '17,900원', ''), (b'https://shopping-phinf.pstatic.net/main_2183882/21838827773.20200129100927.jpg?type=f140', '앱코 K611 텐키리스 카일광축 완전방수 축교환 게이밍 키보드', '39,900원', ''), (b'https://shopping-phinf.pstatic.net/main_3048826/30488263622.20220110170830.jpg?type=f140', '로지텍 MX KEYS MINI', '113,800원', ''), (b'https://shopping-phinf.pstatic.net/main_3192946/31929464618.20220425134819.jpg?type=f140', '몬스타기어 미니키PRO RGB 유무선 기계식 키보드', '59,800원', ''), (b'https://shopping-phinf.pstatic.net/main_1071478/10714780944.20161201110333.jpg?type=f140', '로지텍 멀티 디바이스 블루투스 키보드 K375S', '27,070원', ''), (b'https://shopping-phinf.pstatic.net/main_2556897/25568974522.20220525173047.jpg?type=f140', '레드빈 트리플 멀티페어링 블루투스 저소음 무선키보드 A19K', '36,900원', ''), (b'https://shopping-phinf.pstatic.net/main_2623425/26234257523.20210304112105.jpg?type=f140', 'COX CK87 레드/그레이 게이트론 LED 게이밍 기계식', '39,900원', ''), (b'https://shopping-phinf.pstatic.net/main_1885837/18858375172.20191231161436.jpg?type=f140', '아이락스 KR-6170 X-Slim', '30,500원', ''), (b'https://shopping-phinf.pstatic.net/main_5771083/5771083042.20120211203217.jpg?type=f140', '로지텍 K270 Wireless Keyboard', '21,570원', ''), (b'https://shopping-phinf.pstatic.net/main_2286685/22866854426.20201208143538.jpg?type=f140', 'CHERRY MX BOARD 3.0S RGB', '138,830원', ''), (b'https://shopping-phinf.pstatic.net/main_1573114/15731149924.20181018143102.jpg?type=f140', 'QSENN ARES Q34 LED 게이밍 기계식 한손 키보드', '22,900원', ''), (b'https://shopping-phinf.pstatic.net/main_1727840/17278403481.20190130110759.jpg?type=f140', 'COX 엠프리스 RGB PBT 완전방수 무접점 키보드', '180,000원', ''), (b'https://shopping-phinf.pstatic.net/main_2278290/22782906567.20200507231953.jpg?type=f140', 'COX CK01', '29,900원', ''), (b'https://shopping-phinf.pstatic.net/main_3184009/31840094624.20220415152040.jpg?type=f140', '상도아이앤티 애니존 ABT50', '16,890원', ''), (b'https://shopping-phinf.pstatic.net/main_9303887/9303887003.20210618163542.jpg?type=f140', '제닉스 STORMX TITAN SE 게이밍 키보드', '27,850원', ''), (b'https://shopping-phinf.pstatic.net/main_1182045/11820457775.20211206152108.jpg?type=f140', '삼성전자 삼성 SKG-3000UB', '14,751원', ''), (b'https://shopping-phinf.pstatic.net/main_2556452/25564526522.20210112094934.jpg?type=f140', 'archon K75 유/무선 기계식 키보드', '77,640원', ''), (b'https://shopping-phinf.pstatic.net/main_2882837/28828377586.20210913174140.jpg?type=f140', '앱코 KN01C 텐키리스 PBT 무접점 키보드', '150,000원', ''), (b'https://searchad-phinf.pstatic.net/MjAyMTEyMjFfMjgx/MDAxNjQwMDU2Njc2NjUy.Ob1_cxGTyqNiAIztA-Go5XzACCOEMTzg8KsXQBHAy9Ug.WLbtKsrkcXNkN2TdF96V2tP5GJs-W36zVQAB5pYADkEg.PNG/1871830-d9c5ef97-322f-4073-874e-584610ec51b1.png?type=f200', '티앤에스인터내셔널 VALKAN 게이밍 키보드', '64,400원', ''), (b'https://shopping-phinf.pstatic.net/main_3306257/33062571618.20220621154022.jpg?type=f140', '로지텍 SIGNATURE K855', '99,000원', ''), (b'https://shopping-phinf.pstatic.net/main_2858803/28588033554.20211029114854.jpg?type=f140', 'QSENN K1000 멤브레인 무선 키보드', '9,800원', ''), (b'https://shopping-phinf.pstatic.net/main_1490512/14905121847.20180727112553.jpg?type=f140', '맥스틸 TRON G610K V2', '39,610원', ''), (b'https://shopping-phinf.pstatic.net/main_2678593/26785933523.20210416110923.jpg?type=f140', '커세어 K70 RGB TKL 게이밍 키보드 한글판', '179,000원', ''), (b'https://shopping-phinf.pstatic.net/main_1531030/15310309538.20200403164240.jpg?type=f140', '비프렌드 G키보드2 프리미엄 레인보우', '21,900원', ''), (b'https://shopping-phinf.pstatic.net/main_1013013/10130132704.20201113142036.jpg?type=f140', '비프렌드 G-MASTER 레인보우 이중사출 청축', '39,500원', ''), (b'https://shopping-phinf.pstatic.net/main_2992245/29922458618.20220303175959.jpg?type=f140', '앱코 K840 스퀘어 레트로 축교환 기계식 키보드', '47,900원', ''), (b'https://shopping-phinf.pstatic.net/main_1476185/14761858336.20220714135728.jpg?type=f140', 'COX CK420 교체축 레인보우 LED 게이밍 기계식 키보드', '35,400원', ''), (b'https://shopping-phinf.pstatic.net/main_8974763/8974763652.20210528111410.jpg?type=f140', '로지텍 멀티 디바이스 블루투스 키보드 K380', '26,800원', ''), (b'https://shopping-phinf.pstatic.net/main_1214685/12146852973.20220714135921.jpg?type=f140', '앱코 K660 축교환 완전방수 게이밍 카일광축 레인보우LED', '53,500원', ''), (b'https://shopping-phinf.pstatic.net/main_2674213/26742135522.20210413104258.jpg?type=f140', '브리츠 BA-BK10 Plus', '66,231원', ''), (b'https://shopping-phinf.pstatic.net/main_2013869/20138695528.20220610100245.jpg?type=f140', '한성컴퓨터 GK898B OfficeMaster 한글', '159,000원', ''), (b'https://shopping-phinf.pstatic.net/main_2753224/27532247522.20210611095711.jpg?type=f140', 'COX CK01 TKL 기계식 텐키리스 게이밍 키보드', '30,380원', ''), (b'https://shopping-phinf.pstatic.net/main_2332149/23321490490.20200701181358.jpg?type=f140', 'COX CK01 PBT', '43,900원', ''), (b'https://shopping-phinf.pstatic.net/main_2076858/20768586850.20220801104235.jpg?type=f140', '한성컴퓨터 GK893B SPORTS 한글', '149,000원', ''), (b'https://shopping-phinf.pstatic.net/main_1182593/11825933324.20210720140537.jpg?type=f140', '한성컴퓨터 Gtune MKF30S Rainbow', '37,900원', ''), (b'https://shopping-phinf.pstatic.net/main_2127856/21278561324.20200306144241.jpg?type=f140', '마이크로닉스 MANIC X50 4세대 광축 완전방수 PBT 게이밍 키보드', '59,630원', ''), (b'https://shopping-phinf.pstatic.net/main_3086062/30860624618.20220209092012.jpg?type=f140', '한성컴퓨터 GK200 RAINBOW 게이밍 기계식 키보드', '36,900원', ''), (b'https://shopping-phinf.pstatic.net/main_6215720/6215720682.20210618152141.jpg?type=f140', '로지텍 K120 NEW Keyboard (정품)', '9,050원', ''), (b'https://shopping-phinf.pstatic.net/main_2750214/27502145524.20210610145407.jpg?type=f140', '한성컴퓨터 BK330 멀티페어링 블루투스 키보드', '24,651원', ''), (b'https://shopping-phinf.pstatic.net/main_2922743/29227436619.20211014105845.jpg?type=f140', '마이크로닉스 MANIC EX580 광축 크리스탈 게이밍 키보드', '66,900원', ''), (b'https://shopping-phinf.pstatic.net/main_2061262/20612627710.20191022173313.jpg?type=f140', '마이크로닉스 MANIC X30 마닉축 기계식 키보드', '33,900원', ''), (b'https://shopping-phinf.pstatic.net/main_1885937/18859377233.20200310173217.jpg?type=f140', '커세어 K70 RGB MK.2 게이밍 기계식 키보드', '176,500원', ''), (b'https://searchad-phinf.pstatic.net/MjAyMTA3MDhfMTI5/MDAxNjI1NzAzNzE0MjUw.-Ifz0R9WPPYV60WN93ZMCvsonrDeRIxz2Kbhv8Lqqukg.EXOFH9NT2Vp6FiWJ8QkfCfpPA3gMGyQzsuMwrQhWLEEg.PNG/1871830-ebb23725-6adb-44ea-9ce7-8903a302c74f.png?type=f200', '티앤에스인터내셔널 VALKAN CK', '69,800원', ''), (b'https://shopping-phinf.pstatic.net/main_1941158/19411580916.20190522163521.jpg?type=f140', 'COX CK87 게이트론 LED 게이밍 기계식', '39,900원', ''), (b'https://shopping-phinf.pstatic.net/main_2158566/21585664463.20191225114207.jpg?type=f140', 'HP GK400F LED 게이밍 기계식 키보드', '25,900원', ''))
+[2022-08-18 05:55:26,020] {taskinstance.py:1173} INFO - Dependencies not met for <TaskInstance: craw.db manual__2022-08-18T04:38:28.162136+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2022-08-18 05:55:26,051] {taskinstance.py:1173} INFO - Dependencies not met for <TaskInstance: craw.db manual__2022-08-18T04:38:28.162136+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2022-08-18 05:55:26,054] {local_task_job.py:101} INFO - Task is not able to be run
+[2022-08-18 05:55:37,141] {logging_mixin.py:115} WARNING - Traceback (most recent call last):
+[2022-08-18 05:55:37,142] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/pyspark/serializers.py", line 458, in dumps
+    return cloudpickle.dumps(obj, pickle_protocol)
+[2022-08-18 05:55:37,143] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/pyspark/cloudpickle/cloudpickle_fast.py", line 102, in dumps
+    cp.dump(obj)
+[2022-08-18 05:55:37,143] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/pyspark/cloudpickle/cloudpickle_fast.py", line 602, in dump
+    return Pickler.dump(self, obj)
+[2022-08-18 05:55:37,144] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/pickle.py", line 437, in dump
+    self.save(obj)
+[2022-08-18 05:55:37,144] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+[2022-08-18 05:55:37,144] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/pickle.py", line 789, in save_tuple
+    save(element)
+[2022-08-18 05:55:37,145] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+[2022-08-18 05:55:37,145] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/pyspark/cloudpickle/cloudpickle_fast.py", line 784, in save_function
+    *self._dynamic_function_reduce(obj), obj=obj
+[2022-08-18 05:55:37,146] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/pyspark/cloudpickle/cloudpickle_fast.py", line 721, in _save_reduce_pickle5
+    dictitems=dictitems, obj=obj
+[2022-08-18 05:55:37,146] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/pickle.py", line 638, in save_reduce
+    save(args)
+[2022-08-18 05:55:37,147] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+[2022-08-18 05:55:37,147] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/pickle.py", line 789, in save_tuple
+    save(element)
+[2022-08-18 05:55:37,148] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+[2022-08-18 05:55:37,148] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/pickle.py", line 774, in save_tuple
+    save(element)
+[2022-08-18 05:55:37,148] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+[2022-08-18 05:55:37,149] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/dill/_dill.py", line 1146, in save_cell
+    f = obj.cell_contents
+[2022-08-18 05:55:37,149] {logging_mixin.py:115} WARNING - ValueError: Cell is empty
+[2022-08-18 05:55:37,150] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/serializers.py", line 458, in dumps
+    return cloudpickle.dumps(obj, pickle_protocol)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/cloudpickle/cloudpickle_fast.py", line 102, in dumps
+    cp.dump(obj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/cloudpickle/cloudpickle_fast.py", line 602, in dump
+    return Pickler.dump(self, obj)
+  File "/usr/local/lib/python3.7/pickle.py", line 437, in dump
+    self.save(obj)
+  File "/usr/local/lib/python3.7/pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "/usr/local/lib/python3.7/pickle.py", line 789, in save_tuple
+    save(element)
+  File "/usr/local/lib/python3.7/pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/cloudpickle/cloudpickle_fast.py", line 784, in save_function
+    *self._dynamic_function_reduce(obj), obj=obj
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/cloudpickle/cloudpickle_fast.py", line 721, in _save_reduce_pickle5
+    dictitems=dictitems, obj=obj
+  File "/usr/local/lib/python3.7/pickle.py", line 638, in save_reduce
+    save(args)
+  File "/usr/local/lib/python3.7/pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "/usr/local/lib/python3.7/pickle.py", line 789, in save_tuple
+    save(element)
+  File "/usr/local/lib/python3.7/pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "/usr/local/lib/python3.7/pickle.py", line 774, in save_tuple
+    save(element)
+  File "/usr/local/lib/python3.7/pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "/home/airflow/.local/lib/python3.7/site-packages/dill/_dill.py", line 1146, in save_cell
+    f = obj.cell_contents
+ValueError: Cell is empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/newtest.py", line 122, in totaldb
+    df=spark.createDataFrame(data, dataColumns)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 895, in createDataFrame
+    data, schema, samplingRatio, verifySchema  # type: ignore[arg-type]
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 938, in _create_dataframe
+    jrdd = self._jvm.SerDeUtil.toJavaArray(rdd._to_java_object_rdd())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/rdd.py", line 3113, in _to_java_object_rdd
+    return self.ctx._jvm.SerDeUtil.pythonToJava(rdd._jrdd, True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/rdd.py", line 3506, in _jrdd
+    self.ctx, self.func, self._prev_jrdd_deserializer, self._jrdd_deserializer, profiler
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/rdd.py", line 3362, in _wrap_function
+    pickled_command, broadcast_vars, env, includes = _prepare_for_python_RDD(sc, command)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/rdd.py", line 3345, in _prepare_for_python_RDD
+    pickled_command = ser.dumps(command)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/serializers.py", line 468, in dumps
+    raise pickle.PicklingError(msg)
+_pickle.PicklingError: Could not serialize object: ValueError: Cell is empty
+[2022-08-18 05:55:37,173] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=craw, task_id=db, execution_date=20220818T043828, start_date=20220818T055523, end_date=20220818T055537
+[2022-08-18 05:55:37,199] {standard_task_runner.py:97} ERROR - Failed to execute job 221 for task db (Could not serialize object: ValueError: Cell is empty; 3563)
+[2022-08-18 05:55:37,220] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-18 05:55:37,282] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

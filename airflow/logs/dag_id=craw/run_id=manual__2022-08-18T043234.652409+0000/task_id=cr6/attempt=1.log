@@ -1,0 +1,45 @@
+[2022-08-18 04:32:41,278] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr6 manual__2022-08-18T04:32:34.652409+00:00 [queued]>
+[2022-08-18 04:32:41,367] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr6 manual__2022-08-18T04:32:34.652409+00:00 [queued]>
+[2022-08-18 04:32:41,368] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 04:32:41,369] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-18 04:32:41,370] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 04:32:41,490] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr6> on 2022-08-18 04:32:34.652409+00:00
+[2022-08-18 04:32:41,518] {standard_task_runner.py:52} INFO - Started process 529 to run task
+[2022-08-18 04:32:41,539] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr6', 'manual__2022-08-18T04:32:34.652409+00:00', '--job-id', '172', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmpn83cmeby', '--error-file', '/tmp/tmp3z6dvfor']
+[2022-08-18 04:32:41,554] {standard_task_runner.py:80} INFO - Job 172: Subtask cr6
+[2022-08-18 04:32:42,785] {task_command.py:371} INFO - Running <TaskInstance: craw.cr6 manual__2022-08-18T04:32:34.652409+00:00 [running]> on host d59619969b18
+[2022-08-18 04:32:46,342] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr6
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T04:32:34.652409+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-18T04:32:34.652409+00:00
+[2022-08-18 04:32:46,400] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-18 04:32:46,418] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-18 04:32:47,179] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-18 04:32:51,897] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip
+[2022-08-18 04:34:18,623] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112]
+[2022-08-18 04:35:11,933] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3306257/33062571618.20220621154022.jpg?type=f140 로지텍 SIGNATURE K855 99,000원 
+[2022-08-18 04:35:35,728] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2196898/21968983050.20220603104329.jpg?type=f140 스틸시리즈 Apex 3 89,000원 
+[2022-08-18 04:36:00,100] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2076858/20768586850.20220801104235.jpg?type=f140 한성컴퓨터 GK893B SPORTS 한글 149,000원 
+[2022-08-18 04:36:24,150] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_6215720/6215720682.20210618152141.jpg?type=f140 로지텍 K120 NEW Keyboard (정품) 9,050원 
+[2022-08-18 04:36:47,877] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1885937/18859377233.20200310173217.jpg?type=f140 커세어 K70 RGB MK.2 게이밍 기계식 키보드 176,500원 
+[2022-08-18 04:36:53,317] {logging_mixin.py:115} INFO - 1
+[2022-08-18 04:37:19,282] {local_task_job.py:221} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-08-18 04:37:19,571] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 529. PIDs of all processes in the group: [1299, 1305, 1309, 1310, 1316, 1317, 1332, 1376, 1968, 1331, 529]
+[2022-08-18 04:37:19,615] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 529
+[2022-08-18 04:37:19,736] {taskinstance.py:1561} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-08-18 04:37:19,910] {process_utils.py:75} INFO - Process psutil.Process(pid=1316, status='terminated', started='04:34:18') (1316) terminated with exit code None
+[2022-08-18 04:37:20,125] {process_utils.py:75} INFO - Process psutil.Process(pid=1317, status='terminated', started='04:34:18') (1317) terminated with exit code None
+[2022-08-18 04:37:20,126] {process_utils.py:75} INFO - Process psutil.Process(pid=1309, status='terminated', started='04:34:18') (1309) terminated with exit code None
+[2022-08-18 04:37:20,128] {process_utils.py:75} INFO - Process psutil.Process(pid=1332, status='terminated', started='04:34:18') (1332) terminated with exit code None
+[2022-08-18 04:37:20,130] {process_utils.py:75} INFO - Process psutil.Process(pid=1376, status='terminated', started='04:34:19') (1376) terminated with exit code None
+[2022-08-18 04:37:20,131] {process_utils.py:75} INFO - Process psutil.Process(pid=1310, status='terminated', started='04:34:18') (1310) terminated with exit code None
+[2022-08-18 04:37:20,133] {process_utils.py:75} INFO - Process psutil.Process(pid=1331, status='terminated', started='04:34:18') (1331) terminated with exit code None
+[2022-08-18 04:37:20,135] {process_utils.py:75} INFO - Process psutil.Process(pid=1968, status='terminated', started='04:37:00') (1968) terminated with exit code None
+[2022-08-18 04:37:20,137] {process_utils.py:75} INFO - Process psutil.Process(pid=1305, status='terminated', started='04:34:18') (1305) terminated with exit code None
+[2022-08-18 04:37:21,666] {process_utils.py:75} INFO - Process psutil.Process(pid=1299, status='terminated', started='04:34:17') (1299) terminated with exit code None
+[2022-08-18 04:37:21,924] {process_utils.py:75} INFO - Process psutil.Process(pid=529, status='terminated', exitcode=0, started='04:32:40') (529) terminated with exit code 0

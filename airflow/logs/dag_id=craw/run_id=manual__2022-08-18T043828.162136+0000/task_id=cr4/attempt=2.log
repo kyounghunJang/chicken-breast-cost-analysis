@@ -1,0 +1,51 @@
+[2022-08-18 05:40:01,875] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr4 manual__2022-08-18T04:38:28.162136+00:00 [queued]>
+[2022-08-18 05:40:02,454] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr4 manual__2022-08-18T04:38:28.162136+00:00 [queued]>
+[2022-08-18 05:40:02,462] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 05:40:02,473] {taskinstance.py:1377} INFO - Starting attempt 2 of 2
+[2022-08-18 05:40:02,482] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 05:40:02,687] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr4> on 2022-08-18 04:38:28.162136+00:00
+[2022-08-18 05:40:02,821] {standard_task_runner.py:52} INFO - Started process 109 to run task
+[2022-08-18 05:40:03,093] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr4', 'manual__2022-08-18T04:38:28.162136+00:00', '--job-id', '210', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmp84mx_mub', '--error-file', '/tmp/tmpvq8var7b']
+[2022-08-18 05:40:03,164] {standard_task_runner.py:80} INFO - Job 210: Subtask cr4
+[2022-08-18 05:40:05,889] {task_command.py:371} INFO - Running <TaskInstance: craw.cr4 manual__2022-08-18T04:38:28.162136+00:00 [running]> on host 94a850521595
+[2022-08-18 05:40:21,657] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr4
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T04:38:28.162136+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-18T04:38:28.162136+00:00
+[2022-08-18 05:40:21,713] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-18 05:40:22,033] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-18 05:40:25,073] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-18 05:40:27,423] {logger.py:11} INFO - There is no [linux64] chromedriver for browser 104.0.5112 in cache
+[2022-08-18 05:40:27,427] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip
+[2022-08-18 05:40:55,349] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/newtest.py", line 45, in crawling
+    driver=webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/webdriver_manager/chrome.py", line 38, in install
+    driver_path = self._get_driver_path(self.driver)
+  File "/home/airflow/.local/lib/python3.7/site-packages/webdriver_manager/core/manager.py", line 32, in _get_driver_path
+    binary_path = self.driver_cache.save_file_to_cache(driver, file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/webdriver_manager/core/driver_cache.py", line 47, in save_file_to_cache
+    files = archive.unpack(path)
+  File "/home/airflow/.local/lib/python3.7/site-packages/webdriver_manager/core/archive.py", line 30, in unpack
+    return self.__extract_zip(directory)
+  File "/home/airflow/.local/lib/python3.7/site-packages/webdriver_manager/core/archive.py", line 37, in __extract_zip
+    archive = zip_class(self.file_path)
+  File "/usr/local/lib/python3.7/zipfile.py", line 1258, in __init__
+    self._RealGetContents()
+  File "/usr/local/lib/python3.7/zipfile.py", line 1325, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2022-08-18 05:40:55,860] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=craw, task_id=cr4, execution_date=20220818T043828, start_date=20220818T054001, end_date=20220818T054055
+[2022-08-18 05:40:56,314] {standard_task_runner.py:97} ERROR - Failed to execute job 210 for task cr4 (File is not a zip file; 109)
+[2022-08-18 05:40:57,317] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-18 05:40:58,453] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

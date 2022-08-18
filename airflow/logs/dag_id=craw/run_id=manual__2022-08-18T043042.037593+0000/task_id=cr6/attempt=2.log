@@ -1,0 +1,16 @@
+[2022-08-18 04:31:10,208] {task_command.py:371} INFO - Running <TaskInstance: craw.cr6 manual__2022-08-18T04:30:42.037593+00:00 [skipped]> on host d59619969b18
+[2022-08-18 04:31:13,059] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr6
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T04:30:42.037593+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-18T04:30:42.037593+00:00
+[2022-08-18 04:31:23,106] {taskinstance.py:1561} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-08-18 04:31:23,110] {logging_mixin.py:115} WARNING - Exception ignored in: <function WeakKeyDictionary.__init__.<locals>.remove at 0x7f0dfdeb5dd0>
+[2022-08-18 04:31:23,110] {logging_mixin.py:115} WARNING - Traceback (most recent call last):
+[2022-08-18 04:31:23,114] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/weakref.py", line 358, in remove
+[2022-08-18 04:31:23,118] {logging_mixin.py:115} WARNING -     def remove(k, selfref=ref(self)):
+[2022-08-18 04:31:23,119] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/models/taskinstance.py", line 1563, in signal_handler
+[2022-08-18 04:31:23,121] {logging_mixin.py:115} WARNING -     raise AirflowException("Task received SIGTERM signal")
+[2022-08-18 04:31:23,122] {logging_mixin.py:115} WARNING - ***.exceptions.AirflowException: Task received SIGTERM signal

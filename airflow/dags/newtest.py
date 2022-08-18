@@ -9,9 +9,8 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager       
 from selenium.webdriver.common.by import By                    
 from time import sleep                                         
-import pandas as pd                                        
-import pyspark                                                 
-from pyspark.sql import SparkSession                    
+import pandas as pd           
+                                                 
 chrome_options = Options()        
 chrome_options.add_argument("--no-sandbox")                 
 chrome_options.add_argument("--headless")
@@ -109,7 +108,20 @@ def crawling(*op_args):
             break
         sleep(5)
     driver.quit()
+
+def totaldb():
+    import pyspark                                                 
+    from pyspark.sql import SparkSession
+    mysql_hook = MySqlHook(mysql_conn_id='mysql')
+    conn= mysql_hook.get_conn()
+    cursor=conn.cursor()
+    cursor.execute("SELECT image,name,price FROM info")
+    data=cursor.fetchall()
+    dataColumns=["image","name","price"]
     
+    spark=SparkSession.builder.appName('sparkdf').getOrCreate()
+    df=spark.createDataFrame(data,dataColumns)
+    df.show()
     
 with DAG(dag_id="craw", default_args=default_args, schedule_interval='55 14 * * *') as dag:
     crawli1 = PythonOperator(
@@ -147,6 +159,12 @@ with DAG(dag_id="craw", default_args=default_args, schedule_interval='55 14 * * 
         provide_context=True,
         python_callable=crawling,
         op_args=(25,30),
+    )
+    DB= PythonOperator(
+        task_id="db",
+        provide_context=True,
+        python_callable=totaldb
     )    
     
-(crawli1,crawli2,crawli3,crawli4,crawli5,crawli6) 
+#(crawli1,crawli2,crawli3,crawli4,crawli5,crawli6) 
+DB

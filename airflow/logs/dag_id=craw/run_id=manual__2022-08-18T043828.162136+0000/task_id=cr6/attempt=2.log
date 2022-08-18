@@ -1,0 +1,47 @@
+[2022-08-18 05:40:07,691] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr6 manual__2022-08-18T04:38:28.162136+00:00 [queued]>
+[2022-08-18 05:40:07,832] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr6 manual__2022-08-18T04:38:28.162136+00:00 [queued]>
+[2022-08-18 05:40:07,835] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 05:40:07,841] {taskinstance.py:1377} INFO - Starting attempt 2 of 2
+[2022-08-18 05:40:07,849] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 05:40:08,127] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr6> on 2022-08-18 04:38:28.162136+00:00
+[2022-08-18 05:40:08,658] {standard_task_runner.py:52} INFO - Started process 120 to run task
+[2022-08-18 05:40:08,739] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr6', 'manual__2022-08-18T04:38:28.162136+00:00', '--job-id', '215', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmp4vov6rn0', '--error-file', '/tmp/tmpt9w8pw2k']
+[2022-08-18 05:40:08,770] {standard_task_runner.py:80} INFO - Job 215: Subtask cr6
+[2022-08-18 05:40:12,083] {task_command.py:371} INFO - Running <TaskInstance: craw.cr6 manual__2022-08-18T04:38:28.162136+00:00 [running]> on host 94a850521595
+[2022-08-18 05:40:31,413] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr6
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T04:38:28.162136+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-18T04:38:28.162136+00:00
+[2022-08-18 05:40:31,477] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-18 05:40:31,492] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-18 05:40:31,973] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-18 05:40:33,710] {logger.py:11} INFO - There is no [linux64] chromedriver for browser 104.0.5112 in cache
+[2022-08-18 05:40:33,720] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip
+[2022-08-18 05:40:45,604] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112]
+[2022-08-18 05:42:11,367] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1013013/10130132704.20201113142036.jpg?type=f140 비프렌드 G-MASTER 레인보우 이중사출 청축 39,500원 
+[2022-08-18 05:42:35,514] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2674213/26742135522.20210413104258.jpg?type=f140 브리츠 BA-BK10 Plus 66,231원 
+[2022-08-18 05:42:59,939] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2076858/20768586850.20220801104235.jpg?type=f140 한성컴퓨터 GK893B SPORTS 한글 149,000원 
+[2022-08-18 05:43:26,904] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_6215720/6215720682.20210618152141.jpg?type=f140 로지텍 K120 NEW Keyboard (정품) 9,050원 
+[2022-08-18 05:43:53,289] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1885937/18859377233.20200310173217.jpg?type=f140 커세어 K70 RGB MK.2 게이밍 기계식 키보드 176,500원 
+[2022-08-18 05:43:59,680] {logging_mixin.py:115} INFO - 1
+[2022-08-18 05:44:27,401] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2604016/26040163522.20210218152623.jpg?type=f140 로이체 KT5 PRO 17,900원 
+[2022-08-18 05:44:55,210] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2556897/25568974522.20220525173047.jpg?type=f140 레드빈 트리플 멀티페어링 블루투스 저소음 무선키보드 A19K 36,900원 
+[2022-08-18 05:45:20,634] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1573114/15731149924.20181018143102.jpg?type=f140 QSENN ARES Q34 LED 게이밍 기계식 한손 키보드 22,900원 
+[2022-08-18 05:45:45,651] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1182045/11820457775.20211206152108.jpg?type=f140 삼성전자 삼성 SKG-3000UB 14,751원 
+[2022-08-18 05:46:17,772] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2858803/28588033554.20211029114854.jpg?type=f140 QSENN K1000 멤브레인 무선 키보드 9,800원 
+[2022-08-18 05:46:25,700] {logging_mixin.py:115} INFO - 2
+[2022-08-18 05:47:00,142] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1013013/10130132704.20201113142036.jpg?type=f140 비프렌드 G-MASTER 레인보우 이중사출 청축 39,500원 
+[2022-08-18 05:47:26,624] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2674213/26742135522.20210413104258.jpg?type=f140 브리츠 BA-BK10 Plus 66,231원 
+[2022-08-18 05:47:50,514] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2076858/20768586850.20220801104235.jpg?type=f140 한성컴퓨터 GK893B SPORTS 한글 149,000원 
+[2022-08-18 05:48:14,274] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_6215720/6215720682.20210618152141.jpg?type=f140 로지텍 K120 NEW Keyboard (정품) 9,050원 
+[2022-08-18 05:48:38,791] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1885937/18859377233.20200310173217.jpg?type=f140 커세어 K70 RGB MK.2 게이밍 기계식 키보드 176,500원 
+[2022-08-18 05:48:44,935] {logging_mixin.py:115} INFO - 3
+[2022-08-18 05:48:45,261] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-18 05:48:45,707] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=craw, task_id=cr6, execution_date=20220818T043828, start_date=20220818T054007, end_date=20220818T054845
+[2022-08-18 05:48:45,932] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-18 05:48:46,602] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
