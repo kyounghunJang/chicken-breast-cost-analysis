@@ -122,7 +122,7 @@ def totaldb():
     spark=SparkSession.builder.appName('sparkdf').getOrCreate()
     df=spark.createDataFrame(data,dataColumns)
     df.show()
-    
+    //
 with DAG(dag_id="craw", default_args=default_args, schedule_interval='55 14 * * *') as dag:
     crawli1 = PythonOperator(
         task_id="cr1",
