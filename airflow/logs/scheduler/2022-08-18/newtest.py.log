@@ -1682,3 +1682,486 @@ Please take a look at these docs to improve your DAG import time:
 [2022-08-18 08:00:49,236] {logging_mixin.py:115} INFO - [2022-08-18 08:00:49,234] {dag.py:2420} INFO - Sync 1 DAGs
 [2022-08-18 08:00:49,287] {logging_mixin.py:115} INFO - [2022-08-18 08:00:49,287] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
 [2022-08-18 08:00:49,314] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.398 seconds
+[2022-08-18 13:11:33,539] {processor.py:153} INFO - Started process (PID=55) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:11:33,541] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:11:33,543] {logging_mixin.py:115} INFO - [2022-08-18 13:11:33,543] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:11:37,892] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:11:38,060] {logging_mixin.py:115} INFO - [2022-08-18 13:11:38,059] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:11:38,121] {logging_mixin.py:115} INFO - [2022-08-18 13:11:38,120] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-14T14:55:00+00:00, run_after=2022-08-15T14:55:00+00:00
+[2022-08-18 13:11:38,178] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 4.646 seconds
+[2022-08-18 13:12:08,595] {processor.py:153} INFO - Started process (PID=116) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:12:08,597] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:12:08,598] {logging_mixin.py:115} INFO - [2022-08-18 13:12:08,598] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:12:09,918] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:12:09,963] {logging_mixin.py:115} INFO - [2022-08-18 13:12:09,963] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:12:10,002] {logging_mixin.py:115} INFO - [2022-08-18 13:12:10,002] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-14T14:55:00+00:00, run_after=2022-08-15T14:55:00+00:00
+[2022-08-18 13:12:10,022] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.450 seconds
+[2022-08-18 13:12:41,490] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:12:41,495] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:12:41,534] {logging_mixin.py:115} INFO - [2022-08-18 13:12:41,533] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:12:46,002] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:12:46,219] {logging_mixin.py:115} INFO - [2022-08-18 13:12:46,218] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:12:46,513] {logging_mixin.py:115} INFO - [2022-08-18 13:12:46,513] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:12:46,661] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 5.187 seconds
+[2022-08-18 13:13:17,486] {processor.py:153} INFO - Started process (PID=256) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:13:17,490] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:13:17,492] {logging_mixin.py:115} INFO - [2022-08-18 13:13:17,492] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:13:19,111] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:13:19,149] {logging_mixin.py:115} INFO - [2022-08-18 13:13:19,149] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:13:19,180] {logging_mixin.py:115} INFO - [2022-08-18 13:13:19,179] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:13:19,195] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.715 seconds
+[2022-08-18 13:13:49,896] {processor.py:153} INFO - Started process (PID=313) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:13:49,898] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:13:49,900] {logging_mixin.py:115} INFO - [2022-08-18 13:13:49,900] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:13:51,117] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:13:51,169] {logging_mixin.py:115} INFO - [2022-08-18 13:13:51,168] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:13:51,207] {logging_mixin.py:115} INFO - [2022-08-18 13:13:51,206] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:13:51,230] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.344 seconds
+[2022-08-18 13:14:21,452] {processor.py:153} INFO - Started process (PID=371) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:14:21,453] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:14:21,464] {logging_mixin.py:115} INFO - [2022-08-18 13:14:21,460] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:14:23,185] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:14:23,235] {logging_mixin.py:115} INFO - [2022-08-18 13:14:23,234] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:14:23,299] {logging_mixin.py:115} INFO - [2022-08-18 13:14:23,299] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:14:23,327] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.883 seconds
+[2022-08-18 13:15:00,796] {processor.py:153} INFO - Started process (PID=420) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:15:00,811] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:15:00,830] {logging_mixin.py:115} INFO - [2022-08-18 13:15:00,830] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:15:02,882] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:15:02,928] {logging_mixin.py:115} INFO - [2022-08-18 13:15:02,928] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:15:02,981] {logging_mixin.py:115} INFO - [2022-08-18 13:15:02,980] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:15:03,009] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 2.241 seconds
+[2022-08-18 13:15:35,224] {processor.py:153} INFO - Started process (PID=476) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:15:35,295] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:15:35,318] {logging_mixin.py:115} INFO - [2022-08-18 13:15:35,317] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:15:38,651] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:15:38,767] {logging_mixin.py:115} INFO - [2022-08-18 13:15:38,766] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:15:38,908] {logging_mixin.py:115} INFO - [2022-08-18 13:15:38,908] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:15:39,022] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 3.810 seconds
+[2022-08-18 13:16:09,775] {processor.py:153} INFO - Started process (PID=534) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:16:09,781] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:16:09,782] {logging_mixin.py:115} INFO - [2022-08-18 13:16:09,782] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:16:11,208] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:16:11,319] {logging_mixin.py:115} INFO - [2022-08-18 13:16:11,315] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:16:11,399] {logging_mixin.py:115} INFO - [2022-08-18 13:16:11,399] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:16:11,445] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.679 seconds
+[2022-08-18 13:16:42,640] {processor.py:153} INFO - Started process (PID=591) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:16:42,645] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:16:42,655] {logging_mixin.py:115} INFO - [2022-08-18 13:16:42,655] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:16:44,067] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:16:44,106] {logging_mixin.py:115} INFO - [2022-08-18 13:16:44,105] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:16:44,161] {logging_mixin.py:115} INFO - [2022-08-18 13:16:44,160] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:16:44,211] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.588 seconds
+[2022-08-18 13:17:14,867] {processor.py:153} INFO - Started process (PID=657) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:17:14,875] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:17:14,878] {logging_mixin.py:115} INFO - [2022-08-18 13:17:14,878] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:17:18,059] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:17:18,244] {logging_mixin.py:115} INFO - [2022-08-18 13:17:18,231] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:17:18,419] {logging_mixin.py:115} INFO - [2022-08-18 13:17:18,419] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:17:18,473] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 3.617 seconds
+[2022-08-18 13:17:48,688] {processor.py:153} INFO - Started process (PID=717) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:17:48,690] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:17:48,691] {logging_mixin.py:115} INFO - [2022-08-18 13:17:48,691] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:17:49,590] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:17:49,628] {logging_mixin.py:115} INFO - [2022-08-18 13:17:49,627] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:17:49,669] {logging_mixin.py:115} INFO - [2022-08-18 13:17:49,669] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:17:49,689] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.007 seconds
+[2022-08-18 13:18:19,995] {processor.py:153} INFO - Started process (PID=773) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:18:19,998] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:18:20,000] {logging_mixin.py:115} INFO - [2022-08-18 13:18:20,000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:18:21,363] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:18:21,406] {logging_mixin.py:115} INFO - [2022-08-18 13:18:21,405] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:18:21,472] {logging_mixin.py:115} INFO - [2022-08-18 13:18:21,472] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:18:21,512] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.532 seconds
+[2022-08-18 13:18:52,511] {processor.py:153} INFO - Started process (PID=832) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:18:52,527] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:18:52,543] {logging_mixin.py:115} INFO - [2022-08-18 13:18:52,542] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:18:53,944] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:18:53,991] {logging_mixin.py:115} INFO - [2022-08-18 13:18:53,991] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:18:54,043] {logging_mixin.py:115} INFO - [2022-08-18 13:18:54,043] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:18:54,077] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.574 seconds
+[2022-08-18 13:19:24,368] {processor.py:153} INFO - Started process (PID=891) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:19:24,369] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:19:24,370] {logging_mixin.py:115} INFO - [2022-08-18 13:19:24,370] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:19:25,374] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:19:25,415] {logging_mixin.py:115} INFO - [2022-08-18 13:19:25,414] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:19:25,456] {logging_mixin.py:115} INFO - [2022-08-18 13:19:25,456] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:19:25,482] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.120 seconds
+[2022-08-18 13:19:55,904] {processor.py:153} INFO - Started process (PID=950) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:19:55,906] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:19:55,907] {logging_mixin.py:115} INFO - [2022-08-18 13:19:55,907] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:19:57,053] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:19:57,104] {logging_mixin.py:115} INFO - [2022-08-18 13:19:57,104] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:19:57,149] {logging_mixin.py:115} INFO - [2022-08-18 13:19:57,149] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:19:57,172] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.274 seconds
+[2022-08-18 13:20:27,349] {processor.py:153} INFO - Started process (PID=1010) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:20:27,357] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:20:27,362] {logging_mixin.py:115} INFO - [2022-08-18 13:20:27,361] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:20:29,261] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:20:29,318] {logging_mixin.py:115} INFO - [2022-08-18 13:20:29,315] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:20:29,405] {logging_mixin.py:115} INFO - [2022-08-18 13:20:29,404] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:20:29,444] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 2.102 seconds
+[2022-08-18 13:21:00,411] {processor.py:153} INFO - Started process (PID=1076) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:21:00,412] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:21:00,414] {logging_mixin.py:115} INFO - [2022-08-18 13:21:00,413] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:21:01,275] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:21:01,298] {logging_mixin.py:115} INFO - [2022-08-18 13:21:01,298] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:21:01,326] {logging_mixin.py:115} INFO - [2022-08-18 13:21:01,326] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:21:01,354] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.951 seconds
+[2022-08-18 13:21:31,472] {processor.py:153} INFO - Started process (PID=1136) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:21:31,474] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:21:31,476] {logging_mixin.py:115} INFO - [2022-08-18 13:21:31,475] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:21:32,379] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:21:32,421] {logging_mixin.py:115} INFO - [2022-08-18 13:21:32,421] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:21:32,460] {logging_mixin.py:115} INFO - [2022-08-18 13:21:32,459] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:21:32,485] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.019 seconds
+[2022-08-18 13:22:03,607] {processor.py:153} INFO - Started process (PID=1194) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:22:03,609] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:22:03,611] {logging_mixin.py:115} INFO - [2022-08-18 13:22:03,611] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:22:05,826] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:22:05,928] {logging_mixin.py:115} INFO - [2022-08-18 13:22:05,927] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:22:06,051] {logging_mixin.py:115} INFO - [2022-08-18 13:22:06,051] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:22:06,170] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 2.576 seconds
+[2022-08-18 13:22:36,555] {processor.py:153} INFO - Started process (PID=1262) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:22:36,556] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:22:36,557] {logging_mixin.py:115} INFO - [2022-08-18 13:22:36,557] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:22:37,576] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:22:37,619] {logging_mixin.py:115} INFO - [2022-08-18 13:22:37,618] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:22:37,667] {logging_mixin.py:115} INFO - [2022-08-18 13:22:37,667] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:22:37,691] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.142 seconds
+[2022-08-18 13:23:08,334] {processor.py:153} INFO - Started process (PID=1320) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:23:08,335] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:23:08,337] {logging_mixin.py:115} INFO - [2022-08-18 13:23:08,337] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:23:09,116] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:23:09,142] {logging_mixin.py:115} INFO - [2022-08-18 13:23:09,142] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:23:09,166] {logging_mixin.py:115} INFO - [2022-08-18 13:23:09,166] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:23:09,507] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.179 seconds
+[2022-08-18 13:23:39,969] {processor.py:153} INFO - Started process (PID=1378) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:23:39,970] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:23:39,975] {logging_mixin.py:115} INFO - [2022-08-18 13:23:39,974] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:23:41,151] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:23:41,192] {logging_mixin.py:115} INFO - [2022-08-18 13:23:41,191] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:23:41,236] {logging_mixin.py:115} INFO - [2022-08-18 13:23:41,236] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:23:41,264] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.300 seconds
+[2022-08-18 13:24:11,736] {processor.py:153} INFO - Started process (PID=1445) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:24:11,737] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:24:11,739] {logging_mixin.py:115} INFO - [2022-08-18 13:24:11,739] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:24:12,848] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:24:12,886] {logging_mixin.py:115} INFO - [2022-08-18 13:24:12,886] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:24:12,927] {logging_mixin.py:115} INFO - [2022-08-18 13:24:12,927] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:24:12,950] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.221 seconds
+[2022-08-18 13:25:54,672] {processor.py:153} INFO - Started process (PID=54) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:25:54,675] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:25:54,677] {logging_mixin.py:115} INFO - [2022-08-18 13:25:54,677] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:25:59,272] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:25:59,357] {logging_mixin.py:115} INFO - [2022-08-18 13:25:59,356] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:25:59,483] {logging_mixin.py:115} INFO - [2022-08-18 13:25:59,483] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:25:59,550] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 4.898 seconds
+[2022-08-18 13:26:30,576] {processor.py:153} INFO - Started process (PID=121) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:26:30,578] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:26:30,581] {logging_mixin.py:115} INFO - [2022-08-18 13:26:30,580] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:26:31,516] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:26:31,562] {logging_mixin.py:115} INFO - [2022-08-18 13:26:31,560] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:26:31,606] {logging_mixin.py:115} INFO - [2022-08-18 13:26:31,606] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:26:31,638] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.072 seconds
+[2022-08-18 13:27:01,909] {processor.py:153} INFO - Started process (PID=183) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:27:01,910] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:27:01,911] {logging_mixin.py:115} INFO - [2022-08-18 13:27:01,911] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:27:02,473] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:27:02,521] {logging_mixin.py:115} INFO - [2022-08-18 13:27:02,520] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:27:02,587] {logging_mixin.py:115} INFO - [2022-08-18 13:27:02,587] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:27:02,603] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.698 seconds
+[2022-08-18 13:27:32,839] {processor.py:153} INFO - Started process (PID=252) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:27:32,841] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:27:32,841] {logging_mixin.py:115} INFO - [2022-08-18 13:27:32,841] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:27:33,445] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:27:33,477] {logging_mixin.py:115} INFO - [2022-08-18 13:27:33,476] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:27:33,507] {logging_mixin.py:115} INFO - [2022-08-18 13:27:33,507] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:27:33,525] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.691 seconds
+[2022-08-18 13:28:03,748] {processor.py:153} INFO - Started process (PID=309) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:28:03,749] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:28:03,750] {logging_mixin.py:115} INFO - [2022-08-18 13:28:03,750] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:28:04,399] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:28:04,432] {logging_mixin.py:115} INFO - [2022-08-18 13:28:04,430] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:28:04,466] {logging_mixin.py:115} INFO - [2022-08-18 13:28:04,466] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:28:04,489] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.748 seconds
+[2022-08-18 13:28:36,487] {processor.py:153} INFO - Started process (PID=378) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:28:36,498] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:28:36,501] {logging_mixin.py:115} INFO - [2022-08-18 13:28:36,501] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:28:38,280] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:28:38,394] {logging_mixin.py:115} INFO - [2022-08-18 13:28:38,393] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:28:38,446] {logging_mixin.py:115} INFO - [2022-08-18 13:28:38,446] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:28:38,625] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 2.144 seconds
+[2022-08-18 13:29:09,313] {processor.py:153} INFO - Started process (PID=438) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:29:09,320] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:29:09,321] {logging_mixin.py:115} INFO - [2022-08-18 13:29:09,321] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:29:10,240] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:29:10,316] {logging_mixin.py:115} INFO - [2022-08-18 13:29:10,314] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:29:10,401] {logging_mixin.py:115} INFO - [2022-08-18 13:29:10,401] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:29:10,441] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.136 seconds
+[2022-08-18 13:29:40,648] {processor.py:153} INFO - Started process (PID=499) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:29:40,650] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:29:40,653] {logging_mixin.py:115} INFO - [2022-08-18 13:29:40,653] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:29:41,313] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:29:41,353] {logging_mixin.py:115} INFO - [2022-08-18 13:29:41,352] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:29:41,403] {logging_mixin.py:115} INFO - [2022-08-18 13:29:41,403] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:29:41,426] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.784 seconds
+[2022-08-18 13:30:15,963] {processor.py:153} INFO - Started process (PID=559) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:30:15,966] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:30:15,980] {logging_mixin.py:115} INFO - [2022-08-18 13:30:15,980] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:30:18,383] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:30:18,482] {logging_mixin.py:115} INFO - [2022-08-18 13:30:18,466] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:30:18,590] {logging_mixin.py:115} INFO - [2022-08-18 13:30:18,589] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:30:18,670] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 2.724 seconds
+[2022-08-18 13:30:49,034] {processor.py:153} INFO - Started process (PID=619) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:30:49,044] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:30:49,052] {logging_mixin.py:115} INFO - [2022-08-18 13:30:49,052] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:30:50,172] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:30:50,227] {logging_mixin.py:115} INFO - [2022-08-18 13:30:50,226] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:30:50,278] {logging_mixin.py:115} INFO - [2022-08-18 13:30:50,278] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:30:50,304] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.276 seconds
+[2022-08-18 13:31:20,568] {processor.py:153} INFO - Started process (PID=680) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:31:20,569] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:31:20,571] {logging_mixin.py:115} INFO - [2022-08-18 13:31:20,571] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:31:21,506] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:31:21,549] {logging_mixin.py:115} INFO - [2022-08-18 13:31:21,548] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:31:21,596] {logging_mixin.py:115} INFO - [2022-08-18 13:31:21,595] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:31:21,617] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.057 seconds
+[2022-08-18 13:31:51,759] {processor.py:153} INFO - Started process (PID=740) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:31:51,760] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:31:51,761] {logging_mixin.py:115} INFO - [2022-08-18 13:31:51,761] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:31:52,450] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:31:52,494] {logging_mixin.py:115} INFO - [2022-08-18 13:31:52,493] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:31:52,545] {logging_mixin.py:115} INFO - [2022-08-18 13:31:52,545] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:31:52,565] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.812 seconds
+[2022-08-18 13:32:23,228] {processor.py:153} INFO - Started process (PID=806) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:32:23,230] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:32:23,232] {logging_mixin.py:115} INFO - [2022-08-18 13:32:23,232] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:32:23,978] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:32:24,041] {logging_mixin.py:115} INFO - [2022-08-18 13:32:24,039] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:32:24,112] {logging_mixin.py:115} INFO - [2022-08-18 13:32:24,111] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:32:24,142] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.922 seconds
+[2022-08-18 13:32:55,149] {processor.py:153} INFO - Started process (PID=868) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:32:55,150] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:32:55,152] {logging_mixin.py:115} INFO - [2022-08-18 13:32:55,151] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:32:55,762] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:32:55,794] {logging_mixin.py:115} INFO - [2022-08-18 13:32:55,793] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:32:55,822] {logging_mixin.py:115} INFO - [2022-08-18 13:32:55,822] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:32:55,838] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.695 seconds
+[2022-08-18 13:33:26,163] {processor.py:153} INFO - Started process (PID=925) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:33:26,164] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:33:26,166] {logging_mixin.py:115} INFO - [2022-08-18 13:33:26,166] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:33:26,948] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:33:26,992] {logging_mixin.py:115} INFO - [2022-08-18 13:33:26,991] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:33:27,045] {logging_mixin.py:115} INFO - [2022-08-18 13:33:27,045] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:33:27,068] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.911 seconds
+[2022-08-18 13:33:57,241] {processor.py:153} INFO - Started process (PID=991) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:33:57,242] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:33:57,246] {logging_mixin.py:115} INFO - [2022-08-18 13:33:57,244] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:33:58,256] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:33:58,296] {logging_mixin.py:115} INFO - [2022-08-18 13:33:58,295] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:33:58,346] {logging_mixin.py:115} INFO - [2022-08-18 13:33:58,346] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:33:58,369] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.135 seconds
+[2022-08-18 13:34:28,426] {processor.py:153} INFO - Started process (PID=1051) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:34:28,427] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:34:28,428] {logging_mixin.py:115} INFO - [2022-08-18 13:34:28,428] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:34:28,954] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:34:28,987] {logging_mixin.py:115} INFO - [2022-08-18 13:34:28,986] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:34:29,028] {logging_mixin.py:115} INFO - [2022-08-18 13:34:29,027] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:34:29,045] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.623 seconds
+[2022-08-18 13:34:59,186] {processor.py:153} INFO - Started process (PID=1120) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:34:59,188] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:34:59,189] {logging_mixin.py:115} INFO - [2022-08-18 13:34:59,189] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:34:59,708] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:34:59,741] {logging_mixin.py:115} INFO - [2022-08-18 13:34:59,741] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:34:59,768] {logging_mixin.py:115} INFO - [2022-08-18 13:34:59,768] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:34:59,783] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.604 seconds
+[2022-08-18 13:36:01,310] {processor.py:153} INFO - Started process (PID=46) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:36:01,312] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:36:01,313] {logging_mixin.py:115} INFO - [2022-08-18 13:36:01,312] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:36:03,414] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:36:03,501] {logging_mixin.py:115} INFO - [2022-08-18 13:36:03,500] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:36:03,599] {logging_mixin.py:115} INFO - [2022-08-18 13:36:03,599] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:36:03,637] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 2.335 seconds
+[2022-08-18 13:36:35,345] {processor.py:153} INFO - Started process (PID=115) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:36:35,347] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:36:35,358] {logging_mixin.py:115} INFO - [2022-08-18 13:36:35,358] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:36:37,073] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:36:37,120] {logging_mixin.py:115} INFO - [2022-08-18 13:36:37,120] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:36:37,171] {logging_mixin.py:115} INFO - [2022-08-18 13:36:37,171] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:36:37,195] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.864 seconds
+[2022-08-18 13:37:07,270] {processor.py:153} INFO - Started process (PID=172) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:37:07,272] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:37:07,273] {logging_mixin.py:115} INFO - [2022-08-18 13:37:07,273] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:37:08,867] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:37:08,929] {logging_mixin.py:115} INFO - [2022-08-18 13:37:08,929] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:37:08,968] {logging_mixin.py:115} INFO - [2022-08-18 13:37:08,968] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:37:09,001] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.737 seconds
+[2022-08-18 13:37:39,792] {processor.py:153} INFO - Started process (PID=231) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:37:39,793] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:37:39,795] {logging_mixin.py:115} INFO - [2022-08-18 13:37:39,795] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:37:40,858] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:37:40,886] {logging_mixin.py:115} INFO - [2022-08-18 13:37:40,886] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:37:40,921] {logging_mixin.py:115} INFO - [2022-08-18 13:37:40,920] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:37:40,941] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.154 seconds
+[2022-08-18 13:38:11,246] {processor.py:153} INFO - Started process (PID=290) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:38:11,250] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:38:11,258] {logging_mixin.py:115} INFO - [2022-08-18 13:38:11,257] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:38:13,128] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:38:13,174] {logging_mixin.py:115} INFO - [2022-08-18 13:38:13,173] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:38:13,237] {logging_mixin.py:115} INFO - [2022-08-18 13:38:13,237] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:38:13,271] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 2.031 seconds
+[2022-08-18 13:38:43,618] {processor.py:153} INFO - Started process (PID=348) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:38:43,619] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:38:43,620] {logging_mixin.py:115} INFO - [2022-08-18 13:38:43,620] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:38:44,660] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:38:44,703] {logging_mixin.py:115} INFO - [2022-08-18 13:38:44,702] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:38:44,756] {logging_mixin.py:115} INFO - [2022-08-18 13:38:44,756] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:38:44,790] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.179 seconds
+[2022-08-18 13:39:09,477] {processor.py:153} INFO - Started process (PID=397) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:39:09,479] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:39:09,482] {logging_mixin.py:115} INFO - [2022-08-18 13:39:09,482] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:39:11,632] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:39:11,697] {logging_mixin.py:115} INFO - [2022-08-18 13:39:11,696] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:39:11,785] {logging_mixin.py:115} INFO - [2022-08-18 13:39:11,784] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:39:11,848] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 2.378 seconds
+[2022-08-18 13:39:42,369] {processor.py:153} INFO - Started process (PID=465) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:39:42,371] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:39:42,373] {logging_mixin.py:115} INFO - [2022-08-18 13:39:42,373] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:39:43,205] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:39:43,242] {logging_mixin.py:115} INFO - [2022-08-18 13:39:43,241] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:39:43,279] {logging_mixin.py:115} INFO - [2022-08-18 13:39:43,278] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:39:43,301] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.938 seconds
+[2022-08-18 13:40:13,644] {processor.py:153} INFO - Started process (PID=525) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:40:13,645] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:40:13,646] {logging_mixin.py:115} INFO - [2022-08-18 13:40:13,646] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:40:14,455] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:40:14,480] {logging_mixin.py:115} INFO - [2022-08-18 13:40:14,479] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:40:14,511] {logging_mixin.py:115} INFO - [2022-08-18 13:40:14,511] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:40:14,530] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.892 seconds
+[2022-08-18 13:40:45,167] {processor.py:153} INFO - Started process (PID=583) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:40:45,169] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:40:45,173] {logging_mixin.py:115} INFO - [2022-08-18 13:40:45,172] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:40:46,180] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:40:46,219] {logging_mixin.py:115} INFO - [2022-08-18 13:40:46,218] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:40:46,279] {logging_mixin.py:115} INFO - [2022-08-18 13:40:46,279] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:40:46,324] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.164 seconds
+[2022-08-18 13:41:16,922] {processor.py:153} INFO - Started process (PID=650) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:41:16,923] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:41:16,924] {logging_mixin.py:115} INFO - [2022-08-18 13:41:16,924] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:41:17,721] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:41:17,755] {logging_mixin.py:115} INFO - [2022-08-18 13:41:17,754] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:41:17,797] {logging_mixin.py:115} INFO - [2022-08-18 13:41:17,797] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:41:17,820] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.903 seconds
+[2022-08-18 13:41:48,114] {processor.py:153} INFO - Started process (PID=709) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:41:48,116] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:41:48,117] {logging_mixin.py:115} INFO - [2022-08-18 13:41:48,117] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:41:49,435] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:41:49,482] {logging_mixin.py:115} INFO - [2022-08-18 13:41:49,481] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:41:49,530] {logging_mixin.py:115} INFO - [2022-08-18 13:41:49,530] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:41:49,557] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.449 seconds
+[2022-08-18 13:42:20,323] {processor.py:153} INFO - Started process (PID=773) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:42:20,325] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:42:20,327] {logging_mixin.py:115} INFO - [2022-08-18 13:42:20,327] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:42:21,574] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:42:21,638] {logging_mixin.py:115} INFO - [2022-08-18 13:42:21,636] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:42:21,699] {logging_mixin.py:115} INFO - [2022-08-18 13:42:21,699] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:42:21,732] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.417 seconds
+[2022-08-18 13:42:51,789] {processor.py:153} INFO - Started process (PID=834) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:42:51,791] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:42:51,792] {logging_mixin.py:115} INFO - [2022-08-18 13:42:51,792] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:42:52,528] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:42:52,559] {logging_mixin.py:115} INFO - [2022-08-18 13:42:52,558] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:42:52,585] {logging_mixin.py:115} INFO - [2022-08-18 13:42:52,584] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:42:52,611] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.827 seconds
+[2022-08-18 13:43:23,312] {processor.py:153} INFO - Started process (PID=892) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:43:23,313] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:43:23,314] {logging_mixin.py:115} INFO - [2022-08-18 13:43:23,314] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:43:23,981] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:43:24,007] {logging_mixin.py:115} INFO - [2022-08-18 13:43:24,006] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:43:24,035] {logging_mixin.py:115} INFO - [2022-08-18 13:43:24,035] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:43:24,056] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 0.750 seconds
+[2022-08-18 13:43:54,307] {processor.py:153} INFO - Started process (PID=960) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:43:54,311] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:43:54,314] {logging_mixin.py:115} INFO - [2022-08-18 13:43:54,313] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:43:56,049] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:43:56,119] {logging_mixin.py:115} INFO - [2022-08-18 13:43:56,117] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:43:56,205] {logging_mixin.py:115} INFO - [2022-08-18 13:43:56,205] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:43:56,245] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.945 seconds
+[2022-08-18 13:44:26,504] {processor.py:153} INFO - Started process (PID=1018) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:44:26,505] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:44:26,506] {logging_mixin.py:115} INFO - [2022-08-18 13:44:26,506] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:44:27,561] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:44:27,599] {logging_mixin.py:115} INFO - [2022-08-18 13:44:27,598] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:44:27,642] {logging_mixin.py:115} INFO - [2022-08-18 13:44:27,642] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:44:27,674] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 1.177 seconds
+[2022-08-18 13:44:59,174] {processor.py:153} INFO - Started process (PID=1072) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:44:59,243] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:44:59,264] {logging_mixin.py:115} INFO - [2022-08-18 13:44:59,264] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:45:01,956] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:45:01,999] {logging_mixin.py:115} INFO - [2022-08-18 13:45:01,998] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:45:02,092] {logging_mixin.py:115} INFO - [2022-08-18 13:45:02,091] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:45:02,150] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 2.982 seconds
+[2022-08-18 13:45:32,881] {processor.py:153} INFO - Started process (PID=1132) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 13:45:32,893] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 13:45:32,898] {logging_mixin.py:115} INFO - [2022-08-18 13:45:32,898] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 13:45:35,500] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 13:45:35,587] {logging_mixin.py:115} INFO - [2022-08-18 13:45:35,586] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:45:35,694] {logging_mixin.py:115} INFO - [2022-08-18 13:45:35,694] {dag.py:2972} INFO - Setting next_dagrun for craw to 2022-08-17T14:55:00+00:00, run_after=2022-08-18T14:55:00+00:00
+[2022-08-18 13:45:35,779] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 2.914 seconds
+[2022-08-18 15:24:30,476] {processor.py:153} INFO - Started process (PID=65) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 15:24:30,509] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 15:24:30,510] {logging_mixin.py:115} INFO - [2022-08-18 15:24:30,510] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 15:24:36,915] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 15:24:37,035] {logging_mixin.py:115} INFO - [2022-08-18 15:24:37,034] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:24:37,130] {logging_mixin.py:115} INFO - [2022-08-18 15:24:37,129] {dag.py:2968} INFO - Setting next_dagrun for craw to 2022-08-18T14:55:00+00:00, run_after=2022-08-19T14:55:00+00:00
+[2022-08-18 15:24:37,233] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 6.762 seconds
+[2022-08-18 15:25:18,469] {processor.py:153} INFO - Started process (PID=121) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 15:25:18,577] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 15:25:18,632] {logging_mixin.py:115} INFO - [2022-08-18 15:25:18,632] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 15:25:24,288] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 15:25:24,458] {logging_mixin.py:115} INFO - [2022-08-18 15:25:24,456] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:25:24,930] {logging_mixin.py:115} INFO - [2022-08-18 15:25:24,930] {dag.py:2968} INFO - Setting next_dagrun for craw to 2022-08-18T14:55:00+00:00, run_after=2022-08-19T14:55:00+00:00
+[2022-08-18 15:25:25,131] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 6.671 seconds
+[2022-08-18 15:26:22,719] {processor.py:153} INFO - Started process (PID=163) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 15:26:22,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 15:26:22,772] {logging_mixin.py:115} INFO - [2022-08-18 15:26:22,772] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 15:26:25,476] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 15:26:25,719] {logging_mixin.py:115} INFO - [2022-08-18 15:26:25,714] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:26:25,951] {logging_mixin.py:115} INFO - [2022-08-18 15:26:25,951] {dag.py:2968} INFO - Setting next_dagrun for craw to 2022-08-18T14:55:00+00:00, run_after=2022-08-19T14:55:00+00:00
+[2022-08-18 15:26:39,844] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 17.215 seconds
+[2022-08-18 15:27:28,743] {processor.py:153} INFO - Started process (PID=220) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 15:27:28,828] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 15:27:28,891] {logging_mixin.py:115} INFO - [2022-08-18 15:27:28,891] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 15:27:31,541] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 15:27:31,681] {logging_mixin.py:115} INFO - [2022-08-18 15:27:31,680] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:27:31,791] {logging_mixin.py:115} INFO - [2022-08-18 15:27:31,791] {dag.py:2968} INFO - Setting next_dagrun for craw to 2022-08-18T14:55:00+00:00, run_after=2022-08-19T14:55:00+00:00
+[2022-08-18 15:27:34,746] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 6.003 seconds
+[2022-08-18 15:28:15,208] {processor.py:153} INFO - Started process (PID=257) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 15:28:15,211] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 15:28:15,215] {logging_mixin.py:115} INFO - [2022-08-18 15:28:15,215] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 15:28:18,081] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 15:28:18,277] {logging_mixin.py:115} INFO - [2022-08-18 15:28:18,277] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:28:18,465] {logging_mixin.py:115} INFO - [2022-08-18 15:28:18,464] {dag.py:2968} INFO - Setting next_dagrun for craw to 2022-08-18T14:55:00+00:00, run_after=2022-08-19T14:55:00+00:00
+[2022-08-18 15:28:18,697] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 3.504 seconds
+[2022-08-18 15:28:49,478] {processor.py:153} INFO - Started process (PID=284) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 15:28:49,479] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 15:28:49,481] {logging_mixin.py:115} INFO - [2022-08-18 15:28:49,481] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 15:28:54,023] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 15:28:54,150] {logging_mixin.py:115} INFO - [2022-08-18 15:28:54,150] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:28:54,264] {logging_mixin.py:115} INFO - [2022-08-18 15:28:54,264] {dag.py:2968} INFO - Setting next_dagrun for craw to 2022-08-18T14:55:00+00:00, run_after=2022-08-19T14:55:00+00:00
+[2022-08-18 15:29:03,700] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 14.228 seconds
+[2022-08-18 15:29:45,094] {processor.py:153} INFO - Started process (PID=323) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 15:29:45,095] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 15:29:45,096] {logging_mixin.py:115} INFO - [2022-08-18 15:29:45,096] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 15:29:51,522] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 15:29:51,611] {logging_mixin.py:115} INFO - [2022-08-18 15:29:51,606] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:29:51,674] {logging_mixin.py:115} INFO - [2022-08-18 15:29:51,674] {dag.py:2968} INFO - Setting next_dagrun for craw to 2022-08-18T14:55:00+00:00, run_after=2022-08-19T14:55:00+00:00
+[2022-08-18 15:29:52,309] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 7.223 seconds
+[2022-08-18 15:30:31,111] {processor.py:153} INFO - Started process (PID=361) to work on /opt/airflow/dags/newtest.py
+[2022-08-18 15:30:31,382] {processor.py:641} INFO - Processing file /opt/airflow/dags/newtest.py for tasks to queue
+[2022-08-18 15:30:31,430] {logging_mixin.py:115} INFO - [2022-08-18 15:30:31,430] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/newtest.py
+[2022-08-18 15:30:39,090] {processor.py:651} INFO - DAG(s) dict_keys(['craw']) retrieved from /opt/airflow/dags/newtest.py
+[2022-08-18 15:30:39,357] {logging_mixin.py:115} INFO - [2022-08-18 15:30:39,357] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:30:39,536] {logging_mixin.py:115} INFO - [2022-08-18 15:30:39,536] {dag.py:2968} INFO - Setting next_dagrun for craw to 2022-08-18T14:55:00+00:00, run_after=2022-08-19T14:55:00+00:00
+[2022-08-18 15:30:40,743] {processor.py:161} INFO - Processing /opt/airflow/dags/newtest.py took 9.644 seconds

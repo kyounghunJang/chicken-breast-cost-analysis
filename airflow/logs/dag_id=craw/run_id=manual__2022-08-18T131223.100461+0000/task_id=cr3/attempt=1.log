@@ -1,0 +1,46 @@
+[2022-08-18 13:12:36,339] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr3 manual__2022-08-18T13:12:23.100461+00:00 [queued]>
+[2022-08-18 13:12:36,498] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr3 manual__2022-08-18T13:12:23.100461+00:00 [queued]>
+[2022-08-18 13:12:36,536] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 13:12:36,547] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-18 13:12:36,563] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 13:12:36,917] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr3> on 2022-08-18 13:12:23.100461+00:00
+[2022-08-18 13:12:36,940] {standard_task_runner.py:52} INFO - Started process 155 to run task
+[2022-08-18 13:12:36,983] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr3', 'manual__2022-08-18T13:12:23.100461+00:00', '--job-id', '116', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmp3r_geh71', '--error-file', '/tmp/tmpl61imyrc']
+[2022-08-18 13:12:36,989] {standard_task_runner.py:80} INFO - Job 116: Subtask cr3
+[2022-08-18 13:12:37,631] {task_command.py:371} INFO - Running <TaskInstance: craw.cr3 manual__2022-08-18T13:12:23.100461+00:00 [running]> on host cdb6935da655
+[2022-08-18 13:12:38,693] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr3
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T13:12:23.100461+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-18T13:12:23.100461+00:00
+[2022-08-18 13:12:38,910] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-18 13:12:38,977] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-18 13:12:41,123] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-18 13:12:44,738] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip
+[2022-08-18 13:12:53,600] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112]
+[2022-08-18 13:13:56,168] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2332149/23321490490.20200701181358.jpg?type=f140 COX CK01 PBT 43,900원 
+[2022-08-18 13:14:21,577] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3086062/30860624618.20220209092012.jpg?type=f140 한성컴퓨터 GK200 RAINBOW 게이밍 기계식 키보드 36,900원 
+[2022-08-18 13:14:57,971] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1214685/12146852973.20220714135921.jpg?type=f140 앱코 K660 축교환 완전방수 게이밍 카일광축 레인보우LED 53,500원 
+[2022-08-18 13:15:21,915] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2061262/20612627710.20191022173313.jpg?type=f140 마이크로닉스 MANIC X30 마닉축 기계식 키보드 33,900원 
+[2022-08-18 13:15:49,902] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2158566/21585664463.20191225114207.jpg?type=f140 HP GK400F LED 게이밍 기계식 키보드 25,900원 
+[2022-08-18 13:15:55,764] {logging_mixin.py:115} INFO - 1
+[2022-08-18 13:16:22,360] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1129115/11291155550.20220126105845.jpg?type=f140 앱코 K640 한영 축교환 레인보우LED 게이밍 방진축 33,500원 
+[2022-08-18 13:16:46,439] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1885837/18858375172.20191231161436.jpg?type=f140 아이락스 KR-6170 X-Slim 30,500원 
+[2022-08-18 13:17:10,106] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3048826/30488263622.20220110170830.jpg?type=f140 로지텍 MX KEYS MINI 113,800원 
+[2022-08-18 13:17:35,049] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2278290/22782906567.20200507231953.jpg?type=f140 COX CK01 29,900원 
+[2022-08-18 13:17:58,975] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2556452/25564526522.20210112094934.jpg?type=f140 archon K75 유/무선 기계식 키보드 77,640원 
+[2022-08-18 13:18:05,201] {logging_mixin.py:115} INFO - 2
+[2022-08-18 13:18:29,972] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2332149/23321490490.20200701181358.jpg?type=f140 COX CK01 PBT 43,900원 
+[2022-08-18 13:18:58,913] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3086062/30860624618.20220209092012.jpg?type=f140 한성컴퓨터 GK200 RAINBOW 게이밍 기계식 키보드 36,900원 
+[2022-08-18 13:19:22,769] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1214685/12146852973.20220714135921.jpg?type=f140 앱코 K660 축교환 완전방수 게이밍 카일광축 레인보우LED 53,500원 
+[2022-08-18 13:19:46,551] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2061262/20612627710.20191022173313.jpg?type=f140 마이크로닉스 MANIC X30 마닉축 기계식 키보드 33,900원 
+[2022-08-18 13:20:10,351] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2158566/21585664463.20191225114207.jpg?type=f140 HP GK400F LED 게이밍 기계식 키보드 25,900원 
+[2022-08-18 13:20:17,550] {logging_mixin.py:115} INFO - 3
+[2022-08-18 13:20:17,733] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-18 13:20:17,848] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=craw, task_id=cr3, execution_date=20220818T131223, start_date=20220818T131236, end_date=20220818T132017
+[2022-08-18 13:20:18,002] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-18 13:20:18,119] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

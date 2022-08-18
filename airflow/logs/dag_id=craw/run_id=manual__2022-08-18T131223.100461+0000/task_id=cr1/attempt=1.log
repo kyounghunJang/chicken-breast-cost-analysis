@@ -1,0 +1,43 @@
+[2022-08-18 13:12:33,960] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr1 manual__2022-08-18T13:12:23.100461+00:00 [queued]>
+[2022-08-18 13:12:34,050] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr1 manual__2022-08-18T13:12:23.100461+00:00 [queued]>
+[2022-08-18 13:12:34,068] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 13:12:34,083] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-18 13:12:34,099] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 13:12:34,316] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr1> on 2022-08-18 13:12:23.100461+00:00
+[2022-08-18 13:12:34,359] {standard_task_runner.py:52} INFO - Started process 142 to run task
+[2022-08-18 13:12:34,374] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr1', 'manual__2022-08-18T13:12:23.100461+00:00', '--job-id', '109', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmpmk1b00qp', '--error-file', '/tmp/tmpgeqzgqtg']
+[2022-08-18 13:12:34,392] {standard_task_runner.py:80} INFO - Job 109: Subtask cr1
+[2022-08-18 13:12:35,374] {task_command.py:371} INFO - Running <TaskInstance: craw.cr1 manual__2022-08-18T13:12:23.100461+00:00 [running]> on host cdb6935da655
+[2022-08-18 13:12:36,982] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr1
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T13:12:23.100461+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-18T13:12:23.100461+00:00
+[2022-08-18 13:12:37,047] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-18 13:12:37,076] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-18 13:12:41,117] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-18 13:12:46,009] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip
+[2022-08-18 13:12:54,206] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112]
+[2022-08-18 13:13:58,888] {logging_mixin.py:115} INFO - https://searchad-phinf.pstatic.net/MjAyMTEyMjFfMjgx/MDAxNjQwMDU2Njc2NjUy.Ob1_cxGTyqNiAIztA-Go5XzACCOEMTzg8KsXQBHAy9Ug.WLbtKsrkcXNkN2TdF96V2tP5GJs-W36zVQAB5pYADkEg.PNG/1871830-d9c5ef97-322f-4073-874e-584610ec51b1.png?type=f200 티앤에스인터내셔널 VALKAN 게이밍 키보드 64,400원 
+[2022-08-18 13:14:23,200] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1531030/15310309538.20200403164240.jpg?type=f140 비프렌드 G키보드2 프리미엄 레인보우 21,900원 
+[2022-08-18 13:15:06,421] {logging_mixin.py:115} INFO - https://searchad-phinf.pstatic.net/MjAyMTA3MDhfMTI5/MDAxNjI1NzAzNzE0MjUw.-Ifz0R9WPPYV60WN93ZMCvsonrDeRIxz2Kbhv8Lqqukg.EXOFH9NT2Vp6FiWJ8QkfCfpPA3gMGyQzsuMwrQhWLEEg.PNG/1871830-ebb23725-6adb-44ea-9ce7-8903a302c74f.png?type=f200 티앤에스인터내셔널 VALKAN CK 69,800원 
+[2022-08-18 13:15:34,393] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1476185/14761858336.20220714135728.jpg?type=f140 COX CK420 교체축 레인보우 LED 게이밍 기계식 키보드 35,400원 
+[2022-08-18 13:15:40,964] {logging_mixin.py:115} INFO - 1
+[2022-08-18 13:16:06,067] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2604016/26040163522.20210218152623.jpg?type=f140 로이체 KT5 PRO 17,900원 
+[2022-08-18 13:16:30,186] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2556897/25568974522.20220525173047.jpg?type=f140 레드빈 트리플 멀티페어링 블루투스 저소음 무선키보드 A19K 36,900원 
+[2022-08-18 13:16:54,976] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3143904/31439043618.20220707160107.jpg?type=f140 키크론 Q1 노브 RGB 알루미늄 커스텀 기계식 키보드 209,000원 
+[2022-08-18 13:17:18,916] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2556649/25566498522.20210112102336.jpg?type=f140 archon K77 유/무선 기계식키보드 98,010원 
+[2022-08-18 13:17:24,983] {logging_mixin.py:115} INFO - 2
+[2022-08-18 13:17:48,865] {logging_mixin.py:115} INFO - https://searchad-phinf.pstatic.net/MjAyMTEyMjFfMjgx/MDAxNjQwMDU2Njc2NjUy.Ob1_cxGTyqNiAIztA-Go5XzACCOEMTzg8KsXQBHAy9Ug.WLbtKsrkcXNkN2TdF96V2tP5GJs-W36zVQAB5pYADkEg.PNG/1871830-d9c5ef97-322f-4073-874e-584610ec51b1.png?type=f200 티앤에스인터내셔널 VALKAN 게이밍 키보드 64,400원 
+[2022-08-18 13:18:12,870] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1531030/15310309538.20200403164240.jpg?type=f140 비프렌드 G키보드2 프리미엄 레인보우 21,900원 
+[2022-08-18 13:18:37,221] {logging_mixin.py:115} INFO - https://searchad-phinf.pstatic.net/MjAyMTA3MDhfMTI5/MDAxNjI1NzAzNzE0MjUw.-Ifz0R9WPPYV60WN93ZMCvsonrDeRIxz2Kbhv8Lqqukg.EXOFH9NT2Vp6FiWJ8QkfCfpPA3gMGyQzsuMwrQhWLEEg.PNG/1871830-ebb23725-6adb-44ea-9ce7-8903a302c74f.png?type=f200 티앤에스인터내셔널 VALKAN CK 69,800원 
+[2022-08-18 13:19:04,532] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1476185/14761858336.20220714135728.jpg?type=f140 COX CK420 교체축 레인보우 LED 게이밍 기계식 키보드 35,400원 
+[2022-08-18 13:19:10,203] {logging_mixin.py:115} INFO - 3
+[2022-08-18 13:19:10,340] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-18 13:19:10,392] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=craw, task_id=cr1, execution_date=20220818T131223, start_date=20220818T131233, end_date=20220818T131910
+[2022-08-18 13:19:10,576] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-18 13:19:10,685] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

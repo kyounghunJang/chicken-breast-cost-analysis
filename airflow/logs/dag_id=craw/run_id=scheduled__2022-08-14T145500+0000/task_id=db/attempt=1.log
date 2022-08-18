@@ -1,0 +1,43 @@
+[2022-08-18 13:12:33,714] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.db scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-18 13:12:33,791] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.db scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-18 13:12:33,792] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 13:12:33,793] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-18 13:12:33,794] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 13:12:33,900] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): db> on 2022-08-14 14:55:00+00:00
+[2022-08-18 13:12:33,923] {standard_task_runner.py:52} INFO - Started process 141 to run task
+[2022-08-18 13:12:33,938] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'db', 'scheduled__2022-08-14T14:55:00+00:00', '--job-id', '107', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmpz1i2hpdd', '--error-file', '/tmp/tmpofbu1mbl']
+[2022-08-18 13:12:33,946] {standard_task_runner.py:80} INFO - Job 107: Subtask db
+[2022-08-18 13:12:34,624] {task_command.py:371} INFO - Running <TaskInstance: craw.db scheduled__2022-08-14T14:55:00+00:00 [running]> on host cdb6935da655
+[2022-08-18 13:12:35,995] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=db
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-14T14:55:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-14T14:55:00+00:00
+[2022-08-18 13:12:36,292] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-18 13:12:37,638] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/newtest.py", line 122, in totaldb
+    spark=SparkSession.builder.appName('sparkdf').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-08-18 13:12:38,679] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=craw, task_id=db, execution_date=20220814T145500, start_date=20220818T131233, end_date=20220818T131238
+[2022-08-18 13:12:38,893] {standard_task_runner.py:97} ERROR - Failed to execute job 107 for task db (Java gateway process exited before sending its port number; 141)
+[2022-08-18 13:12:39,198] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-18 13:12:39,344] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

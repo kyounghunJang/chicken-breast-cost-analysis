@@ -1,0 +1,29 @@
+[2022-08-18 15:24:55,922] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr3 scheduled__2022-08-17T14:55:00+00:00 [queued]>
+[2022-08-18 15:24:56,006] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr3 scheduled__2022-08-17T14:55:00+00:00 [queued]>
+[2022-08-18 15:24:56,024] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 15:24:56,025] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-18 15:24:56,026] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 15:24:56,238] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr3> on 2022-08-17 14:55:00+00:00
+[2022-08-18 15:24:56,275] {standard_task_runner.py:52} INFO - Started process 92 to run task
+[2022-08-18 15:24:56,293] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr3', 'scheduled__2022-08-17T14:55:00+00:00', '--job-id', '178', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmphy2ld5so', '--error-file', '/tmp/tmp9rkzenc0']
+[2022-08-18 15:24:56,337] {standard_task_runner.py:80} INFO - Job 178: Subtask cr3
+[2022-08-18 15:24:57,322] {task_command.py:371} INFO - Running <TaskInstance: craw.cr3 scheduled__2022-08-17T14:55:00+00:00 [running]> on host a73b00663d46
+[2022-08-18 15:24:58,620] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr3
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-17T14:55:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-17T14:55:00+00:00
+[2022-08-18 15:24:58,897] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-18 15:24:58,941] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-18 15:25:00,441] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-18 15:25:02,340] {logger.py:11} INFO - There is no [linux64] chromedriver for browser 104.0.5112 in cache
+[2022-08-18 15:25:02,343] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip
+[2022-08-18 15:25:39,306] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112]
+[2022-08-18 15:27:41,199] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2332149/23321490490.20200701181358.jpg?type=f140 COX CK01 PBT 43,900원 
+[2022-08-18 15:28:20,350] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3086062/30860624618.20220209092012.jpg?type=f140 한성컴퓨터 GK200 RAINBOW 게이밍 기계식 키보드 36,900원 
+[2022-08-18 15:29:42,513] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1214685/12146852973.20220714135921.jpg?type=f140 앱코 K660 축교환 완전방수 게이밍 카일광축 레인보우LED 53,500원 
+[2022-08-18 15:30:45,550] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2061262/20612627710.20191022173313.jpg?type=f140 마이크로닉스 MANIC X30 마닉축 기계식 키보드 33,900원 

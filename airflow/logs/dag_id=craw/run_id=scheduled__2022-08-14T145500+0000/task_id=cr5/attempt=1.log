@@ -229,3 +229,31 @@ airflow.exceptions.AirflowNotFoundException: The conn_id `mysql` isn't defined
 [2022-08-18 04:27:13,249] {local_task_job.py:156} INFO - Task exited with return code 1
 [2022-08-18 04:27:13,315] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
 [2022-08-18 04:27:13,374] {dagrun.py:1081} ERROR - Failed to get task '<TaskInstance: craw.con scheduled__2022-08-14T14:55:00+00:00 [removed]>' for dag 'craw'. Marking it as removed.
+[2022-08-18 13:12:35,566] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr5 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-18 13:12:35,731] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr5 scheduled__2022-08-14T14:55:00+00:00 [queued]>
+[2022-08-18 13:12:35,759] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 13:12:35,775] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-18 13:12:35,791] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 13:12:36,032] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr5> on 2022-08-14 14:55:00+00:00
+[2022-08-18 13:12:36,109] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr5', 'scheduled__2022-08-14T14:55:00+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmp5_308nkp', '--error-file', '/tmp/tmpt_tcy9x3']
+[2022-08-18 13:12:36,119] {standard_task_runner.py:52} INFO - Started process 149 to run task
+[2022-08-18 13:12:36,143] {standard_task_runner.py:80} INFO - Job 113: Subtask cr5
+[2022-08-18 13:12:37,182] {task_command.py:371} INFO - Running <TaskInstance: craw.cr5 scheduled__2022-08-14T14:55:00+00:00 [running]> on host cdb6935da655
+[2022-08-18 13:12:38,236] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr5
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-14T14:55:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-14T14:55:00+00:00
+[2022-08-18 13:12:38,364] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-18 13:12:38,434] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-18 13:12:41,159] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-18 13:12:44,815] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip
+[2022-08-18 13:12:47,129] {local_task_job.py:221} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-08-18 13:12:47,174] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 149. PIDs of all processes in the group: [149]
+[2022-08-18 13:12:47,205] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 149
+[2022-08-18 13:12:47,237] {taskinstance.py:1561} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-08-18 13:12:47,706] {process_utils.py:75} INFO - Process psutil.Process(pid=149, status='terminated', exitcode=0, started='13:12:36') (149) terminated with exit code 0

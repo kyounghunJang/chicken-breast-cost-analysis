@@ -1,0 +1,46 @@
+[2022-08-18 13:12:34,366] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr5 manual__2022-08-18T13:12:23.100461+00:00 [queued]>
+[2022-08-18 13:12:34,508] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr5 manual__2022-08-18T13:12:23.100461+00:00 [queued]>
+[2022-08-18 13:12:34,523] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 13:12:34,537] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-18 13:12:34,559] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 13:12:34,851] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr5> on 2022-08-18 13:12:23.100461+00:00
+[2022-08-18 13:12:34,927] {standard_task_runner.py:52} INFO - Started process 144 to run task
+[2022-08-18 13:12:34,997] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr5', 'manual__2022-08-18T13:12:23.100461+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmpvxejxc_v', '--error-file', '/tmp/tmp3ts2wyvq']
+[2022-08-18 13:12:35,052] {standard_task_runner.py:80} INFO - Job 108: Subtask cr5
+[2022-08-18 13:12:35,909] {task_command.py:371} INFO - Running <TaskInstance: craw.cr5 manual__2022-08-18T13:12:23.100461+00:00 [running]> on host cdb6935da655
+[2022-08-18 13:12:36,880] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr5
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T13:12:23.100461+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-18T13:12:23.100461+00:00
+[2022-08-18 13:12:37,009] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-18 13:12:37,043] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-18 13:12:41,116] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-18 13:12:45,638] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip
+[2022-08-18 13:12:54,607] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112]
+[2022-08-18 13:14:01,270] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2992245/29922458618.20220303175959.jpg?type=f140 앱코 K840 스퀘어 레트로 축교환 기계식 키보드 47,900원 
+[2022-08-18 13:14:29,183] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2785853/27858532522.20211021110322.jpg?type=f140 앱코 AN02 RGB BAR 축교환 기계식 키보드 34,500원 
+[2022-08-18 13:15:08,038] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2336494/23364942490.20200706104104.jpg?type=f140 한성컴퓨터 GK787S OfficeMaster 체리 기계식키보드 79,900원 
+[2022-08-18 13:15:35,596] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2013869/20138695528.20220610100245.jpg?type=f140 한성컴퓨터 GK898B OfficeMaster 한글 159,000원 
+[2022-08-18 13:16:01,413] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1013013/10130132704.20201113142036.jpg?type=f140 비프렌드 G-MASTER 레인보우 이중사출 청축 39,500원 
+[2022-08-18 13:16:07,624] {logging_mixin.py:115} INFO - 1
+[2022-08-18 13:16:33,574] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_7996481/7996481579.20141006112401.jpg?type=f140 로지텍 K480 18,650원 
+[2022-08-18 13:16:57,843] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2183882/21838827773.20200129100927.jpg?type=f140 앱코 K611 텐키리스 카일광축 완전방수 축교환 게이밍 키보드 39,900원 
+[2022-08-18 13:17:22,110] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1182045/11820457775.20211206152108.jpg?type=f140 삼성전자 삼성 SKG-3000UB 14,751원 
+[2022-08-18 13:17:46,115] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1573114/15731149924.20181018143102.jpg?type=f140 QSENN ARES Q34 LED 게이밍 기계식 한손 키보드 22,900원 
+[2022-08-18 13:18:09,923] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1519768/15197687925.20180831102024.jpg?type=f140 아이락스 K27WF 29,900원 
+[2022-08-18 13:18:16,325] {logging_mixin.py:115} INFO - 2
+[2022-08-18 13:18:40,412] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2992245/29922458618.20220303175959.jpg?type=f140 앱코 K840 스퀘어 레트로 축교환 기계식 키보드 47,900원 
+[2022-08-18 13:19:05,903] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2785853/27858532522.20211021110322.jpg?type=f140 앱코 AN02 RGB BAR 축교환 기계식 키보드 34,500원 
+[2022-08-18 13:19:29,711] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2336494/23364942490.20200706104104.jpg?type=f140 한성컴퓨터 GK787S OfficeMaster 체리 기계식키보드 79,900원 
+[2022-08-18 13:19:53,601] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2013869/20138695528.20220610100245.jpg?type=f140 한성컴퓨터 GK898B OfficeMaster 한글 159,000원 
+[2022-08-18 13:20:17,319] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1013013/10130132704.20201113142036.jpg?type=f140 비프렌드 G-MASTER 레인보우 이중사출 청축 39,500원 
+[2022-08-18 13:20:23,636] {logging_mixin.py:115} INFO - 3
+[2022-08-18 13:20:23,769] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-18 13:20:23,858] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=craw, task_id=cr5, execution_date=20220818T131223, start_date=20220818T131234, end_date=20220818T132023
+[2022-08-18 13:20:23,950] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-18 13:20:24,072] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

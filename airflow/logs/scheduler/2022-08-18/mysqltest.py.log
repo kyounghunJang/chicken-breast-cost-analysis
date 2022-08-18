@@ -1661,3 +1661,496 @@
 [2022-08-18 08:00:28,420] {logging_mixin.py:115} INFO - [2022-08-18 08:00:28,419] {dag.py:2420} INFO - Sync 1 DAGs
 [2022-08-18 08:00:28,469] {logging_mixin.py:115} INFO - [2022-08-18 08:00:28,469] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-10T14:55:00+00:00, run_after=2022-08-11T14:55:00+00:00
 [2022-08-18 08:00:28,497] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.406 seconds
+[2022-08-18 13:11:35,716] {processor.py:153} INFO - Started process (PID=59) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:11:35,718] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:11:35,720] {logging_mixin.py:115} INFO - [2022-08-18 13:11:35,720] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:11:35,823] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:11:36,181] {logging_mixin.py:115} INFO - [2022-08-18 13:11:36,181] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:11:36,277] {logging_mixin.py:115} INFO - [2022-08-18 13:11:36,276] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:11:36,322] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.612 seconds
+[2022-08-18 13:12:06,416] {processor.py:153} INFO - Started process (PID=113) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:12:06,419] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:12:06,421] {logging_mixin.py:115} INFO - [2022-08-18 13:12:06,421] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:12:06,475] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:12:06,772] {logging_mixin.py:115} INFO - [2022-08-18 13:12:06,772] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:12:06,851] {logging_mixin.py:115} INFO - [2022-08-18 13:12:06,851] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:12:06,888] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.478 seconds
+[2022-08-18 13:12:39,051] {processor.py:153} INFO - Started process (PID=182) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:12:39,071] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:12:39,117] {logging_mixin.py:115} INFO - [2022-08-18 13:12:39,106] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:12:39,299] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:12:39,825] {logging_mixin.py:115} INFO - [2022-08-18 13:12:39,825] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:12:39,926] {logging_mixin.py:115} INFO - [2022-08-18 13:12:39,925] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:12:39,981] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.959 seconds
+[2022-08-18 13:13:11,513] {processor.py:153} INFO - Started process (PID=251) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:13:11,524] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:13:11,548] {logging_mixin.py:115} INFO - [2022-08-18 13:13:11,548] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:13:11,747] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:13:12,297] {logging_mixin.py:115} INFO - [2022-08-18 13:13:12,296] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:13:12,405] {logging_mixin.py:115} INFO - [2022-08-18 13:13:12,405] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:13:12,469] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.967 seconds
+[2022-08-18 13:13:44,954] {processor.py:153} INFO - Started process (PID=308) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:13:45,003] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:13:45,017] {logging_mixin.py:115} INFO - [2022-08-18 13:13:45,017] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:13:45,466] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:13:46,240] {logging_mixin.py:115} INFO - [2022-08-18 13:13:46,240] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:13:46,387] {logging_mixin.py:115} INFO - [2022-08-18 13:13:46,387] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:13:46,429] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 1.509 seconds
+[2022-08-18 13:14:17,030] {processor.py:153} INFO - Started process (PID=365) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:14:17,047] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:14:17,049] {logging_mixin.py:115} INFO - [2022-08-18 13:14:17,049] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:14:17,174] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:14:17,506] {logging_mixin.py:115} INFO - [2022-08-18 13:14:17,505] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:14:17,606] {logging_mixin.py:115} INFO - [2022-08-18 13:14:17,605] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:14:17,661] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.651 seconds
+[2022-08-18 13:15:02,881] {processor.py:153} INFO - Started process (PID=424) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:15:02,883] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:15:02,884] {logging_mixin.py:115} INFO - [2022-08-18 13:15:02,884] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:15:02,935] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:15:03,186] {logging_mixin.py:115} INFO - [2022-08-18 13:15:03,185] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:15:03,252] {logging_mixin.py:115} INFO - [2022-08-18 13:15:03,250] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:15:03,285] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.411 seconds
+[2022-08-18 13:15:38,871] {processor.py:153} INFO - Started process (PID=479) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:15:38,885] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:15:38,887] {logging_mixin.py:115} INFO - [2022-08-18 13:15:38,886] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:15:39,214] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:15:39,739] {logging_mixin.py:115} INFO - [2022-08-18 13:15:39,739] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:15:39,849] {logging_mixin.py:115} INFO - [2022-08-18 13:15:39,849] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:15:39,956] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 1.100 seconds
+[2022-08-18 13:16:10,798] {processor.py:153} INFO - Started process (PID=536) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:16:10,801] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:16:10,802] {logging_mixin.py:115} INFO - [2022-08-18 13:16:10,802] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:16:10,860] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:16:11,226] {logging_mixin.py:115} INFO - [2022-08-18 13:16:11,226] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:16:11,337] {logging_mixin.py:115} INFO - [2022-08-18 13:16:11,337] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:16:11,392] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.605 seconds
+[2022-08-18 13:16:42,639] {processor.py:153} INFO - Started process (PID=592) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:16:42,645] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:16:42,656] {logging_mixin.py:115} INFO - [2022-08-18 13:16:42,655] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:16:43,007] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:16:43,056] {logging_mixin.py:115} INFO - [2022-08-18 13:16:43,056] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:16:43,119] {logging_mixin.py:115} INFO - [2022-08-18 13:16:43,119] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:16:43,156] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.534 seconds
+[2022-08-18 13:17:13,306] {processor.py:153} INFO - Started process (PID=648) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:17:13,307] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:17:13,310] {logging_mixin.py:115} INFO - [2022-08-18 13:17:13,309] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:17:13,578] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:17:13,666] {logging_mixin.py:115} INFO - [2022-08-18 13:17:13,666] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:17:13,778] {logging_mixin.py:115} INFO - [2022-08-18 13:17:13,777] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:17:13,821] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.520 seconds
+[2022-08-18 13:17:44,036] {processor.py:153} INFO - Started process (PID=704) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:17:44,037] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:17:44,039] {logging_mixin.py:115} INFO - [2022-08-18 13:17:44,038] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:17:44,280] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:17:44,309] {logging_mixin.py:115} INFO - [2022-08-18 13:17:44,308] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:17:44,346] {logging_mixin.py:115} INFO - [2022-08-18 13:17:44,346] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:17:44,373] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.344 seconds
+[2022-08-18 13:18:14,768] {processor.py:153} INFO - Started process (PID=763) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:18:14,771] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:18:14,773] {logging_mixin.py:115} INFO - [2022-08-18 13:18:14,773] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:18:15,179] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:18:15,255] {logging_mixin.py:115} INFO - [2022-08-18 13:18:15,254] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:18:15,341] {logging_mixin.py:115} INFO - [2022-08-18 13:18:15,341] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:18:15,441] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.688 seconds
+[2022-08-18 13:18:46,029] {processor.py:153} INFO - Started process (PID=817) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:18:46,040] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:18:46,057] {logging_mixin.py:115} INFO - [2022-08-18 13:18:46,057] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:18:46,659] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:18:46,832] {logging_mixin.py:115} INFO - [2022-08-18 13:18:46,832] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:18:46,990] {logging_mixin.py:115} INFO - [2022-08-18 13:18:46,989] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:18:47,086] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 1.073 seconds
+[2022-08-18 13:19:17,813] {processor.py:153} INFO - Started process (PID=881) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:19:17,815] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:19:17,818] {logging_mixin.py:115} INFO - [2022-08-18 13:19:17,817] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:19:18,216] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:19:18,303] {logging_mixin.py:115} INFO - [2022-08-18 13:19:18,302] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:19:18,372] {logging_mixin.py:115} INFO - [2022-08-18 13:19:18,372] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:19:18,398] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.592 seconds
+[2022-08-18 13:19:48,821] {processor.py:153} INFO - Started process (PID=940) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:19:48,822] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:19:48,823] {logging_mixin.py:115} INFO - [2022-08-18 13:19:48,823] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:19:48,974] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:19:49,000] {logging_mixin.py:115} INFO - [2022-08-18 13:19:49,000] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:19:49,024] {logging_mixin.py:115} INFO - [2022-08-18 13:19:49,024] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:19:49,042] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.226 seconds
+[2022-08-18 13:20:19,282] {processor.py:153} INFO - Started process (PID=999) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:20:19,284] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:20:19,287] {logging_mixin.py:115} INFO - [2022-08-18 13:20:19,287] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:20:19,700] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:20:19,770] {logging_mixin.py:115} INFO - [2022-08-18 13:20:19,770] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:20:19,871] {logging_mixin.py:115} INFO - [2022-08-18 13:20:19,870] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:20:19,930] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.657 seconds
+[2022-08-18 13:20:50,540] {processor.py:153} INFO - Started process (PID=1055) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:20:50,541] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:20:50,542] {logging_mixin.py:115} INFO - [2022-08-18 13:20:50,542] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:20:50,710] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:20:50,734] {logging_mixin.py:115} INFO - [2022-08-18 13:20:50,734] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:20:50,771] {logging_mixin.py:115} INFO - [2022-08-18 13:20:50,770] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:20:50,794] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.262 seconds
+[2022-08-18 13:21:20,893] {processor.py:153} INFO - Started process (PID=1114) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:21:20,897] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:21:20,898] {logging_mixin.py:115} INFO - [2022-08-18 13:21:20,898] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:21:21,117] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:21:21,146] {logging_mixin.py:115} INFO - [2022-08-18 13:21:21,146] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:21:21,184] {logging_mixin.py:115} INFO - [2022-08-18 13:21:21,184] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:21:21,213] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.331 seconds
+[2022-08-18 13:21:51,342] {processor.py:153} INFO - Started process (PID=1171) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:21:51,343] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:21:51,344] {logging_mixin.py:115} INFO - [2022-08-18 13:21:51,344] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:21:51,533] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:21:51,569] {logging_mixin.py:115} INFO - [2022-08-18 13:21:51,569] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:21:51,605] {logging_mixin.py:115} INFO - [2022-08-18 13:21:51,605] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:21:51,647] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.312 seconds
+[2022-08-18 13:22:21,958] {processor.py:153} INFO - Started process (PID=1228) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:22:21,959] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:22:21,960] {logging_mixin.py:115} INFO - [2022-08-18 13:22:21,960] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:22:22,182] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:22:22,213] {logging_mixin.py:115} INFO - [2022-08-18 13:22:22,213] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:22:22,243] {logging_mixin.py:115} INFO - [2022-08-18 13:22:22,242] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:22:22,261] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.307 seconds
+[2022-08-18 13:22:53,245] {processor.py:153} INFO - Started process (PID=1294) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:22:53,247] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:22:53,249] {logging_mixin.py:115} INFO - [2022-08-18 13:22:53,248] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:22:53,592] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:22:53,656] {logging_mixin.py:115} INFO - [2022-08-18 13:22:53,655] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:22:53,745] {logging_mixin.py:115} INFO - [2022-08-18 13:22:53,735] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:22:53,814] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.578 seconds
+[2022-08-18 13:23:24,014] {processor.py:153} INFO - Started process (PID=1350) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:23:24,015] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:23:24,016] {logging_mixin.py:115} INFO - [2022-08-18 13:23:24,016] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:23:24,201] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:23:24,252] {logging_mixin.py:115} INFO - [2022-08-18 13:23:24,252] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:23:24,329] {logging_mixin.py:115} INFO - [2022-08-18 13:23:24,329] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:23:24,474] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.465 seconds
+[2022-08-18 13:23:54,766] {processor.py:153} INFO - Started process (PID=1407) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:23:54,768] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:23:54,772] {logging_mixin.py:115} INFO - [2022-08-18 13:23:54,772] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:23:54,990] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:23:55,017] {logging_mixin.py:115} INFO - [2022-08-18 13:23:55,017] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:23:55,053] {logging_mixin.py:115} INFO - [2022-08-18 13:23:55,053] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:23:55,081] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.322 seconds
+[2022-08-18 13:24:25,661] {processor.py:153} INFO - Started process (PID=1473) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:24:25,663] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:24:25,665] {logging_mixin.py:115} INFO - [2022-08-18 13:24:25,665] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:24:25,892] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:24:25,925] {logging_mixin.py:115} INFO - [2022-08-18 13:24:25,925] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:24:25,967] {logging_mixin.py:115} INFO - [2022-08-18 13:24:25,967] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:24:25,986] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.335 seconds
+[2022-08-18 13:25:55,912] {processor.py:153} INFO - Started process (PID=60) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:25:55,924] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:25:55,929] {logging_mixin.py:115} INFO - [2022-08-18 13:25:55,928] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:25:56,026] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:25:56,099] {logging_mixin.py:115} INFO - [2022-08-18 13:25:56,098] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:25:56,222] {logging_mixin.py:115} INFO - [2022-08-18 13:25:56,222] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:25:56,263] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.356 seconds
+[2022-08-18 13:26:26,473] {processor.py:153} INFO - Started process (PID=116) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:26:26,475] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:26:26,476] {logging_mixin.py:115} INFO - [2022-08-18 13:26:26,476] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:26:26,521] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:26:26,564] {logging_mixin.py:115} INFO - [2022-08-18 13:26:26,564] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:26:26,602] {logging_mixin.py:115} INFO - [2022-08-18 13:26:26,602] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:26:26,624] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.156 seconds
+[2022-08-18 13:26:57,055] {processor.py:153} INFO - Started process (PID=174) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:26:57,057] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:26:57,058] {logging_mixin.py:115} INFO - [2022-08-18 13:26:57,058] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:26:57,085] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:26:57,117] {logging_mixin.py:115} INFO - [2022-08-18 13:26:57,117] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:26:57,160] {logging_mixin.py:115} INFO - [2022-08-18 13:26:57,159] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:26:57,192] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.143 seconds
+[2022-08-18 13:27:27,381] {processor.py:153} INFO - Started process (PID=231) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:27:27,382] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:27:27,383] {logging_mixin.py:115} INFO - [2022-08-18 13:27:27,383] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:27:27,415] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:27:27,446] {logging_mixin.py:115} INFO - [2022-08-18 13:27:27,446] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:27:27,481] {logging_mixin.py:115} INFO - [2022-08-18 13:27:27,481] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:27:27,502] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.125 seconds
+[2022-08-18 13:27:58,530] {processor.py:153} INFO - Started process (PID=297) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:27:58,531] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:27:58,532] {logging_mixin.py:115} INFO - [2022-08-18 13:27:58,532] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:27:58,558] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:27:58,589] {logging_mixin.py:115} INFO - [2022-08-18 13:27:58,589] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:27:58,628] {logging_mixin.py:115} INFO - [2022-08-18 13:27:58,628] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:27:58,649] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.124 seconds
+[2022-08-18 13:28:29,082] {processor.py:153} INFO - Started process (PID=354) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:28:29,083] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:28:29,084] {logging_mixin.py:115} INFO - [2022-08-18 13:28:29,084] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:28:29,133] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:28:29,168] {logging_mixin.py:115} INFO - [2022-08-18 13:28:29,168] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:28:29,201] {logging_mixin.py:115} INFO - [2022-08-18 13:28:29,201] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:28:29,217] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.139 seconds
+[2022-08-18 13:29:00,003] {processor.py:153} INFO - Started process (PID=411) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:29:00,004] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:29:00,005] {logging_mixin.py:115} INFO - [2022-08-18 13:29:00,005] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:29:00,053] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:29:00,099] {logging_mixin.py:115} INFO - [2022-08-18 13:29:00,098] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:29:00,139] {logging_mixin.py:115} INFO - [2022-08-18 13:29:00,138] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:29:00,159] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.162 seconds
+[2022-08-18 13:29:30,911] {processor.py:153} INFO - Started process (PID=477) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:29:30,912] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:29:30,913] {logging_mixin.py:115} INFO - [2022-08-18 13:29:30,913] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:29:30,935] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:29:30,965] {logging_mixin.py:115} INFO - [2022-08-18 13:29:30,965] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:29:30,994] {logging_mixin.py:115} INFO - [2022-08-18 13:29:30,994] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:29:31,008] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.101 seconds
+[2022-08-18 13:30:02,444] {processor.py:153} INFO - Started process (PID=534) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:30:02,451] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:30:02,480] {logging_mixin.py:115} INFO - [2022-08-18 13:30:02,480] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:30:03,083] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:30:03,192] {logging_mixin.py:115} INFO - [2022-08-18 13:30:03,192] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:30:03,360] {logging_mixin.py:115} INFO - [2022-08-18 13:30:03,360] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:30:03,424] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.992 seconds
+[2022-08-18 13:30:33,956] {processor.py:153} INFO - Started process (PID=591) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:30:33,958] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:30:33,960] {logging_mixin.py:115} INFO - [2022-08-18 13:30:33,960] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:30:34,007] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:30:34,060] {logging_mixin.py:115} INFO - [2022-08-18 13:30:34,059] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:30:34,127] {logging_mixin.py:115} INFO - [2022-08-18 13:30:34,127] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:30:34,161] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.218 seconds
+[2022-08-18 13:31:04,426] {processor.py:153} INFO - Started process (PID=649) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:31:04,427] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:31:04,429] {logging_mixin.py:115} INFO - [2022-08-18 13:31:04,429] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:31:04,503] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:31:04,579] {logging_mixin.py:115} INFO - [2022-08-18 13:31:04,579] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:31:04,674] {logging_mixin.py:115} INFO - [2022-08-18 13:31:04,674] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:31:04,727] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.308 seconds
+[2022-08-18 13:31:34,987] {processor.py:153} INFO - Started process (PID=707) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:31:34,991] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:31:34,992] {logging_mixin.py:115} INFO - [2022-08-18 13:31:34,992] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:31:35,030] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:31:35,061] {logging_mixin.py:115} INFO - [2022-08-18 13:31:35,061] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:31:35,100] {logging_mixin.py:115} INFO - [2022-08-18 13:31:35,100] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:31:35,121] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.138 seconds
+[2022-08-18 13:32:05,360] {processor.py:153} INFO - Started process (PID=766) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:32:05,362] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:32:05,364] {logging_mixin.py:115} INFO - [2022-08-18 13:32:05,363] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:32:05,457] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:32:05,560] {logging_mixin.py:115} INFO - [2022-08-18 13:32:05,560] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:32:05,644] {logging_mixin.py:115} INFO - [2022-08-18 13:32:05,644] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:32:05,716] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.362 seconds
+[2022-08-18 13:32:35,985] {processor.py:153} INFO - Started process (PID=831) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:32:35,986] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:32:35,987] {logging_mixin.py:115} INFO - [2022-08-18 13:32:35,987] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:32:36,022] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:32:36,064] {logging_mixin.py:115} INFO - [2022-08-18 13:32:36,064] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:32:36,111] {logging_mixin.py:115} INFO - [2022-08-18 13:32:36,111] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:32:36,140] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.160 seconds
+[2022-08-18 13:33:06,572] {processor.py:153} INFO - Started process (PID=888) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:33:06,573] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:33:06,575] {logging_mixin.py:115} INFO - [2022-08-18 13:33:06,575] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:33:06,615] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:33:06,656] {logging_mixin.py:115} INFO - [2022-08-18 13:33:06,656] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:33:06,699] {logging_mixin.py:115} INFO - [2022-08-18 13:33:06,698] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:33:06,715] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.148 seconds
+[2022-08-18 13:33:36,862] {processor.py:153} INFO - Started process (PID=945) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:33:36,863] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:33:36,865] {logging_mixin.py:115} INFO - [2022-08-18 13:33:36,864] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:33:36,899] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:33:36,939] {logging_mixin.py:115} INFO - [2022-08-18 13:33:36,939] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:33:36,993] {logging_mixin.py:115} INFO - [2022-08-18 13:33:36,993] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:33:37,027] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.171 seconds
+[2022-08-18 13:34:07,846] {processor.py:153} INFO - Started process (PID=1011) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:34:07,847] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:34:07,848] {logging_mixin.py:115} INFO - [2022-08-18 13:34:07,848] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:34:07,885] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:34:07,922] {logging_mixin.py:115} INFO - [2022-08-18 13:34:07,922] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:34:07,964] {logging_mixin.py:115} INFO - [2022-08-18 13:34:07,964] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:34:07,986] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.146 seconds
+[2022-08-18 13:34:38,281] {processor.py:153} INFO - Started process (PID=1068) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:34:38,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:34:38,285] {logging_mixin.py:115} INFO - [2022-08-18 13:34:38,284] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:34:38,326] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:34:38,371] {logging_mixin.py:115} INFO - [2022-08-18 13:34:38,371] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:34:38,423] {logging_mixin.py:115} INFO - [2022-08-18 13:34:38,423] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:34:38,453] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.177 seconds
+[2022-08-18 13:36:02,353] {processor.py:153} INFO - Started process (PID=50) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:36:02,354] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:36:02,355] {logging_mixin.py:115} INFO - [2022-08-18 13:36:02,355] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:36:02,414] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:36:02,681] {logging_mixin.py:115} INFO - [2022-08-18 13:36:02,681] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:36:02,728] {logging_mixin.py:115} INFO - [2022-08-18 13:36:02,727] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:36:02,748] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.399 seconds
+[2022-08-18 13:36:35,118] {processor.py:153} INFO - Started process (PID=114) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:36:35,132] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:36:35,152] {logging_mixin.py:115} INFO - [2022-08-18 13:36:35,152] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:36:35,456] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:36:35,886] {logging_mixin.py:115} INFO - [2022-08-18 13:36:35,886] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:36:35,959] {logging_mixin.py:115} INFO - [2022-08-18 13:36:35,957] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:36:36,004] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.892 seconds
+[2022-08-18 13:37:06,596] {processor.py:153} INFO - Started process (PID=171) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:37:06,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:37:06,608] {logging_mixin.py:115} INFO - [2022-08-18 13:37:06,608] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:37:06,717] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:37:07,050] {logging_mixin.py:115} INFO - [2022-08-18 13:37:07,050] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:37:07,114] {logging_mixin.py:115} INFO - [2022-08-18 13:37:07,113] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:37:07,206] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.617 seconds
+[2022-08-18 13:37:37,353] {processor.py:153} INFO - Started process (PID=228) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:37:37,354] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:37:37,355] {logging_mixin.py:115} INFO - [2022-08-18 13:37:37,355] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:37:37,420] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:37:37,582] {logging_mixin.py:115} INFO - [2022-08-18 13:37:37,582] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:37:37,608] {logging_mixin.py:115} INFO - [2022-08-18 13:37:37,607] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:37:37,623] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.276 seconds
+[2022-08-18 13:38:08,859] {processor.py:153} INFO - Started process (PID=285) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:38:08,868] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:38:08,873] {logging_mixin.py:115} INFO - [2022-08-18 13:38:08,871] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:38:08,986] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:38:09,381] {logging_mixin.py:115} INFO - [2022-08-18 13:38:09,380] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:38:09,452] {logging_mixin.py:115} INFO - [2022-08-18 13:38:09,452] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:38:09,487] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.633 seconds
+[2022-08-18 13:38:39,700] {processor.py:153} INFO - Started process (PID=342) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:38:39,701] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:38:39,702] {logging_mixin.py:115} INFO - [2022-08-18 13:38:39,702] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:38:39,747] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:38:40,007] {logging_mixin.py:115} INFO - [2022-08-18 13:38:40,006] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:38:40,114] {logging_mixin.py:115} INFO - [2022-08-18 13:38:40,113] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:38:40,167] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.473 seconds
+[2022-08-18 13:39:11,450] {processor.py:153} INFO - Started process (PID=410) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:39:11,454] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:39:11,456] {logging_mixin.py:115} INFO - [2022-08-18 13:39:11,456] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:39:11,584] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:39:11,910] {logging_mixin.py:115} INFO - [2022-08-18 13:39:11,910] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:39:11,999] {logging_mixin.py:115} INFO - [2022-08-18 13:39:11,999] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:39:12,037] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.595 seconds
+[2022-08-18 13:39:42,377] {processor.py:153} INFO - Started process (PID=466) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:39:42,379] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:39:42,389] {logging_mixin.py:115} INFO - [2022-08-18 13:39:42,389] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:39:42,444] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:39:42,623] {logging_mixin.py:115} INFO - [2022-08-18 13:39:42,623] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:39:42,657] {logging_mixin.py:115} INFO - [2022-08-18 13:39:42,657] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:39:42,677] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.306 seconds
+[2022-08-18 13:40:12,828] {processor.py:153} INFO - Started process (PID=523) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:40:12,829] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:40:12,830] {logging_mixin.py:115} INFO - [2022-08-18 13:40:12,830] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:40:12,875] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:40:13,116] {logging_mixin.py:115} INFO - [2022-08-18 13:40:13,115] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:40:13,177] {logging_mixin.py:115} INFO - [2022-08-18 13:40:13,177] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:40:13,206] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.383 seconds
+[2022-08-18 13:40:43,482] {processor.py:153} INFO - Started process (PID=580) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:40:43,486] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:40:43,488] {logging_mixin.py:115} INFO - [2022-08-18 13:40:43,488] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:40:43,536] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:40:43,758] {logging_mixin.py:115} INFO - [2022-08-18 13:40:43,758] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:40:43,792] {logging_mixin.py:115} INFO - [2022-08-18 13:40:43,791] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:40:43,809] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.335 seconds
+[2022-08-18 13:41:14,101] {processor.py:153} INFO - Started process (PID=637) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:41:14,103] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:41:14,104] {logging_mixin.py:115} INFO - [2022-08-18 13:41:14,104] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:41:14,312] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:41:14,343] {logging_mixin.py:115} INFO - [2022-08-18 13:41:14,342] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:41:14,385] {logging_mixin.py:115} INFO - [2022-08-18 13:41:14,384] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:41:14,415] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.320 seconds
+[2022-08-18 13:41:44,644] {processor.py:153} INFO - Started process (PID=703) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:41:44,645] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:41:44,646] {logging_mixin.py:115} INFO - [2022-08-18 13:41:44,646] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:41:44,830] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:41:44,867] {logging_mixin.py:115} INFO - [2022-08-18 13:41:44,867] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:41:44,923] {logging_mixin.py:115} INFO - [2022-08-18 13:41:44,922] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:41:44,945] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.306 seconds
+[2022-08-18 13:42:15,282] {processor.py:153} INFO - Started process (PID=760) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:42:15,284] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:42:15,289] {logging_mixin.py:115} INFO - [2022-08-18 13:42:15,289] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:42:15,601] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:42:15,694] {logging_mixin.py:115} INFO - [2022-08-18 13:42:15,694] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:42:15,813] {logging_mixin.py:115} INFO - [2022-08-18 13:42:15,813] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:42:15,857] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.584 seconds
+[2022-08-18 13:42:46,397] {processor.py:153} INFO - Started process (PID=824) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:42:46,398] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:42:46,399] {logging_mixin.py:115} INFO - [2022-08-18 13:42:46,399] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:42:46,660] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:42:46,714] {logging_mixin.py:115} INFO - [2022-08-18 13:42:46,713] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:42:46,799] {logging_mixin.py:115} INFO - [2022-08-18 13:42:46,799] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:42:46,846] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.455 seconds
+[2022-08-18 13:43:16,952] {processor.py:153} INFO - Started process (PID=882) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:43:16,953] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:43:16,955] {logging_mixin.py:115} INFO - [2022-08-18 13:43:16,955] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:43:17,181] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:43:17,220] {logging_mixin.py:115} INFO - [2022-08-18 13:43:17,220] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:43:17,265] {logging_mixin.py:115} INFO - [2022-08-18 13:43:17,265] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:43:17,295] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.349 seconds
+[2022-08-18 13:43:47,768] {processor.py:153} INFO - Started process (PID=939) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:43:47,770] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:43:47,771] {logging_mixin.py:115} INFO - [2022-08-18 13:43:47,771] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:43:48,064] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:43:48,115] {logging_mixin.py:115} INFO - [2022-08-18 13:43:48,115] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:43:48,163] {logging_mixin.py:115} INFO - [2022-08-18 13:43:48,163] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:43:48,198] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.435 seconds
+[2022-08-18 13:44:18,861] {processor.py:153} INFO - Started process (PID=1004) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:44:18,862] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:44:18,864] {logging_mixin.py:115} INFO - [2022-08-18 13:44:18,863] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:44:19,079] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:44:19,125] {logging_mixin.py:115} INFO - [2022-08-18 13:44:19,124] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:44:19,183] {logging_mixin.py:115} INFO - [2022-08-18 13:44:19,182] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:44:19,206] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.351 seconds
+[2022-08-18 13:44:49,551] {processor.py:153} INFO - Started process (PID=1062) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:44:49,578] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:44:49,610] {logging_mixin.py:115} INFO - [2022-08-18 13:44:49,610] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:44:51,443] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:44:51,618] {logging_mixin.py:115} INFO - [2022-08-18 13:44:51,607] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:44:51,798] {logging_mixin.py:115} INFO - [2022-08-18 13:44:51,797] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:44:51,958] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 2.418 seconds
+[2022-08-18 13:45:22,450] {processor.py:153} INFO - Started process (PID=1111) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:45:22,453] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 13:45:22,455] {logging_mixin.py:115} INFO - [2022-08-18 13:45:22,454] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:45:22,839] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 13:45:22,924] {logging_mixin.py:115} INFO - [2022-08-18 13:45:22,924] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 13:45:23,039] {logging_mixin.py:115} INFO - [2022-08-18 13:45:23,039] {dag.py:2972} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 13:45:23,126] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.692 seconds
+[2022-08-18 14:54:58,204] {processor.py:153} INFO - Started process (PID=1168) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 14:54:58,214] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 14:54:58,229] {logging_mixin.py:115} INFO - [2022-08-18 14:54:58,229] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:24:37,514] {processor.py:153} INFO - Started process (PID=70) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:24:37,527] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 15:24:37,544] {logging_mixin.py:115} INFO - [2022-08-18 15:24:37,544] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:24:39,552] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:24:39,940] {logging_mixin.py:115} INFO - [2022-08-18 15:24:39,940] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:24:40,314] {logging_mixin.py:115} INFO - [2022-08-18 15:24:40,314] {dag.py:2968} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 15:24:42,789] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 5.293 seconds
+[2022-08-18 15:25:27,075] {processor.py:153} INFO - Started process (PID=125) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:25:27,093] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 15:25:27,135] {logging_mixin.py:115} INFO - [2022-08-18 15:25:27,135] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:25:28,016] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:25:28,113] {logging_mixin.py:115} INFO - [2022-08-18 15:25:28,113] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:25:28,222] {logging_mixin.py:115} INFO - [2022-08-18 15:25:28,222] {dag.py:2968} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 15:25:28,283] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 1.216 seconds
+[2022-08-18 15:26:44,665] {processor.py:153} INFO - Started process (PID=169) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:26:44,670] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 15:26:44,672] {logging_mixin.py:115} INFO - [2022-08-18 15:26:44,672] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:26:44,810] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:26:44,917] {logging_mixin.py:115} INFO - [2022-08-18 15:26:44,916] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:26:45,026] {logging_mixin.py:115} INFO - [2022-08-18 15:26:45,016] {dag.py:2968} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 15:26:47,527] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 2.879 seconds
+[2022-08-18 15:27:35,554] {processor.py:153} INFO - Started process (PID=224) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:27:35,563] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 15:27:35,567] {logging_mixin.py:115} INFO - [2022-08-18 15:27:35,567] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:27:35,694] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:27:35,813] {logging_mixin.py:115} INFO - [2022-08-18 15:27:35,813] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:27:35,927] {logging_mixin.py:115} INFO - [2022-08-18 15:27:35,926] {dag.py:2968} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 15:27:42,032] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 6.495 seconds
+[2022-08-18 15:28:17,889] {processor.py:153} INFO - Started process (PID=267) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:28:17,936] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 15:28:17,983] {logging_mixin.py:115} INFO - [2022-08-18 15:28:17,983] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:28:18,853] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:28:19,045] {logging_mixin.py:115} INFO - [2022-08-18 15:28:19,045] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:28:19,160] {logging_mixin.py:115} INFO - [2022-08-18 15:28:19,160] {dag.py:2968} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 15:28:19,335] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 1.478 seconds
+[2022-08-18 15:29:21,181] {processor.py:153} INFO - Started process (PID=288) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:29:21,183] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 15:29:21,190] {logging_mixin.py:115} INFO - [2022-08-18 15:29:21,190] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:29:21,301] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:29:21,389] {logging_mixin.py:115} INFO - [2022-08-18 15:29:21,389] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:29:21,439] {logging_mixin.py:115} INFO - [2022-08-18 15:29:21,439] {dag.py:2968} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 15:29:21,716] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.549 seconds
+[2022-08-18 15:29:55,280] {processor.py:153} INFO - Started process (PID=349) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:29:55,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 15:29:55,283] {logging_mixin.py:115} INFO - [2022-08-18 15:29:55,283] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:29:55,720] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:29:55,864] {logging_mixin.py:115} INFO - [2022-08-18 15:29:55,864] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:29:55,961] {logging_mixin.py:115} INFO - [2022-08-18 15:29:55,960] {dag.py:2968} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 15:29:56,046] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 0.779 seconds
+[2022-08-18 15:30:41,981] {processor.py:153} INFO - Started process (PID=366) to work on /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:30:41,991] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqltest.py for tasks to queue
+[2022-08-18 15:30:42,000] {logging_mixin.py:115} INFO - [2022-08-18 15:30:42,000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:30:42,256] {processor.py:651} INFO - DAG(s) dict_keys(['mysqltest']) retrieved from /opt/airflow/dags/mysqltest.py
+[2022-08-18 15:30:42,383] {logging_mixin.py:115} INFO - [2022-08-18 15:30:42,383] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-18 15:30:42,545] {logging_mixin.py:115} INFO - [2022-08-18 15:30:42,545] {dag.py:2968} INFO - Setting next_dagrun for mysqltest to 2022-08-12T14:55:00+00:00, run_after=2022-08-13T14:55:00+00:00
+[2022-08-18 15:30:44,876] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqltest.py took 2.908 seconds
