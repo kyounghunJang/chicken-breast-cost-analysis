@@ -1,0 +1,47 @@
+[2022-08-19 03:40:50,537] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr4 manual__2022-08-19T03:40:47.993606+00:00 [queued]>
+[2022-08-19 03:40:50,550] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: craw.cr4 manual__2022-08-19T03:40:47.993606+00:00 [queued]>
+[2022-08-19 03:40:50,551] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-19 03:40:50,551] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-08-19 03:40:50,552] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-19 03:40:50,568] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cr4> on 2022-08-19 03:40:47.993606+00:00
+[2022-08-19 03:40:50,577] {standard_task_runner.py:52} INFO - Started process 100 to run task
+[2022-08-19 03:40:50,580] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'craw', 'cr4', 'manual__2022-08-19T03:40:47.993606+00:00', '--job-id', '195', '--raw', '--subdir', 'DAGS_FOLDER/newtest.py', '--cfg-path', '/tmp/tmp4zlg9lon', '--error-file', '/tmp/tmpz6q9_xf8']
+[2022-08-19 03:40:50,582] {standard_task_runner.py:80} INFO - Job 195: Subtask cr4
+[2022-08-19 03:40:50,689] {task_command.py:371} INFO - Running <TaskInstance: craw.cr4 manual__2022-08-19T03:40:47.993606+00:00 [running]> on host 60f4a82f80df
+[2022-08-19 03:40:50,820] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=craw
+AIRFLOW_CTX_TASK_ID=cr4
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-19T03:40:47.993606+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-19T03:40:47.993606+00:00
+[2022-08-19 03:40:50,835] {base.py:68} INFO - Using connection ID 'mysql' for task execution.
+[2022-08-19 03:40:50,839] {logger.py:11} INFO - ====== WebDriver manager ======
+[2022-08-19 03:40:51,001] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 104.0.5112
+[2022-08-19 03:40:51,313] {logger.py:11} INFO - There is no [linux64] chromedriver for browser 104.0.5112 in cache
+[2022-08-19 03:40:51,313] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip
+[2022-08-19 03:41:11,302] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/104.0.5112]
+[2022-08-19 03:41:57,348] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2045576/20455763954.20210430175002.jpg?type=f140 CHERRY MX BOARD 3.0S 게이밍 기계식 키보드 99,000원 
+[2022-08-19 03:42:21,059] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1824373/18243733436.20190322134021.jpg?type=f140 COX CK450 교체축 사이드 RGB 기계식 게이밍 32,600원 
+[2022-08-19 03:43:10,084] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1097696/10976963331.20170605151939.jpg?type=f140 아이리버 IR-K2000 14,890원 
+[2022-08-19 03:43:33,905] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2816016/28160165522.20210726142215.jpg?type=f140 마이크로닉스 MORPH MK-1 마닉축 RGB 게이밍 기계식 키보드 89,000원 
+[2022-08-19 03:43:58,143] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2992245/29922458618.20220303175959.jpg?type=f140 앱코 K840 스퀘어 레트로 축교환 기계식 키보드 47,900원 
+[2022-08-19 03:44:03,572] {logging_mixin.py:115} INFO - 1
+[2022-08-19 03:44:27,305] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2757052/27570524522.20210614161829.jpg?type=f140 앱코 K570 레인보우 무빙LED 기계식 게이밍 키보드 25,900원 
+[2022-08-19 03:44:51,058] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2444236/24442364522.20201110124453.jpg?type=f140 키크론 K8 블루투스 무선 기계식 키보드 101,150원 
+[2022-08-19 03:45:14,797] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_3099664/30996642618.20220219013111.jpg?type=f140 커세어 K70 RGB PRO 게이밍 기계식 키보드 219,000원 
+[2022-08-19 03:45:39,024] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1727840/17278403481.20190130110759.jpg?type=f140 COX 엠프리스 RGB PBT 완전방수 무접점 키보드 180,000원 
+[2022-08-19 03:46:02,735] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2858803/28588033554.20211029114854.jpg?type=f140 QSENN K1000 멤브레인 무선 키보드 9,680원 
+[2022-08-19 03:46:08,116] {logging_mixin.py:115} INFO - 2
+[2022-08-19 03:46:31,758] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2045576/20455763954.20210430175002.jpg?type=f140 CHERRY MX BOARD 3.0S 게이밍 기계식 키보드 99,000원 
+[2022-08-19 03:46:55,598] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1824373/18243733436.20190322134021.jpg?type=f140 COX CK450 교체축 사이드 RGB 기계식 게이밍 32,600원 
+[2022-08-19 03:47:19,324] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_1097696/10976963331.20170605151939.jpg?type=f140 아이리버 IR-K2000 14,890원 
+[2022-08-19 03:47:43,048] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2816016/28160165522.20210726142215.jpg?type=f140 마이크로닉스 MORPH MK-1 마닉축 RGB 게이밍 기계식 키보드 89,000원 
+[2022-08-19 03:48:06,733] {logging_mixin.py:115} INFO - https://shopping-phinf.pstatic.net/main_2992245/29922458618.20220303175959.jpg?type=f140 앱코 K840 스퀘어 레트로 축교환 기계식 키보드 47,900원 
+[2022-08-19 03:48:12,050] {logging_mixin.py:115} INFO - 3
+[2022-08-19 03:48:12,135] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-19 03:48:12,154] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=craw, task_id=cr4, execution_date=20220819T034047, start_date=20220819T034050, end_date=20220819T034812
+[2022-08-19 03:48:12,185] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-19 03:48:12,215] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

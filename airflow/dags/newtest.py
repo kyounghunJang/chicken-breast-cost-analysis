@@ -115,10 +115,10 @@ def totaldb():
     mysql_hook = MySqlHook(mysql_conn_id='mysql')
     conn= mysql_hook.get_conn()
     cursor=conn.cursor()
-    cursor.execute("SELECT image,name,price FROM info")
+    cursor.execute("SELECT * FROM info")
     data=cursor.fetchall()
     print(data)
-    dataColumns=["image","name","price"]
+    dataColumns=["image","name","price","review"]
     
     spark=SparkSession.builder.appName('sparkdf').getOrCreate()
     df=spark.createDataFrame(data,dataColumns)
