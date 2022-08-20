@@ -71,14 +71,16 @@ x-airflow-common: &airflow-common
       condition: service_healthy
 
 services:
-  app:
+  web:
+    image: django:latest
     build:
       context: .
-      ports:
-        - "8000:8000"
-      volumes:
-        - ./app:/app
-
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+    command: >
+      sh -c "python manage.py runserver 0.0.0.0:8000"
   postgres:
     image: postgres:13
     environment:

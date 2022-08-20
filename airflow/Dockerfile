@@ -24,11 +24,8 @@ ENV DISPLAY=:99
 RUN sudo chmod 755 "/usr/bin/chromedriver"
 RUN sudo chmod 755 "/usr/bin/google-chrome-stable"
 USER airflow
-
-ENV PYTHONUNBUFFERED 1
 USER root
 RUN mkdir /app
 WORKDIR /app
-COPY ./app /app/
-
+COPY ./app /app
 USER airflow
